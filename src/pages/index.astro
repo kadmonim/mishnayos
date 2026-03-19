@@ -280,7 +280,6 @@
 				const html = document.documentElement;
 				if (isEnglish) {
 					html.setAttribute('lang', 'en');
-					html.setAttribute('dir', 'ltr');
 					document.getElementById('mainTitle')!.textContent = 'Mishnah for Yahrtzeit';
 					document.getElementById('subtitle')!.textContent = 'Enter a Hebrew name — each letter returns the corresponding Mishnah chapter';
 					(document.getElementById('nameInput') as HTMLInputElement).placeholder = 'Enter name...';
@@ -293,7 +292,6 @@
 					engToggle.textContent = 'עב';
 				} else {
 					html.setAttribute('lang', 'he');
-					html.setAttribute('dir', 'rtl');
 					document.getElementById('mainTitle')!.textContent = 'לימוד משניות לפי אותיות השם';
 					document.getElementById('subtitle')!.textContent = 'הקלד שם בעברית — כל אות מחזירה את פרק המשנה המתאים';
 					(document.getElementById('nameInput') as HTMLInputElement).placeholder = 'הקלד שם...';

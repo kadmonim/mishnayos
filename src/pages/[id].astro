@@ -256,14 +256,12 @@ const letters: string = record.letters;
 				const html = document.documentElement;
 				if (isEnglish) {
 					html.setAttribute('lang', 'en');
-					html.setAttribute('dir', 'ltr');
 					document.getElementById('mainTitle').textContent = 'Mishnah for Yahrtzeit';
 					document.getElementById('backLink').textContent = '← Back to search';
 					document.getElementById('dedication').textContent = 'L\'ilui Nishmas R\' Mordechai ben Yehoshua Zelig Rivkin';
 					engToggle.textContent = 'עב';
 				} else {
 					html.setAttribute('lang', 'he');
-					html.setAttribute('dir', 'rtl');
 					document.getElementById('mainTitle').textContent = 'לימוד משניות לעילוי נשמת';
 					document.getElementById('backLink').textContent = '← חזרה לחיפוש';
 					document.getElementById('dedication').textContent = 'לעילוי נשמת ר\' מרדכי בן יהושע זעליג ריבקין';
