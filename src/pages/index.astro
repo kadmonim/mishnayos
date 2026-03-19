@@ -263,8 +263,8 @@
 		</style>
 	</head>
 	<body>
-		<h1>משניות לעילוי נשמה</h1>
-		<p class="subtitle">הקלד שם בעברית — כל אות מחזירה את פרק המשנה המתאים</p>
+		<h1 id="mainTitle">משניות לעילוי נשמה</h1>
+		<p class="subtitle" id="subtitle">הקלד שם בעברית — כל אות מחזירה את פרק המשנה המתאים</p>
 
 		<div class="input-row">
 			<input type="text" id="nameInput" placeholder="הקלד שם..." autofocus />
@@ -279,13 +279,13 @@
 		</div>
 
 		<div id="savedLink">
-			<span>הקישור נשמר: </span>
+			<span id="savedLinkLabel">הקישור נשמר: </span>
 			<a id="savedLinkUrl" href="#" target="_blank"></a>
 			<button class="copy-btn" id="copyBtn">העתק</button>
 		</div>
 
 		<div class="sticky-header">
-			<span class="dedication">לעילוי נשמת ר' מרדכי בן יהושע זעליג ריבקין</span>
+			<span class="dedication" id="dedication">לעילוי נשמת ר' מרדכי בן יהושע זעליג ריבקין</span>
 			<div class="controls">
 				<button class="eng-toggle" id="engToggle">EN</button>
 				<div class="font-bar">
@@ -302,10 +302,40 @@
 
 
 		<script>
+			let isEnglish = false;
 			const engToggle = document.getElementById('engToggle')!;
 			engToggle.addEventListener('click', () => {
+				isEnglish = !isEnglish;
 				engToggle.classList.toggle('active');
 				document.getElementById('results')!.classList.toggle('show-english');
+				const html = document.documentElement;
+				if (isEnglish) {
+					html.setAttribute('lang', 'en');
+					html.setAttribute('dir', 'ltr');
+					document.getElementById('mainTitle')!.textContent = 'Mishnayos L\'ilui Neshama';
+					document.getElementById('subtitle')!.textContent = 'Enter a Hebrew name — each letter returns the corresponding Mishnah chapter';
+					(document.getElementById('nameInput') as HTMLInputElement).placeholder = 'Enter name...';
+					document.getElementById('searchBtn')!.textContent = 'Search';
+					(document.getElementById('personNameInput') as HTMLInputElement).placeholder = 'Name of the deceased (l\'ilui nishmas...)';
+					document.getElementById('saveBtn')!.textContent = 'Save Link';
+					document.getElementById('savedLinkLabel')!.textContent = 'Link saved: ';
+					document.getElementById('copyBtn')!.textContent = 'Copy';
+					document.getElementById('dedication')!.textContent = 'L\'ilui Nishmas R\' Mordechai ben Yehoshua Zelig Rivkin';
+					engToggle.textContent = 'עב';
+				} else {
+					html.setAttribute('lang', 'he');
+					html.setAttribute('dir', 'rtl');
+					document.getElementById('mainTitle')!.textContent = 'משניות לעילוי נשמה';
+					document.getElementById('subtitle')!.textContent = 'הקלד שם בעברית — כל אות מחזירה את פרק המשנה המתאים';
+					(document.getElementById('nameInput') as HTMLInputElement).placeholder = 'הקלד שם...';
+					document.getElementById('searchBtn')!.textContent = 'חפש';
+					(document.getElementById('personNameInput') as HTMLInputElement).placeholder = 'שם הנפטר/ת (לעילוי נשמת...)';
+					document.getElementById('saveBtn')!.textContent = 'שמור קישור';
+					document.getElementById('savedLinkLabel')!.textContent = 'הקישור נשמר: ';
+					document.getElementById('copyBtn')!.textContent = 'העתק';
+					document.getElementById('dedication')!.textContent = 'לעילוי נשמת ר\' מרדכי בן יהושע זעליג ריבקין';
+					engToggle.textContent = 'EN';
+				}
 			});
 
 			let fontSize = 140;

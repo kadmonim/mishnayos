@@ -212,12 +212,12 @@ const letters: string = record.letters;
 		</style>
 	</head>
 	<body>
-		<h1>משניות לעילוי נשמת</h1>
-		<p class="subtitle">{personName || name}</p>
-		<a class="back-link" href="/">← חזרה לחיפוש</a>
+		<h1 id="mainTitle">משניות לעילוי נשמת</h1>
+		<p class="subtitle" id="subtitle">{personName || name}</p>
+		<a class="back-link" id="backLink" href="/">← חזרה לחיפוש</a>
 
 		<div class="sticky-header">
-			<span class="dedication">לעילוי נשמת ר' מרדכי בן יהושע זעליג ריבקין</span>
+			<span class="dedication" id="dedication">לעילוי נשמת ר' מרדכי בן יהושע זעליג ריבקין</span>
 			<div class="controls">
 				<button class="eng-toggle" id="engToggle">EN</button>
 				<div class="font-bar">
@@ -229,7 +229,7 @@ const letters: string = record.letters;
 		</div>
 
 		<div id="letters"></div>
-		<div id="loading">טוען משניות...</div>
+		<div id="loading" data-he="טוען משניות..." data-en="Loading mishnayos...">טוען משניות...</div>
 		<div id="results"></div>
 
 		<div id="neshama-section" class="chapter" style="margin-top: 2rem; border: 2px solid #d4c5a9;">
@@ -239,12 +239,30 @@ const letters: string = record.letters;
 			<div id="neshama-content" style="color: #888; padding: 1rem; text-align: right;">טוען...</div>
 		</div>
 
-		<script define:vars={{ name, letters }}>
+		<script define:vars={{ name, letters, personName }}>
+			let isEnglish = false;
 			const engToggle = document.getElementById('engToggle');
 			engToggle.addEventListener('click', () => {
+				isEnglish = !isEnglish;
 				engToggle.classList.toggle('active');
 				document.getElementById('results').classList.toggle('show-english');
 				document.getElementById('neshama-section').classList.toggle('show-english');
+				const html = document.documentElement;
+				if (isEnglish) {
+					html.setAttribute('lang', 'en');
+					html.setAttribute('dir', 'ltr');
+					document.getElementById('mainTitle').textContent = 'Mishnayos L\'ilui Nishmas';
+					document.getElementById('backLink').textContent = '← Back to search';
+					document.getElementById('dedication').textContent = 'L\'ilui Nishmas R\' Mordechai ben Yehoshua Zelig Rivkin';
+					engToggle.textContent = 'עב';
+				} else {
+					html.setAttribute('lang', 'he');
+					html.setAttribute('dir', 'rtl');
+					document.getElementById('mainTitle').textContent = 'משניות לעילוי נשמת';
+					document.getElementById('backLink').textContent = '← חזרה לחיפוש';
+					document.getElementById('dedication').textContent = 'לעילוי נשמת ר\' מרדכי בן יהושע זעליג ריבקין';
+					engToggle.textContent = 'EN';
+				}
 			});
 
 			let fontSize = 140;
