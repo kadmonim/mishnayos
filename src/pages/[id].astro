@@ -179,6 +179,35 @@ const letters: string = record.letters;
 				font-size: 0.85rem;
 				color: #888;
 			}
+			.sticky-header .controls {
+				display: flex;
+				align-items: center;
+				gap: 0.75rem;
+			}
+			.eng-toggle {
+				padding: 0.25rem 0.6rem;
+				font-size: 0.8rem;
+				background: #e8e0d0;
+				color: #1a1a1a;
+				border: none;
+				border-radius: 5px;
+				cursor: pointer;
+				font-family: inherit;
+			}
+			.eng-toggle:hover { background: #d4c5a9; }
+			.eng-toggle.active { background: #8b7355; color: #fff; }
+			.mishnah-en {
+				display: none;
+				direction: ltr;
+				text-align: left;
+				color: #555;
+				font-size: 0.8em;
+				margin-top: 0.4rem;
+				padding-top: 0.4rem;
+				border-top: 1px dotted #ddd;
+				line-height: 1.6;
+			}
+			.show-english .mishnah-en { display: block; }
 		</style>
 	</head>
 	<body>
@@ -188,10 +217,13 @@ const letters: string = record.letters;
 
 		<div class="sticky-header">
 			<span class="dedication">לעילוי נשמת ר' מרדכי בן יהושע זעליג ריבקין</span>
-			<div class="font-bar">
-				<button id="fontDown">א-</button>
-				<span id="fontLabel">140%</span>
-				<button id="fontUp">א+</button>
+			<div class="controls">
+				<button class="eng-toggle" id="engToggle">EN</button>
+				<div class="font-bar">
+					<button id="fontDown">א-</button>
+					<span id="fontLabel">140%</span>
+					<button id="fontUp">א+</button>
+				</div>
 			</div>
 		</div>
 
@@ -207,6 +239,13 @@ const letters: string = record.letters;
 		</div>
 
 		<script define:vars={{ name, letters }}>
+			const engToggle = document.getElementById('engToggle');
+			engToggle.addEventListener('click', () => {
+				engToggle.classList.toggle('active');
+				document.getElementById('results').classList.toggle('show-english');
+				document.getElementById('neshama-section').classList.toggle('show-english');
+			});
+
 			let fontSize = 140;
 			const fontLabel = document.getElementById('fontLabel');
 			document.getElementById('fontUp').addEventListener('click', () => adjustFont(10));
@@ -303,10 +342,11 @@ const letters: string = record.letters;
 							const mishnahData = await mishnahRes.json();
 							const bartData = await bartRes.json();
 							const heVersion = mishnahData.versions?.find(v => v.language === 'he');
+							const enVersion = mishnahData.versions?.find(v => v.language === 'en' && v.versionTitle?.includes('William Davidson'));
 							const bartVersion = bartData.versions?.find(v => v.language === 'he');
-							return { ...item, texts: heVersion?.text || [], bartenura: bartVersion?.text || [], error: false };
+							return { ...item, texts: heVersion?.text || [], enTexts: enVersion?.text || [], bartenura: bartVersion?.text || [], error: false };
 						} catch {
-							return { ...item, texts: [], bartenura: [], error: true };
+							return { ...item, texts: [], enTexts: [], bartenura: [], error: true };
 						}
 					})
 				);
@@ -334,7 +374,8 @@ const letters: string = record.letters;
 								bartHtml = `<span class="bartenura-toggle" onclick="document.getElementById('${bartId}').classList.toggle('open');this.textContent=this.textContent==='ברטנורא +'?'ברטנורא −':'ברטנורא +'">ברטנורא +</span>`;
 								bartHtml += `<div class="bartenura" id="${bartId}">${bartParts.join(' ')}</div>`;
 							}
-							html += `<div class="mishnah"><span class="mishnah-num">${gematriya(i + 1)}.</span> ${text}${bartHtml}</div>`;
+							const enText = r.enTexts[i] ? `<div class="mishnah-en">${r.enTexts[i].replace(/<[^>]*>/g, '')}</div>` : '';
+							html += `<div class="mishnah"><span class="mishnah-num">${gematriya(i + 1)}.</span> ${text}${enText}${bartHtml}</div>`;
 						}
 					}
 					html += `</div>`;
@@ -352,8 +393,10 @@ const letters: string = record.letters;
 					const mishnahData = await mishnahRes.json();
 					const bartData = await bartRes.json();
 					const heVersion = mishnahData.versions?.find(v => v.language === 'he');
+					const enVersion = mishnahData.versions?.find(v => v.language === 'en' && v.versionTitle?.includes('William Davidson'));
 					const bartVersion = bartData.versions?.find(v => v.language === 'he');
 					const texts = heVersion?.text || [];
+					const enTexts = enVersion?.text || [];
 					const bart = bartVersion?.text || [];
 					let html = '';
 					for (let i = 3; i < Math.min(texts.length, 7); i++) {
@@ -365,7 +408,8 @@ const letters: string = record.letters;
 							bartHtml = `<span class="bartenura-toggle" onclick="document.getElementById('${bartId}').classList.toggle('open');this.textContent=this.textContent==='ברטנורא +'?'ברטנורא −':'ברטנורא +'">ברטנורא +</span>`;
 							bartHtml += `<div class="bartenura" id="${bartId}">${bartParts.join(' ')}</div>`;
 						}
-						html += `<div class="mishnah"><span class="mishnah-num">${gematriya(i + 1)}.</span> ${text}${bartHtml}</div>`;
+						const enText = enTexts[i] ? `<div class="mishnah-en">${enTexts[i].replace(/<[^>]*>/g, '')}</div>` : '';
+						html += `<div class="mishnah"><span class="mishnah-num">${gematriya(i + 1)}.</span> ${text}${enText}${bartHtml}</div>`;
 					}
 					document.getElementById('neshama-content').innerHTML = html;
 				} catch {
