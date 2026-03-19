@@ -259,6 +259,7 @@
 				line-height: 1.6;
 			}
 			.show-english .mishnah-en { display: block; }
+			.mishnah-en i { font-style: italic; }
 		</style>
 	</head>
 	<body>
@@ -470,7 +471,7 @@
 								bartHtml = `<span class="bartenura-toggle" onclick="document.getElementById('${bartId}').classList.toggle('open');this.textContent=this.textContent==='ברטנורא +'?'ברטנורא −':'ברטנורא +'">ברטנורא +</span>`;
 								bartHtml += `<div class="bartenura" id="${bartId}">${bartParts.join(' ')}</div>`;
 							}
-							const enText = r.enTexts[i] ? `<div class="mishnah-en">${r.enTexts[i].replace(/<[^>]*>/g, '')}</div>` : '';
+							const enText = r.enTexts[i] ? `<div class="mishnah-en">${r.enTexts[i]}</div>` : '';
 							html += `<div class="mishnah"><span class="mishnah-num">${gematriya(i + 1)}.</span> ${text}${enText}${bartHtml}</div>`;
 						}
 					}
