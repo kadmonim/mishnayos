@@ -293,9 +293,11 @@
 				const html = document.documentElement;
 				if (isEnglish) {
 					html.setAttribute('lang', 'en');
+					document.body.style.direction = 'ltr';
 					document.getElementById('mainTitle')!.textContent = 'Mishnah for Yahrtzeit';
 					document.getElementById('subtitle')!.textContent = 'Enter a Hebrew name — each letter returns a corresponding Mishnah chapter';
-					(document.getElementById('nameInput') as HTMLInputElement).placeholder = 'Enter name...';
+					(document.getElementById('nameInput') as HTMLInputElement).placeholder = 'Enter name using Hebrew letters';
+					(document.getElementById('nameInput') as HTMLInputElement).style.direction = 'ltr';
 					document.getElementById('searchBtn')!.textContent = 'Go';
 					(document.getElementById('personNameInput') as HTMLInputElement).placeholder = 'L\'iluy Nishmas Dedication';
 					document.getElementById('saveBtn')!.textContent = 'Save Link';
@@ -305,9 +307,11 @@
 					engToggle.textContent = 'עב';
 				} else {
 					html.setAttribute('lang', 'he');
+					document.body.style.direction = 'rtl';
 					document.getElementById('mainTitle')!.textContent = 'לימוד משניות לפי אותיות השם';
 					document.getElementById('subtitle')!.textContent = 'הקלד שם בעברית — כל אות מחזירה את פרק המשנה המתאים';
 					(document.getElementById('nameInput') as HTMLInputElement).placeholder = 'הקלד שם...';
+					(document.getElementById('nameInput') as HTMLInputElement).style.direction = 'rtl';
 					document.getElementById('searchBtn')!.textContent = 'הצג';
 					(document.getElementById('personNameInput') as HTMLInputElement).placeholder = 'שם הנפטר/ת (לעילוי נשמת...)';
 					document.getElementById('saveBtn')!.textContent = 'שמור קישור';
