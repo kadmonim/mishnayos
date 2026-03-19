@@ -204,6 +204,19 @@ const letters: string = record.letters;
 			}
 			.eng-toggle:hover { background: #d4c5a9; }
 			.eng-toggle.active { background: #8b7355; color: #fff; }
+			.translation-toggle {
+				display: none;
+				margin-right: 0.5rem;
+				cursor: pointer;
+				color: #4a6fa5;
+				font-size: 0.85rem;
+				user-select: none;
+				border: 1px solid #a8c4e0;
+				border-radius: 4px;
+				padding: 0.1rem 0.4rem;
+			}
+			.translation-toggle:hover { background: #eef3f9; }
+			.show-english .translation-toggle { display: inline-block; }
 			.mishnah-en {
 				display: none;
 				direction: ltr;
@@ -215,7 +228,7 @@ const letters: string = record.letters;
 				border-top: 1px dotted #ddd;
 				line-height: 1.6;
 			}
-			.show-english .mishnah-en { display: block; }
+			.mishnah-en.open { display: block; }
 			.mishnah-en i { font-style: italic; }
 		</style>
 	</head>
@@ -403,8 +416,13 @@ const letters: string = record.letters;
 								bartHtml = `<span class="bartenura-toggle" onclick="document.getElementById('${bartId}').classList.toggle('open');this.textContent=this.textContent==='ברטנורא +'?'ברטנורא −':'ברטנורא +'">ברטנורא +</span>`;
 								bartHtml += `<div class="bartenura" id="${bartId}">${bartParts.join(' ')}</div>`;
 							}
-							const enText = r.enTexts[i] ? `<div class="mishnah-en">${r.enTexts[i]}</div>` : '';
-							html += `<div class="mishnah"><span class="mishnah-num">${gematriya(i + 1)}.</span> ${text}${enText}${bartHtml}</div>`;
+							const enId = `en-${r.masechet}-${r.perek}-${i}`;
+							let enHtml = '';
+							if (r.enTexts[i]) {
+								enHtml = `<span class="translation-toggle" onclick="document.getElementById('${enId}').classList.toggle('open');this.textContent=this.textContent==='Translation +'?'Translation −':'Translation +'">Translation +</span>`;
+								enHtml += `<div class="mishnah-en" id="${enId}">${r.enTexts[i]}</div>`;
+							}
+							html += `<div class="mishnah"><span class="mishnah-num">${gematriya(i + 1)}.</span> ${text}${enHtml}${bartHtml}</div>`;
 						}
 					}
 					html += `</div>`;
@@ -439,8 +457,13 @@ const letters: string = record.letters;
 							bartHtml = `<span class="bartenura-toggle" onclick="document.getElementById('${bartId}').classList.toggle('open');this.textContent=this.textContent==='ברטנורא +'?'ברטנורא −':'ברטנורא +'">ברטנורא +</span>`;
 							bartHtml += `<div class="bartenura" id="${bartId}">${bartParts.join(' ')}</div>`;
 						}
-						const enText = enTexts[i] ? `<div class="mishnah-en">${enTexts[i]}</div>` : '';
-						html += `<div class="mishnah"><span class="mishnah-num">${gematriya(i + 1)}.</span> ${text}${enText}${bartHtml}</div>`;
+						const enId = `en-neshama-${i}`;
+						let enHtml = '';
+						if (enTexts[i]) {
+							enHtml = `<span class="translation-toggle" onclick="document.getElementById('${enId}').classList.toggle('open');this.textContent=this.textContent==='Translation +'?'Translation −':'Translation +'">Translation +</span>`;
+							enHtml += `<div class="mishnah-en" id="${enId}">${enTexts[i]}</div>`;
+						}
+						html += `<div class="mishnah"><span class="mishnah-num">${gematriya(i + 1)}.</span> ${text}${enHtml}${bartHtml}</div>`;
 					}
 					document.getElementById('neshama-content').innerHTML = html;
 				} catch {
