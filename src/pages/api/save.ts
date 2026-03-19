@@ -9,7 +9,10 @@ export const POST: APIRoute = async ({ request }) => {
       return new Response(JSON.stringify({ error: 'חסרים שדות' }), { status: 400 });
     }
 
-    const id = crypto.randomUUID();
+    const id = Array.from(crypto.getRandomValues(new Uint8Array(4)))
+      .map(b => b.toString(36).padStart(2, '0'))
+      .join('')
+      .slice(0, 7);
     await sql`
       INSERT INTO saved_links (id, name, letters, person_name)
       VALUES (${id}, ${name}, ${letters}, ${personName || null})
