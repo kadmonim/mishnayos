@@ -188,6 +188,23 @@
 				min-width: 2rem;
 			}
 			.font-bar button:hover { background: #d4c5a9; }
+			.sticky-header {
+				position: sticky;
+				top: 0;
+				z-index: 10;
+				background: #faf9f6;
+				border-bottom: 1px solid #e0d8c8;
+				padding: 0.6rem 0;
+				margin: 0 -1rem 1.5rem;
+				padding-inline: 1rem;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+			}
+			.sticky-header .dedication {
+				font-size: 0.85rem;
+				color: #888;
+			}
 		</style>
 	</head>
 	<body>
@@ -212,19 +229,18 @@
 			<button class="copy-btn" id="copyBtn">העתק</button>
 		</div>
 
-		<div class="font-bar">
-			<button id="fontDown">א-</button>
-			<span id="fontLabel">100%</span>
-			<button id="fontUp">א+</button>
+		<div class="sticky-header">
+			<span class="dedication">לעילוי נשמת ר' מרדכי בן יהושע זעליג ריבקין</span>
+			<div class="font-bar">
+				<button id="fontDown">א-</button>
+				<span id="fontLabel">100%</span>
+				<button id="fontUp">א+</button>
+			</div>
 		</div>
 
 		<div id="letters"></div>
 		<div id="loading">טוען משניות...</div>
 		<div id="results"></div>
-
-		<footer style="text-align: center; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #e0d8c8; color: #888; font-size: 0.95rem;">
-			לעילוי נשמת ר' מרדכי בן יהושע זעליג ריבקין
-		</footer>
 
 		<script>
 			let fontSize = 100;
