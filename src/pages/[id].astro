@@ -106,7 +106,7 @@ const letters: string = record.letters;
 				padding: 0.75rem 1rem;
 				border-bottom: 1px solid #f0ebe0;
 				line-height: 1.8;
-				font-size: 1.05rem;
+				font-size: 140%;
 			}
 			.mishnah:last-child { border-bottom: none; }
 			.mishnah-num {
@@ -190,7 +190,7 @@ const letters: string = record.letters;
 			<span class="dedication">לעילוי נשמת ר' מרדכי בן יהושע זעליג ריבקין</span>
 			<div class="font-bar">
 				<button id="fontDown">א-</button>
-				<span id="fontLabel">100%</span>
+				<span id="fontLabel">140%</span>
 				<button id="fontUp">א+</button>
 			</div>
 		</div>
@@ -200,7 +200,7 @@ const letters: string = record.letters;
 		<div id="results"></div>
 
 		<script define:vars={{ name, letters }}>
-			let fontSize = 100;
+			let fontSize = 140;
 			const fontLabel = document.getElementById('fontLabel');
 			document.getElementById('fontUp').addEventListener('click', () => adjustFont(10));
 			document.getElementById('fontDown').addEventListener('click', () => adjustFont(-10));
