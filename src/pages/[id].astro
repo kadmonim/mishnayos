@@ -23,7 +23,7 @@ const letters: string = record.letters;
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700&display=swap" rel="stylesheet" />
-		<title>משניות לעילוי נשמת {personName || name}</title>
+		<title>לימוד משניות לעילוי נשמת {personName || name}</title>
 		<style is:global>
 			* { box-sizing: border-box; margin: 0; padding: 0; }
 			body {
@@ -220,7 +220,7 @@ const letters: string = record.letters;
 			<button class="eng-toggle" id="engToggle">EN</button>
 		</div>
 
-		<h1 id="mainTitle">משניות לעילוי נשמת</h1>
+		<h1 id="mainTitle">לימוד משניות לעילוי נשמת</h1>
 		<p class="subtitle" id="subtitle">{personName || name}</p>
 		<a class="back-link" id="backLink" href="/">← חזרה לחיפוש</a>
 
@@ -257,14 +257,14 @@ const letters: string = record.letters;
 				if (isEnglish) {
 					html.setAttribute('lang', 'en');
 					html.setAttribute('dir', 'ltr');
-					document.getElementById('mainTitle').textContent = 'Mishnayos L\'ilui Nishmas';
+					document.getElementById('mainTitle').textContent = 'Mishnah for Yahrtzeit';
 					document.getElementById('backLink').textContent = '← Back to search';
 					document.getElementById('dedication').textContent = 'L\'ilui Nishmas R\' Mordechai ben Yehoshua Zelig Rivkin';
 					engToggle.textContent = 'עב';
 				} else {
 					html.setAttribute('lang', 'he');
 					html.setAttribute('dir', 'rtl');
-					document.getElementById('mainTitle').textContent = 'משניות לעילוי נשמת';
+					document.getElementById('mainTitle').textContent = 'לימוד משניות לעילוי נשמת';
 					document.getElementById('backLink').textContent = '← חזרה לחיפוש';
 					document.getElementById('dedication').textContent = 'לעילוי נשמת ר\' מרדכי בן יהושע זעליג ריבקין';
 					engToggle.textContent = 'EN';

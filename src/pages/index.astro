@@ -10,7 +10,7 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700&display=swap" rel="stylesheet" />
-		<title>משניות לעילוי נשמה</title>
+		<title>לימוד משניות לפי אותיות השם</title>
 		<style is:global>
 			* { box-sizing: border-box; margin: 0; padding: 0; }
 			body {
@@ -242,7 +242,7 @@
 			<button class="eng-toggle" id="engToggle">EN</button>
 		</div>
 
-		<h1 id="mainTitle">משניות לעילוי נשמה</h1>
+		<h1 id="mainTitle">לימוד משניות לפי אותיות השם</h1>
 		<p class="subtitle" id="subtitle">הקלד שם בעברית — כל אות מחזירה את פרק המשנה המתאים</p>
 
 		<div class="input-row">
@@ -281,7 +281,7 @@
 				if (isEnglish) {
 					html.setAttribute('lang', 'en');
 					html.setAttribute('dir', 'ltr');
-					document.getElementById('mainTitle')!.textContent = 'Mishnayos L\'ilui Neshama';
+					document.getElementById('mainTitle')!.textContent = 'Mishnah for Yahrtzeit';
 					document.getElementById('subtitle')!.textContent = 'Enter a Hebrew name — each letter returns the corresponding Mishnah chapter';
 					(document.getElementById('nameInput') as HTMLInputElement).placeholder = 'Enter name...';
 					document.getElementById('searchBtn')!.textContent = 'Search';
@@ -294,7 +294,7 @@
 				} else {
 					html.setAttribute('lang', 'he');
 					html.setAttribute('dir', 'rtl');
-					document.getElementById('mainTitle')!.textContent = 'משניות לעילוי נשמה';
+					document.getElementById('mainTitle')!.textContent = 'לימוד משניות לפי אותיות השם';
 					document.getElementById('subtitle')!.textContent = 'הקלד שם בעברית — כל אות מחזירה את פרק המשנה המתאים';
 					(document.getElementById('nameInput') as HTMLInputElement).placeholder = 'הקלד שם...';
 					document.getElementById('searchBtn')!.textContent = 'חפש';
