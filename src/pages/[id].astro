@@ -111,6 +111,30 @@ const letters: string = record.letters;
 				color: #8b7355;
 				margin-left: 0.3rem;
 			}
+			.bartenura-toggle {
+				display: inline-block;
+				margin-right: 0.5rem;
+				cursor: pointer;
+				color: #8b7355;
+				font-size: 0.85rem;
+				user-select: none;
+				border: 1px solid #d4c5a9;
+				border-radius: 4px;
+				padding: 0.1rem 0.4rem;
+			}
+			.bartenura-toggle:hover { background: #f0ebe0; }
+			.bartenura {
+				display: none;
+				background: #f9f6ef;
+				border-top: 1px dashed #d4c5a9;
+				margin-top: 0.5rem;
+				padding: 0.6rem 0.8rem;
+				line-height: 1.7;
+				font-size: 0.95em;
+				color: #444;
+			}
+			.bartenura.open { display: block; }
+			.bartenura b { color: #1a1a1a; }
 			.error {
 				text-align: center;
 				color: #c44;
@@ -264,12 +288,17 @@ const letters: string = record.letters;
 				const results = await Promise.all(
 					unique.map(async (item) => {
 						try {
-							const res = await fetch(`https://www.sefaria.org/api/v3/texts/${item.masechet}.${item.perek}`);
-							const data = await res.json();
-							const heVersion = data.versions?.find(v => v.language === 'he');
-							return { ...item, texts: heVersion?.text || [], error: false };
+							const [mishnahRes, bartRes] = await Promise.all([
+								fetch(`https://www.sefaria.org/api/v3/texts/${item.masechet}.${item.perek}`),
+								fetch(`https://www.sefaria.org/api/v3/texts/Bartenura_on_${item.masechet}.${item.perek}`),
+							]);
+							const mishnahData = await mishnahRes.json();
+							const bartData = await bartRes.json();
+							const heVersion = mishnahData.versions?.find(v => v.language === 'he');
+							const bartVersion = bartData.versions?.find(v => v.language === 'he');
+							return { ...item, texts: heVersion?.text || [], bartenura: bartVersion?.text || [], error: false };
 						} catch {
-							return { ...item, texts: [], error: true };
+							return { ...item, texts: [], bartenura: [], error: true };
 						}
 					})
 				);
@@ -290,7 +319,14 @@ const letters: string = record.letters;
 					} else {
 						for (let i = 0; i < r.texts.length; i++) {
 							const text = r.texts[i].replace(/<[^>]*>/g, '');
-							html += `<div class="mishnah"><span class="mishnah-num">${gematriya(i + 1)}.</span> ${text}</div>`;
+							const bartParts = r.bartenura[i] || [];
+							const bartId = `bart-${r.masechet}-${r.perek}-${i}`;
+							let bartHtml = '';
+							if (bartParts.length > 0) {
+								bartHtml = `<span class="bartenura-toggle" onclick="document.getElementById('${bartId}').classList.toggle('open');this.textContent=this.textContent==='ברטנורא +'?'ברטנורא −':'ברטנורא +'">ברטנורא +</span>`;
+								bartHtml += `<div class="bartenura" id="${bartId}">${bartParts.join(' ')}</div>`;
+							}
+							html += `<div class="mishnah"><span class="mishnah-num">${gematriya(i + 1)}.</span> ${text}${bartHtml}</div>`;
 						}
 					}
 					html += `</div>`;
