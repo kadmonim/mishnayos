@@ -162,6 +162,11 @@ const letters: string = record.letters;
 				font-family: inherit;
 			}
 			.font-bar button:hover { background: #d4c5a9; }
+			.top-bar {
+				display: flex;
+				justify-content: flex-end;
+				margin-bottom: 1rem;
+			}
 			.sticky-header {
 				position: sticky;
 				top: 0;
@@ -172,17 +177,16 @@ const letters: string = record.letters;
 				margin: 0 -1rem 1.5rem;
 				padding-inline: 1rem;
 				display: flex;
-				justify-content: space-between;
+				justify-content: center;
 				align-items: center;
 			}
-			.sticky-header .dedication {
-				font-size: 0.85rem;
+			.dedication-footer {
+				text-align: center;
+				margin-top: 3rem;
+				padding-top: 1.5rem;
+				border-top: 1px solid #e0d8c8;
 				color: #888;
-			}
-			.sticky-header .controls {
-				display: flex;
-				align-items: center;
-				gap: 0.75rem;
+				font-size: 0.9rem;
 			}
 			.eng-toggle {
 				padding: 0.25rem 0.6rem;
@@ -212,24 +216,24 @@ const letters: string = record.letters;
 		</style>
 	</head>
 	<body>
+		<div class="top-bar">
+			<button class="eng-toggle" id="engToggle">EN</button>
+		</div>
+
 		<h1 id="mainTitle">משניות לעילוי נשמת</h1>
 		<p class="subtitle" id="subtitle">{personName || name}</p>
 		<a class="back-link" id="backLink" href="/">← חזרה לחיפוש</a>
 
 		<div class="sticky-header">
-			<span class="dedication" id="dedication">לעילוי נשמת ר' מרדכי בן יהושע זעליג ריבקין</span>
-			<div class="controls">
-				<button class="eng-toggle" id="engToggle">EN</button>
-				<div class="font-bar">
-					<button id="fontDown">א-</button>
-					<span id="fontLabel">140%</span>
-					<button id="fontUp">א+</button>
-				</div>
+			<div class="font-bar">
+				<button id="fontDown">א-</button>
+				<span id="fontLabel">140%</span>
+				<button id="fontUp">א+</button>
 			</div>
 		</div>
 
 		<div id="letters"></div>
-		<div id="loading" data-he="טוען משניות..." data-en="Loading mishnayos...">טוען משניות...</div>
+		<div id="loading">טוען משניות...</div>
 		<div id="results"></div>
 
 		<div id="neshama-section" class="chapter" style="margin-top: 2rem; border: 2px solid #d4c5a9;">
@@ -238,6 +242,8 @@ const letters: string = record.letters;
 			</div>
 			<div id="neshama-content" style="color: #888; padding: 1rem; text-align: right;">טוען...</div>
 		</div>
+
+		<footer class="dedication-footer" id="dedication">לעילוי נשמת ר' מרדכי בן יהושע זעליג ריבקין</footer>
 
 		<script define:vars={{ name, letters, personName }}>
 			let isEnglish = false;

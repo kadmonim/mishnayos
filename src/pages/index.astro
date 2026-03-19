@@ -197,43 +197,18 @@
 				background: #4a7c59;
 				margin-right: 0.5rem;
 			}
-			.font-bar {
+			.top-bar {
 				display: flex;
-				align-items: center;
-				gap: 0.5rem;
-				font-size: 0.85rem;
-				color: #888;
+				justify-content: flex-end;
+				margin-bottom: 1rem;
 			}
-			.font-bar button {
-				padding: 0.25rem 0.6rem;
+			.dedication-footer {
+				text-align: center;
+				margin-top: 3rem;
+				padding-top: 1.5rem;
+				border-top: 1px solid #e0d8c8;
+				color: #888;
 				font-size: 0.9rem;
-				background: #e8e0d0;
-				color: #1a1a1a;
-				border-radius: 5px;
-				min-width: 2rem;
-			}
-			.font-bar button:hover { background: #d4c5a9; }
-			.sticky-header {
-				position: sticky;
-				top: 0;
-				z-index: 10;
-				background: #faf9f6;
-				border-bottom: 1px solid #e0d8c8;
-				padding: 0.6rem 0;
-				margin: 0 -1rem 1.5rem;
-				padding-inline: 1rem;
-				display: flex;
-				justify-content: space-between;
-				align-items: center;
-			}
-			.sticky-header .dedication {
-				font-size: 0.85rem;
-				color: #888;
-			}
-			.sticky-header .controls {
-				display: flex;
-				align-items: center;
-				gap: 0.75rem;
 			}
 			.eng-toggle {
 				padding: 0.25rem 0.6rem;
@@ -263,6 +238,10 @@
 		</style>
 	</head>
 	<body>
+		<div class="top-bar">
+			<button class="eng-toggle" id="engToggle">EN</button>
+		</div>
+
 		<h1 id="mainTitle">משניות לעילוי נשמה</h1>
 		<p class="subtitle" id="subtitle">הקלד שם בעברית — כל אות מחזירה את פרק המשנה המתאים</p>
 
@@ -284,21 +263,11 @@
 			<button class="copy-btn" id="copyBtn">העתק</button>
 		</div>
 
-		<div class="sticky-header">
-			<span class="dedication" id="dedication">לעילוי נשמת ר' מרדכי בן יהושע זעליג ריבקין</span>
-			<div class="controls">
-				<button class="eng-toggle" id="engToggle">EN</button>
-				<div class="font-bar">
-					<button id="fontDown">א-</button>
-					<span id="fontLabel">140%</span>
-					<button id="fontUp">א+</button>
-				</div>
-			</div>
-		</div>
-
 		<div id="letters"></div>
 		<div id="loading">טוען משניות...</div>
 		<div id="results"></div>
+
+		<footer class="dedication-footer" id="dedication">לעילוי נשמת ר' מרדכי בן יהושע זעליג ריבקין</footer>
 
 
 		<script>
@@ -337,18 +306,6 @@
 					engToggle.textContent = 'EN';
 				}
 			});
-
-			let fontSize = 140;
-			const fontLabel = document.getElementById('fontLabel')!;
-			document.getElementById('fontUp')!.addEventListener('click', () => adjustFont(10));
-			document.getElementById('fontDown')!.addEventListener('click', () => adjustFont(-10));
-			function adjustFont(delta: number) {
-				fontSize = Math.max(70, Math.min(200, fontSize + delta));
-				document.querySelectorAll<HTMLElement>('.mishnah').forEach(el => {
-					el.style.fontSize = `${fontSize}%`;
-				});
-				fontLabel.textContent = `${fontSize}%`;
-			}
 
 			const LETTER_MAP: Record<string, { masechet: string; perek: number; heRef: string }> = {
 				'א': { masechet: 'Mishnah_Berakhot', perek: 5, heRef: 'ברכות פרק ה׳' },
