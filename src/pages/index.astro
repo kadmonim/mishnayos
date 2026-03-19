@@ -425,14 +425,16 @@
 				const results = await Promise.all(
 					unique.map(async (item) => {
 						try {
-							const [mishnahRes, bartRes] = await Promise.all([
+							const [mishnahRes, enRes, bartRes] = await Promise.all([
 								fetch(`https://www.sefaria.org/api/v3/texts/${item.masechet}.${item.perek}`),
+								fetch(`https://www.sefaria.org/api/v3/texts/${item.masechet}.${item.perek}?version=english`),
 								fetch(`https://www.sefaria.org/api/v3/texts/Bartenura_on_${item.masechet}.${item.perek}`),
 							]);
 							const mishnahData = await mishnahRes.json();
+							const enData = await enRes.json();
 							const bartData = await bartRes.json();
 							const heVersion = mishnahData.versions?.find((v: any) => v.language === 'he');
-							const enVersion = mishnahData.versions?.find((v: any) => v.language === 'en' && v.versionTitle?.includes('William Davidson'));
+							const enVersion = enData.versions?.find((v: any) => v.language === 'en');
 							const texts: string[] = heVersion?.text || [];
 							const enTexts: string[] = enVersion?.text || [];
 							const bartVersion = bartData.versions?.find((v: any) => v.language === 'he');

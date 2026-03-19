@@ -335,14 +335,16 @@ const letters: string = record.letters;
 				const results = await Promise.all(
 					unique.map(async (item) => {
 						try {
-							const [mishnahRes, bartRes] = await Promise.all([
+							const [mishnahRes, enRes, bartRes] = await Promise.all([
 								fetch(`https://www.sefaria.org/api/v3/texts/${item.masechet}.${item.perek}`),
+								fetch(`https://www.sefaria.org/api/v3/texts/${item.masechet}.${item.perek}?version=english`),
 								fetch(`https://www.sefaria.org/api/v3/texts/Bartenura_on_${item.masechet}.${item.perek}`),
 							]);
 							const mishnahData = await mishnahRes.json();
+							const enData = await enRes.json();
 							const bartData = await bartRes.json();
 							const heVersion = mishnahData.versions?.find(v => v.language === 'he');
-							const enVersion = mishnahData.versions?.find(v => v.language === 'en' && v.versionTitle?.includes('William Davidson'));
+							const enVersion = enData.versions?.find(v => v.language === 'en');
 							const bartVersion = bartData.versions?.find(v => v.language === 'he');
 							return { ...item, texts: heVersion?.text || [], enTexts: enVersion?.text || [], bartenura: bartVersion?.text || [], error: false };
 						} catch {
@@ -386,14 +388,16 @@ const letters: string = record.letters;
 			// Load נשמה section (Mikvaot 7:4-7)
 			(async () => {
 				try {
-					const [mishnahRes, bartRes] = await Promise.all([
+					const [mishnahRes, enRes, bartRes] = await Promise.all([
 						fetch('https://www.sefaria.org/api/v3/texts/Mishnah_Mikvaot.7'),
+						fetch('https://www.sefaria.org/api/v3/texts/Mishnah_Mikvaot.7?version=english'),
 						fetch('https://www.sefaria.org/api/v3/texts/Bartenura_on_Mishnah_Mikvaot.7'),
 					]);
 					const mishnahData = await mishnahRes.json();
+					const enData = await enRes.json();
 					const bartData = await bartRes.json();
 					const heVersion = mishnahData.versions?.find(v => v.language === 'he');
-					const enVersion = mishnahData.versions?.find(v => v.language === 'en' && v.versionTitle?.includes('William Davidson'));
+					const enVersion = enData.versions?.find(v => v.language === 'en');
 					const bartVersion = bartData.versions?.find(v => v.language === 'he');
 					const texts = heVersion?.text || [];
 					const enTexts = enVersion?.text || [];
