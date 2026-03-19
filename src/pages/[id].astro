@@ -21,7 +21,7 @@ const letters: string = record.letters;
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<title>משניות לעילוי נשמת {personName || name}</title>
-		<style>
+		<style is:global>
 			* { box-sizing: border-box; margin: 0; padding: 0; }
 			body {
 				font-family: 'David', 'Noto Sans Hebrew', 'Arial Hebrew', sans-serif;
@@ -116,12 +116,39 @@ const letters: string = record.letters;
 				color: #c44;
 				padding: 1rem;
 			}
+			.font-bar {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				gap: 0.5rem;
+				margin-bottom: 1.5rem;
+				font-size: 0.85rem;
+				color: #888;
+			}
+			.font-bar button {
+				padding: 0.25rem 0.6rem;
+				font-size: 0.9rem;
+				background: #e8e0d0;
+				color: #1a1a1a;
+				border: none;
+				border-radius: 5px;
+				min-width: 2rem;
+				cursor: pointer;
+				font-family: inherit;
+			}
+			.font-bar button:hover { background: #d4c5a9; }
 		</style>
 	</head>
 	<body>
 		<h1>משניות לעילוי נשמת</h1>
 		<p class="subtitle">{personName || name}</p>
 		<a class="back-link" href="/">← חזרה לחיפוש</a>
+
+		<div class="font-bar">
+			<button id="fontDown">א-</button>
+			<span id="fontLabel">100%</span>
+			<button id="fontUp">א+</button>
+		</div>
 
 		<div id="letters"></div>
 		<div id="loading">טוען משניות...</div>
@@ -132,6 +159,16 @@ const letters: string = record.letters;
 		</footer>
 
 		<script define:vars={{ name, letters }}>
+			let fontSize = 100;
+			const fontLabel = document.getElementById('fontLabel');
+			document.getElementById('fontUp').addEventListener('click', () => adjustFont(10));
+			document.getElementById('fontDown').addEventListener('click', () => adjustFont(-10));
+			function adjustFont(delta) {
+				fontSize = Math.max(70, Math.min(150, fontSize + delta));
+				document.body.style.fontSize = `${fontSize}%`;
+				fontLabel.textContent = `${fontSize}%`;
+			}
+
 			const LETTER_MAP = {
 				'א': { masechet: 'Mishnah_Berakhot', perek: 5, heRef: 'ברכות פרק ה׳' },
 				'ב': { masechet: 'Mishnah_Taanit', perek: 4, heRef: 'תענית פרק ד׳' },
