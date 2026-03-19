@@ -1,0 +1,386 @@
+---
+
+---
+
+<html lang="he" dir="rtl">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<title>משניות לעילוי נשמה</title>
+		<style>
+			* { box-sizing: border-box; margin: 0; padding: 0; }
+			body {
+				font-family: 'David', 'Noto Sans Hebrew', 'Arial Hebrew', sans-serif;
+				background: #faf9f6;
+				color: #1a1a1a;
+				padding: 2rem 1rem;
+				max-width: 720px;
+				margin: 0 auto;
+			}
+			h1 {
+				font-size: 1.8rem;
+				text-align: center;
+				margin-bottom: 0.5rem;
+			}
+			.subtitle {
+				text-align: center;
+				color: #666;
+				margin-bottom: 2rem;
+				font-size: 0.95rem;
+			}
+			.input-row {
+				display: flex;
+				gap: 0.5rem;
+				margin-bottom: 1.5rem;
+			}
+			input[type="text"] {
+				flex: 1;
+				padding: 0.75rem 1rem;
+				font-size: 1.2rem;
+				border: 2px solid #d4c5a9;
+				border-radius: 8px;
+				font-family: inherit;
+				direction: rtl;
+				background: #fff;
+			}
+			input[type="text"]:focus {
+				outline: none;
+				border-color: #8b7355;
+			}
+			button {
+				padding: 0.75rem 1.5rem;
+				font-size: 1.1rem;
+				background: #8b7355;
+				color: #fff;
+				border: none;
+				border-radius: 8px;
+				cursor: pointer;
+				font-family: inherit;
+			}
+			button:hover { background: #6d5a43; }
+			#letters {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 0.5rem;
+				margin-bottom: 2rem;
+				justify-content: center;
+			}
+			.letter-badge {
+				background: #e8e0d0;
+				padding: 0.4rem 0.8rem;
+				border-radius: 6px;
+				font-size: 1.1rem;
+				cursor: pointer;
+				border: 2px solid transparent;
+				transition: all 0.15s;
+			}
+			.letter-badge:hover { border-color: #8b7355; }
+			.letter-badge.active {
+				background: #8b7355;
+				color: #fff;
+			}
+			#loading {
+				text-align: center;
+				padding: 2rem;
+				color: #888;
+				display: none;
+			}
+			.chapter {
+				background: #fff;
+				border: 1px solid #e0d8c8;
+				border-radius: 10px;
+				margin-bottom: 1.5rem;
+				overflow: hidden;
+			}
+			.chapter-header {
+				background: #f0ebe0;
+				padding: 0.75rem 1rem;
+				font-weight: bold;
+				font-size: 1.1rem;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+			}
+			.chapter-header .letter-tag {
+				background: #8b7355;
+				color: #fff;
+				padding: 0.2rem 0.6rem;
+				border-radius: 4px;
+				font-size: 0.9rem;
+			}
+			.mishnah {
+				padding: 0.75rem 1rem;
+				border-bottom: 1px solid #f0ebe0;
+				line-height: 1.8;
+				font-size: 1.05rem;
+			}
+			.mishnah:last-child { border-bottom: none; }
+			.mishnah-num {
+				font-weight: bold;
+				color: #8b7355;
+				margin-left: 0.3rem;
+			}
+			.no-results {
+				text-align: center;
+				color: #999;
+				padding: 3rem 1rem;
+				font-size: 1.1rem;
+			}
+			.error {
+				text-align: center;
+				color: #c44;
+				padding: 1rem;
+			}
+			#saveSection {
+				display: none;
+				text-align: center;
+				margin-bottom: 1.5rem;
+			}
+			#saveSection .save-row {
+				display: flex;
+				gap: 0.5rem;
+				justify-content: center;
+				align-items: center;
+				flex-wrap: wrap;
+			}
+			#saveSection input {
+				max-width: 250px;
+			}
+			.save-btn {
+				background: #4a7c59;
+			}
+			.save-btn:hover { background: #3a6247; }
+			#savedLink {
+				display: none;
+				text-align: center;
+				margin-bottom: 1.5rem;
+				padding: 1rem;
+				background: #e8f5e9;
+				border-radius: 8px;
+			}
+			#savedLink a {
+				color: #2e7d32;
+				font-weight: bold;
+				word-break: break-all;
+			}
+			.copy-btn {
+				font-size: 0.9rem;
+				padding: 0.4rem 0.8rem;
+				background: #4a7c59;
+				margin-right: 0.5rem;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>משניות לעילוי נשמה</h1>
+		<p class="subtitle">הקלד שם בעברית — כל אות מחזירה את פרק המשנה המתאים</p>
+
+		<div class="input-row">
+			<input type="text" id="nameInput" placeholder="הקלד שם..." autofocus />
+			<button id="searchBtn">חפש</button>
+		</div>
+
+		<div id="saveSection">
+			<div class="save-row">
+				<input type="text" id="personNameInput" placeholder="שם הנפטר/ת (לעילוי נשמת...)" />
+				<button class="save-btn" id="saveBtn">שמור קישור</button>
+			</div>
+		</div>
+
+		<div id="savedLink">
+			<span>הקישור נשמר: </span>
+			<a id="savedLinkUrl" href="#" target="_blank"></a>
+			<button class="copy-btn" id="copyBtn">העתק</button>
+		</div>
+
+		<div id="letters"></div>
+		<div id="loading">טוען משניות...</div>
+		<div id="results"></div>
+
+		<footer style="text-align: center; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #e0d8c8; color: #888; font-size: 0.95rem;">
+			לעילוי נשמת ר' מרדכי בן יהושע זעליג ריבקין
+		</footer>
+
+		<script>
+			const LETTER_MAP: Record<string, { masechet: string; perek: number; heRef: string }> = {
+				'א': { masechet: 'Mishnah_Berakhot', perek: 5, heRef: 'ברכות פרק ה׳' },
+				'ב': { masechet: 'Mishnah_Taanit', perek: 4, heRef: 'תענית פרק ד׳' },
+				'ג': { masechet: 'Mishnah_Bava_Batra', perek: 10, heRef: 'בבא בתרא פרק י׳' },
+				'ד': { masechet: 'Mishnah_Sanhedrin', perek: 1, heRef: 'סנהדרין פרק א׳' },
+				'ה': { masechet: 'Mishnah_Berakhot', perek: 2, heRef: 'ברכות פרק ב׳' },
+				'ו': { masechet: 'Mishnah_Moed_Katan', perek: 3, heRef: 'מועד קטן פרק ג׳' },
+				'ז': { masechet: 'Mishnah_Tahorot', perek: 9, heRef: 'טהרות פרק ט׳' },
+				'ח': { masechet: 'Mishnah_Shabbat', perek: 22, heRef: 'שבת פרק כ״ב' },
+				'ט': { masechet: 'Mishnah_Yoma', perek: 4, heRef: 'יומא פרק ד׳' },
+				'י': { masechet: 'Mishnah_Rosh_Hashanah', perek: 4, heRef: 'ראש השנה פרק ד׳' },
+				'כ': { masechet: 'Mishnah_Berakhot', perek: 6, heRef: 'ברכות פרק ו׳' },
+				'ך': { masechet: 'Mishnah_Berakhot', perek: 6, heRef: 'ברכות פרק ו׳' },
+				'ל': { masechet: 'Mishnah_Sukkah', perek: 4, heRef: 'סוכה פרק ד׳' },
+				'מ': { masechet: 'Mishnah_Berakhot', perek: 1, heRef: 'ברכות פרק א׳' },
+				'ם': { masechet: 'Mishnah_Berakhot', perek: 1, heRef: 'ברכות פרק א׳' },
+				'נ': { masechet: 'Mishnah_Shabbat', perek: 21, heRef: 'שבת פרק כ״א' },
+				'ן': { masechet: 'Mishnah_Shabbat', perek: 21, heRef: 'שבת פרק כ״א' },
+				'ס': { masechet: 'Mishnah_Sukkah', perek: 1, heRef: 'סוכה פרק א׳' },
+				'ע': { masechet: 'Mishnah_Pesachim', perek: 10, heRef: 'פסחים פרק י׳' },
+				'פ': { masechet: 'Mishnah_Challah', perek: 2, heRef: 'חלה פרק ב׳' },
+				'ף': { masechet: 'Mishnah_Challah', perek: 2, heRef: 'חלה פרק ב׳' },
+				'צ': { masechet: 'Mishnah_Parah', perek: 9, heRef: 'פרה פרק ט׳' },
+				'ץ': { masechet: 'Mishnah_Parah', perek: 9, heRef: 'פרה פרק ט׳' },
+				'ק': { masechet: 'Mishnah_Nedarim', perek: 8, heRef: 'נדרים פרק ח׳' },
+				'ר': { masechet: 'Mishnah_Shabbat', perek: 13, heRef: 'שבת פרק י״ג' },
+				'ש': { masechet: 'Mishnah_Shabbat', perek: 23, heRef: 'שבת פרק כ״ג' },
+				'ת': { masechet: 'Mishnah_Berakhot', perek: 4, heRef: 'ברכות פרק ד׳' },
+			};
+
+			const nameInput = document.getElementById('nameInput') as HTMLInputElement;
+			const searchBtn = document.getElementById('searchBtn')!;
+			const lettersDiv = document.getElementById('letters')!;
+			const resultsDiv = document.getElementById('results')!;
+			const loadingDiv = document.getElementById('loading')!;
+			const saveSection = document.getElementById('saveSection')!;
+			const personNameInput = document.getElementById('personNameInput') as HTMLInputElement;
+			const saveBtn = document.getElementById('saveBtn')!;
+			const savedLinkDiv = document.getElementById('savedLink')!;
+			const savedLinkUrl = document.getElementById('savedLinkUrl') as HTMLAnchorElement;
+			const copyBtn = document.getElementById('copyBtn')!;
+
+			let currentName = '';
+			let currentLetters = '';
+
+			nameInput.addEventListener('keydown', (e) => {
+				if (e.key === 'Enter') search();
+			});
+			searchBtn.addEventListener('click', search);
+			saveBtn.addEventListener('click', save);
+			copyBtn.addEventListener('click', () => {
+				navigator.clipboard.writeText(savedLinkUrl.href);
+				copyBtn.textContent = 'הועתק!';
+				setTimeout(() => copyBtn.textContent = 'העתק', 2000);
+			});
+
+			async function search() {
+				const name = nameInput.value.trim();
+				if (!name) return;
+
+				currentName = name;
+				savedLinkDiv.style.display = 'none';
+
+				const letters = [...name].filter(c => LETTER_MAP[c]);
+				if (letters.length === 0) {
+					resultsDiv.innerHTML = '<div class="no-results">לא נמצאו אותיות עבריות בשם</div>';
+					lettersDiv.innerHTML = '';
+					saveSection.style.display = 'none';
+					return;
+				}
+
+				currentLetters = letters.join('');
+
+				const seen = new Set<string>();
+				const unique: { letter: string; masechet: string; perek: number; heRef: string }[] = [];
+				for (const l of letters) {
+					const info = LETTER_MAP[l];
+					const key = `${info.masechet}.${info.perek}`;
+					if (!seen.has(key)) {
+						seen.add(key);
+						unique.push({ letter: l, ...info });
+					}
+				}
+
+				lettersDiv.innerHTML = '';
+				for (const item of unique) {
+					const badge = document.createElement('span');
+					badge.className = 'letter-badge';
+					badge.textContent = item.letter;
+					badge.title = item.heRef;
+					badge.addEventListener('click', () => {
+						document.querySelectorAll('.letter-badge').forEach(b => b.classList.remove('active'));
+						badge.classList.add('active');
+						const target = document.getElementById(`chapter-${item.masechet}-${item.perek}`);
+						target?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+					});
+					lettersDiv.appendChild(badge);
+				}
+
+				loadingDiv.style.display = 'block';
+				resultsDiv.innerHTML = '';
+				saveSection.style.display = 'none';
+
+				const results = await Promise.all(
+					unique.map(async (item) => {
+						try {
+							const res = await fetch(`https://www.sefaria.org/api/v3/texts/${item.masechet}.${item.perek}`);
+							const data = await res.json();
+							const versions = data.versions;
+							const heVersion = versions?.find((v: any) => v.language === 'he');
+							const texts: string[] = heVersion?.text || [];
+							return { ...item, texts, error: false };
+						} catch {
+							return { ...item, texts: [] as string[], error: true };
+						}
+					})
+				);
+
+				loadingDiv.style.display = 'none';
+				saveSection.style.display = 'block';
+
+				let html = '';
+				for (const r of results) {
+					html += `<div class="chapter" id="chapter-${r.masechet}-${r.perek}">`;
+					html += `<div class="chapter-header">
+						<span>משנה ${r.heRef}</span>
+						<span class="letter-tag">אות ${r.letter}</span>
+					</div>`;
+					if (r.error) {
+						html += `<div class="error">שגיאה בטעינת הפרק</div>`;
+					} else if (r.texts.length === 0) {
+						html += `<div class="error">לא נמצא טקסט</div>`;
+					} else {
+						for (let i = 0; i < r.texts.length; i++) {
+							const text = r.texts[i].replace(/<[^>]*>/g, '');
+							html += `<div class="mishnah"><span class="mishnah-num">${gematriya(i + 1)}.</span> ${text}</div>`;
+						}
+					}
+					html += `</div>`;
+				}
+				resultsDiv.innerHTML = html;
+			}
+
+			async function save() {
+				saveBtn.textContent = 'שומר...';
+				try {
+					const res = await fetch('/api/save', {
+						method: 'POST',
+						headers: { 'Content-Type': 'application/json' },
+						body: JSON.stringify({
+							name: currentName,
+							letters: currentLetters,
+							personName: personNameInput.value.trim() || null,
+						}),
+					});
+					const data = await res.json();
+					const url = `${window.location.origin}/${data.id}`;
+					savedLinkUrl.href = url;
+					savedLinkUrl.textContent = url;
+					savedLinkDiv.style.display = 'block';
+				} catch {
+					alert('שגיאה בשמירה');
+				}
+				saveBtn.textContent = 'שמור קישור';
+			}
+
+			function gematriya(n: number): string {
+				const ones = ['', 'א', 'ב', 'ג', 'ד', 'ה', 'ו', 'ז', 'ח', 'ט'];
+				const tens = ['', 'י', 'כ', 'ל', 'מ', 'נ', 'ס', 'ע', 'פ', 'צ'];
+				if (n <= 0) return '';
+				if (n >= 100) return 'ק' + gematriya(n - 100);
+				if (n === 15) return 'ט״ו';
+				if (n === 16) return 'ט״ז';
+				const t = tens[Math.floor(n / 10)];
+				const o = ones[n % 10];
+				if (t && o) return t + '״' + o;
+				return t || o;
+			}
+		</script>
+	</body>
+</html>
