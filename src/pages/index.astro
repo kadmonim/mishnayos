@@ -172,7 +172,7 @@
 				flex-wrap: wrap;
 			}
 			#saveSection input {
-				max-width: 250px;
+				max-width: 350px;
 			}
 			.save-btn {
 				background: #4a7c59;
@@ -260,7 +260,7 @@
 
 		<div class="input-row">
 			<input type="text" id="nameInput" placeholder="הקלד שם..." autofocus />
-			<button id="searchBtn">חפש</button>
+			<button id="searchBtn">הצג</button>
 		</div>
 
 		<div id="saveSection">
@@ -294,10 +294,10 @@
 				if (isEnglish) {
 					html.setAttribute('lang', 'en');
 					document.getElementById('mainTitle')!.textContent = 'Mishnah for Yahrtzeit';
-					document.getElementById('subtitle')!.textContent = 'Enter a Hebrew name — each letter returns the corresponding Mishnah chapter';
+					document.getElementById('subtitle')!.textContent = 'Enter a Hebrew name — each letter returns a corresponding Mishnah chapter';
 					(document.getElementById('nameInput') as HTMLInputElement).placeholder = 'Enter name...';
-					document.getElementById('searchBtn')!.textContent = 'Search';
-					(document.getElementById('personNameInput') as HTMLInputElement).placeholder = 'Name of the deceased (l\'ilui nishmas...)';
+					document.getElementById('searchBtn')!.textContent = 'Go';
+					(document.getElementById('personNameInput') as HTMLInputElement).placeholder = 'L\'iluy Nishmas Dedication';
 					document.getElementById('saveBtn')!.textContent = 'Save Link';
 					document.getElementById('savedLinkLabel')!.textContent = 'Link saved: ';
 					document.getElementById('copyBtn')!.textContent = 'Copy';
@@ -308,7 +308,7 @@
 					document.getElementById('mainTitle')!.textContent = 'לימוד משניות לפי אותיות השם';
 					document.getElementById('subtitle')!.textContent = 'הקלד שם בעברית — כל אות מחזירה את פרק המשנה המתאים';
 					(document.getElementById('nameInput') as HTMLInputElement).placeholder = 'הקלד שם...';
-					document.getElementById('searchBtn')!.textContent = 'חפש';
+					document.getElementById('searchBtn')!.textContent = 'הצג';
 					(document.getElementById('personNameInput') as HTMLInputElement).placeholder = 'שם הנפטר/ת (לעילוי נשמת...)';
 					document.getElementById('saveBtn')!.textContent = 'שמור קישור';
 					document.getElementById('savedLinkLabel')!.textContent = 'הקישור נשמר: ';
@@ -496,6 +496,9 @@
 						}),
 					});
 					const data = await res.json();
+					if (data.editToken) {
+						localStorage.setItem(`edit_${data.id}`, data.editToken);
+					}
 					const url = `${window.location.origin}/${data.id}`;
 					savedLinkUrl.href = url;
 					savedLinkUrl.textContent = url;

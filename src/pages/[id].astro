@@ -13,6 +13,7 @@ if (!record) {
 const name: string = record.name;
 const personName: string | null = record.person_name;
 const letters: string = record.letters;
+const pageId: string = record.id;
 ---
 
 <html lang="he" dir="rtl">
@@ -23,11 +24,11 @@ const letters: string = record.letters;
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700&display=swap" rel="stylesheet" />
-		<title>לימוד משניות לעילוי נשמת {personName || name}</title>
-		<meta property="og:title" content={`משניות אותיות ${name} - לעילוי נשמת ${personName || name}`} />
-		<meta property="og:description" content={`לימוד משניות לפי אותיות השם ${name} לעילוי נשמת ${personName || name}`} />
+		<title>לימוד משניות לפי אותיות השם {personName || name}</title>
+		<meta property="og:title" content={`משניות אותיות ${name}`} />
+		<meta property="og:description" content={`לעילוי נשמת ${personName || name}`} />
 		<meta property="og:type" content="website" />
-		<meta name="description" content={`לימוד משניות לפי אותיות השם ${name} לעילוי נשמת ${personName || name}`} />
+		<meta name="description" content={`משניות אותיות ${name} - לעילוי נשמת ${personName || name}`} />
 		<style is:global>
 			* { box-sizing: border-box; margin: 0; padding: 0; }
 			body {
@@ -230,6 +231,53 @@ const letters: string = record.letters;
 			}
 			.mishnah-en.open { display: block; }
 			.mishnah-en i { font-style: italic; }
+			.edit-bar {
+				display: none;
+				background: #f0ebe0;
+				border: 1px solid #d4c5a9;
+				border-radius: 8px;
+				padding: 0.75rem 1rem;
+				margin-bottom: 1.5rem;
+			}
+			.edit-bar.visible { display: block; }
+			.edit-bar .edit-row {
+				display: flex;
+				gap: 0.5rem;
+				margin-bottom: 0.5rem;
+			}
+			.edit-bar .edit-row:last-child { margin-bottom: 0; }
+			.edit-bar input {
+				flex: 1;
+				padding: 0.5rem 0.75rem;
+				font-size: 1rem;
+				border: 1px solid #d4c5a9;
+				border-radius: 6px;
+				font-family: inherit;
+				direction: rtl;
+			}
+			.edit-bar button {
+				padding: 0.5rem 1rem;
+				font-size: 0.9rem;
+				background: #8b7355;
+				color: #fff;
+				border: none;
+				border-radius: 6px;
+				cursor: pointer;
+				font-family: inherit;
+			}
+			.edit-bar button:hover { background: #6d5a43; }
+			.edit-btn {
+				font-size: 0.8rem;
+				padding: 0.2rem 0.5rem;
+				background: #e8e0d0;
+				color: #1a1a1a;
+				border: none;
+				border-radius: 4px;
+				cursor: pointer;
+				font-family: inherit;
+				margin-right: 0.5rem;
+			}
+			.edit-btn:hover { background: #d4c5a9; }
 		</style>
 	</head>
 	<body>
@@ -237,9 +285,24 @@ const letters: string = record.letters;
 			<button class="eng-toggle" id="engToggle">EN</button>
 		</div>
 
-		<h1 id="mainTitle">לימוד משניות לעילוי נשמת</h1>
-		<p class="subtitle" id="subtitle">{personName || name}</p>
+		<h1 id="mainTitle">לימוד משניות לפי אותיות השם</h1>
+		<p class="subtitle" id="subtitle">
+			{personName || name}
+			<button class="edit-btn" id="editBtn" style="display:none;">✎</button>
+		</p>
 		<a class="back-link" id="backLink" href="/">← חזרה לחיפוש</a>
+
+		<div class="edit-bar" id="editBar">
+			<div class="edit-row">
+				<input type="text" id="editName" value={name} placeholder="שם (אותיות)" />
+			</div>
+			<div class="edit-row">
+				<input type="text" id="editPersonName" value={personName || ''} placeholder="שם הנפטר/ת (לעילוי נשמת...)" />
+			</div>
+			<div class="edit-row">
+				<button id="editSaveBtn">שמור</button>
+			</div>
+		</div>
 
 		<div class="sticky-header">
 			<div class="font-bar">
@@ -262,7 +325,46 @@ const letters: string = record.letters;
 
 		<footer class="dedication-footer" id="dedication">לעילוי נשמת ר' מרדכי בן יהושע זעליג ריבקין</footer>
 
-		<script define:vars={{ name, letters, personName }}>
+		<script define:vars={{ name, letters, personName, pageId }}>
+			// Edit functionality
+			const editToken = localStorage.getItem(`edit_${pageId}`);
+			if (editToken) {
+				document.getElementById('editBtn').style.display = 'inline-block';
+			}
+			document.getElementById('editBtn').addEventListener('click', () => {
+				document.getElementById('editBar').classList.toggle('visible');
+			});
+			document.getElementById('editSaveBtn').addEventListener('click', async () => {
+				const newName = document.getElementById('editName').value.trim();
+				const newPersonName = document.getElementById('editPersonName').value.trim();
+				if (!newName) return;
+				const newLetters = [...newName].filter(c => {
+					const hebrewLetters = 'אבגדהוזחטיכךלמםנןסעפףצץקרשת';
+					return hebrewLetters.includes(c);
+				}).join('');
+				try {
+					const res = await fetch('/api/update', {
+						method: 'POST',
+						headers: { 'Content-Type': 'application/json' },
+						body: JSON.stringify({
+							id: pageId,
+							editToken,
+							name: newName,
+							letters: newLetters,
+							personName: newPersonName || null,
+						}),
+					});
+					const data = await res.json();
+					if (data.ok) {
+						window.location.reload();
+					} else {
+						alert(data.error || 'שגיאה');
+					}
+				} catch {
+					alert('שגיאה בשמירה');
+				}
+			});
+
 			let isEnglish = false;
 			const engToggle = document.getElementById('engToggle');
 			engToggle.addEventListener('click', () => {
@@ -279,7 +381,7 @@ const letters: string = record.letters;
 					engToggle.textContent = 'עב';
 				} else {
 					html.setAttribute('lang', 'he');
-					document.getElementById('mainTitle').textContent = 'לימוד משניות לעילוי נשמת';
+					document.getElementById('mainTitle').textContent = 'לימוד משניות לפי אותיות השם';
 					document.getElementById('backLink').textContent = '← חזרה לחיפוש';
 					document.getElementById('dedication').textContent = 'לעילוי נשמת ר\' מרדכי בן יהושע זעליג ריבקין';
 					engToggle.textContent = 'EN';
