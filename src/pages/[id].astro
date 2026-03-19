@@ -24,6 +24,10 @@ const letters: string = record.letters;
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700&display=swap" rel="stylesheet" />
 		<title>לימוד משניות לעילוי נשמת {personName || name}</title>
+		<meta property="og:title" content={`משניות אותיות ${name} - לעילוי נשמת ${personName || name}`} />
+		<meta property="og:description" content={`לימוד משניות לפי אותיות השם ${name} לעילוי נשמת ${personName || name}`} />
+		<meta property="og:type" content="website" />
+		<meta name="description" content={`לימוד משניות לפי אותיות השם ${name} לעילוי נשמת ${personName || name}`} />
 		<style is:global>
 			* { box-sizing: border-box; margin: 0; padding: 0; }
 			body {
