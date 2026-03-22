@@ -2149,7 +2149,7 @@
     "masechet": "Mishnah_Nedarim",
     "perek": 2,
     "seder": "Nashim",
-    "priority": 2
+    "priority": 5
   },
   {
     "letter": "ו",
@@ -2157,7 +2157,7 @@
     "masechet": "Mishnah_Nedarim",
     "perek": 11,
     "seder": "Nashim",
-    "priority": 3
+    "priority": 2
   },
   {
     "letter": "ו",
@@ -2165,7 +2165,7 @@
     "masechet": "Mishnah_Shabbat",
     "perek": 15,
     "seder": "Moed",
-    "priority": 5
+    "priority": 4
   },
   {
     "letter": "ו",
@@ -2173,7 +2173,7 @@
     "masechet": "Mishnah_Temurah",
     "perek": 4,
     "seder": "Kodashim",
-    "priority": 4
+    "priority": 3
   },
   {
     "letter": "ו",
