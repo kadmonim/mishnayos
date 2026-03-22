@@ -11,6 +11,8 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.min.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.min.js"></script>
 		<title>לימוד משניות לפי אותיות השם</title>
 		<style is:global>
 			* { box-sizing: border-box; margin: 0; padding: 0; }
@@ -203,6 +205,41 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 				justify-content: flex-end;
 				margin-bottom: 1rem;
 			}
+			.crop-modal {
+				display: none;
+				position: fixed;
+				inset: 0;
+				background: rgba(0,0,0,0.7);
+				z-index: 1000;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+			}
+			.crop-modal.open { display: flex; }
+			.crop-container {
+				max-width: 90vw;
+				max-height: 70vh;
+				background: #fff;
+				border-radius: 10px;
+				overflow: hidden;
+			}
+			.crop-container img { max-width: 100%; display: block; }
+			.crop-buttons {
+				display: flex;
+				gap: 1rem;
+				margin-top: 1rem;
+				justify-content: center;
+			}
+			.crop-buttons button {
+				padding: 0.5rem 1.5rem;
+				border: none;
+				border-radius: 6px;
+				font-size: 1rem;
+				cursor: pointer;
+				font-family: 'Heebo', sans-serif;
+			}
+			.crop-confirm { background: #8b7355; color: #fff; }
+			.crop-cancel { background: #e8e0d0; color: #1a1a1a; }
 			.dedication-footer {
 				text-align: center;
 				margin-top: 3rem;
@@ -295,6 +332,16 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 				<span>משנה אותיות נשמה - מסכת מקוואות פרק ז, משנה ד-ז</span>
 			</div>
 			<div id="neshama-content" style="color: #888; padding: 1rem; text-align: right;">טוען...</div>
+		</div>
+
+		<div class="crop-modal" id="cropModal">
+			<div class="crop-container">
+				<img id="cropImage" />
+			</div>
+			<div class="crop-buttons">
+				<button class="crop-confirm" id="cropConfirm">אישור</button>
+				<button class="crop-cancel" id="cropCancel">ביטול</button>
+			</div>
 		</div>
 
 		<footer class="dedication-footer" id="dedication">לעילוי נשמת ר' מרדכי בן יהושע זעליג ריבקין ע"ה ולע"נ מרת דוואשא בת ר' מנחם מענדל ע"ה</footer>
@@ -548,56 +595,66 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 
 			const imageInput = document.getElementById('imageInput') as HTMLInputElement;
 			const imageName = document.getElementById('imageName')!;
+			const cropModal = document.getElementById('cropModal')!;
+			const cropImage = document.getElementById('cropImage') as HTMLImageElement;
+			const cropConfirm = document.getElementById('cropConfirm')!;
+			const cropCancel = document.getElementById('cropCancel')!;
 			let processedImage: Blob | null = null;
+			let cropper: any = null;
 
-			function compressImage(file: File): Promise<Blob> {
+			function compressCanvas(canvas: HTMLCanvasElement): Promise<Blob> {
 				return new Promise((resolve, reject) => {
-					const img = new Image();
-					img.onload = () => {
-						const MAX_W = 600, MAX_H = 315;
-						let w = img.width, h = img.height;
-						const scale = Math.min(MAX_W / w, MAX_H / h, 1);
-						w = Math.round(w * scale);
-						h = Math.round(h * scale);
-						const canvas = document.createElement('canvas');
-						canvas.width = w;
-						canvas.height = h;
-						canvas.getContext('2d')!.drawImage(img, 0, 0, w, h);
-
-						let quality = 0.85;
-						(function tryCompress() {
-							canvas.toBlob(blob => {
-								if (!blob) return reject(new Error('Canvas export failed'));
-								if (blob.size <= 102400 || quality <= 0.1) {
-									resolve(blob);
-								} else {
-									quality -= 0.1;
-									tryCompress();
-								}
-							}, 'image/jpeg', quality);
-						})();
-					};
-					img.onerror = () => reject(new Error('Failed to load image'));
-					img.src = URL.createObjectURL(file);
+					let quality = 0.85;
+					(function tryCompress() {
+						canvas.toBlob(blob => {
+							if (!blob) return reject(new Error('Canvas export failed'));
+							if (blob.size <= 102400 || quality <= 0.1) {
+								resolve(blob);
+							} else {
+								quality -= 0.1;
+								tryCompress();
+							}
+						}, 'image/jpeg', quality);
+					})();
 				});
 			}
 
-			imageInput.addEventListener('change', async () => {
+			imageInput.addEventListener('change', () => {
 				const file = imageInput.files?.[0];
-				if (file) {
-					imageName.textContent = 'מעבד...';
-					try {
-						processedImage = await compressImage(file);
-						const kb = (processedImage.size / 1024).toFixed(0);
-						imageName.textContent = `${file.name} (${kb}KB)`;
-					} catch {
-						imageName.textContent = 'שגיאה בעיבוד התמונה';
-						processedImage = null;
-					}
-				} else {
-					imageName.textContent = '';
+				if (!file) { imageName.textContent = ''; return; }
+				cropImage.src = URL.createObjectURL(file);
+				cropModal.classList.add('open');
+				if (cropper) cropper.destroy();
+				cropper = new (window as any).Cropper(cropImage, {
+					aspectRatio: 600 / 315,
+					viewMode: 1,
+					autoCropArea: 1,
+				});
+			});
+
+			cropConfirm.addEventListener('click', async () => {
+				if (!cropper) return;
+				const canvas = cropper.getCroppedCanvas({ width: 600, height: 315 });
+				cropper.destroy();
+				cropper = null;
+				cropModal.classList.remove('open');
+				imageName.textContent = 'מעבד...';
+				try {
+					processedImage = await compressCanvas(canvas);
+					const kb = (processedImage.size / 1024).toFixed(0);
+					imageName.textContent = `${imageInput.files?.[0]?.name || 'image'} (${kb}KB)`;
+				} catch {
+					imageName.textContent = 'שגיאה בעיבוד התמונה';
 					processedImage = null;
 				}
+			});
+
+			cropCancel.addEventListener('click', () => {
+				if (cropper) { cropper.destroy(); cropper = null; }
+				cropModal.classList.remove('open');
+				imageInput.value = '';
+				imageName.textContent = '';
+				processedImage = null;
 			});
 
 			async function save() {
