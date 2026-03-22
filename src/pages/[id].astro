@@ -606,14 +606,20 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 				if (e.target === settingsModal) settingsModal.classList.remove('open');
 			});
 
-			firstOnlyCheck.addEventListener('change', () => {
+			// Restore toggle states from localStorage
+			firstOnlyCheck.checked = localStorage.getItem('firstOnly') === 'true';
+			function applyFirstOnly() {
 				const firstOnly = firstOnlyCheck.checked;
-				document.querySelectorAll('.chapter').forEach(ch => {
+				document.querySelectorAll('.chapter:not(#neshama-section)').forEach(ch => {
 					const mishnayot = ch.querySelectorAll('.mishnah');
 					mishnayot.forEach((m, i) => {
 						m.style.display = (firstOnly && i > 0) ? 'none' : '';
 					});
 				});
+			}
+			firstOnlyCheck.addEventListener('change', () => {
+				localStorage.setItem('firstOnly', String(firstOnlyCheck.checked));
+				applyFirstOnly();
 			});
 
 			let fontSize = 140;
@@ -631,6 +637,7 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 			const FINAL_MAP = { 'ך': 'כ', 'ם': 'מ', 'ן': 'נ', 'ף': 'פ', 'ץ': 'צ' };
 			const hebrewLettersStr = 'אבגדהוזחטיכךלמםנןסעפףצץקרשת';
 			const altChaptersCheck = document.getElementById('altChaptersCheck');
+			altChaptersCheck.checked = localStorage.getItem('altChapters') === 'true';
 
 			async function loadLetterData(letter, priority) {
 				const baseLetter = FINAL_MAP[letter] || letter;
@@ -745,9 +752,13 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 					html += `</div>`;
 				}
 				resultsDiv.innerHTML = html;
+				applyFirstOnly();
 			}
 
-			altChaptersCheck.addEventListener('change', loadChapters);
+			altChaptersCheck.addEventListener('change', () => {
+				localStorage.setItem('altChapters', String(altChaptersCheck.checked));
+				loadChapters();
+			});
 			loadChapters();
 
 			// Load נשמה section (Mikvaot 7:4-7)

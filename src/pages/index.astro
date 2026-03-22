@@ -483,14 +483,20 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 				if (e.target === settingsModal) settingsModal.classList.remove('open');
 			});
 
-			firstOnlyCheck.addEventListener('change', () => {
+			// Restore toggle states from localStorage
+			firstOnlyCheck.checked = localStorage.getItem('firstOnly') === 'true';
+			function applyFirstOnly() {
 				const firstOnly = firstOnlyCheck.checked;
-				document.querySelectorAll('.chapter').forEach(ch => {
+				document.querySelectorAll('.chapter:not(#neshama-section)').forEach(ch => {
 					const mishnayot = ch.querySelectorAll('.mishnah');
 					mishnayot.forEach((m, i) => {
 						(m as HTMLElement).style.display = (firstOnly && i > 0) ? 'none' : '';
 					});
 				});
+			}
+			firstOnlyCheck.addEventListener('change', () => {
+				localStorage.setItem('firstOnly', String(firstOnlyCheck.checked));
+				applyFirstOnly();
 			});
 
 			const MASECHET_HE: Record<string, string> = {
@@ -511,7 +517,9 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 			const hebrewLetters = 'אבגדהוזחטיכךלמםנןסעפףצץקרשת';
 
 			const altChaptersCheck = document.getElementById('altChaptersCheck') as HTMLInputElement;
+			altChaptersCheck.checked = localStorage.getItem('altChapters') === 'true';
 			altChaptersCheck.addEventListener('change', () => {
+				localStorage.setItem('altChapters', String(altChaptersCheck.checked));
 				if (currentName) search();
 			});
 
@@ -644,6 +652,7 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 					html += `</div>`;
 				}
 				resultsDiv.innerHTML = html;
+				applyFirstOnly();
 				loadNeshama();
 			}
 
