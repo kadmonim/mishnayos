@@ -280,6 +280,13 @@
 		<div id="loading">טוען משניות...</div>
 		<div id="results"></div>
 
+		<div id="neshama-section" class="chapter" style="margin-top: 2rem; border: 2px solid #d4c5a9; display: none;">
+			<div class="chapter-header">
+				<span>משנה אותיות נשמה - מסכת מקוואות פרק ז, משנה ד-ז</span>
+			</div>
+			<div id="neshama-content" style="color: #888; padding: 1rem; text-align: right;">טוען...</div>
+		</div>
+
 		<footer class="dedication-footer" id="dedication">לעילוי נשמת ר' מרדכי בן יהושע זעליג ריבקין</footer>
 
 
@@ -476,6 +483,51 @@
 					html += `</div>`;
 				}
 				resultsDiv.innerHTML = html;
+				loadNeshama();
+			}
+
+			async function loadNeshama() {
+				const section = document.getElementById('neshama-section')!;
+				const content = document.getElementById('neshama-content')!;
+				section.style.display = '';
+				content.innerHTML = 'טוען...';
+				try {
+					const [mishnahRes, enRes, bartRes] = await Promise.all([
+						fetch('https://www.sefaria.org/api/v3/texts/Mishnah_Mikvaot.7'),
+						fetch('https://www.sefaria.org/api/v3/texts/Mishnah_Mikvaot.7?version=english'),
+						fetch('https://www.sefaria.org/api/v3/texts/Bartenura_on_Mishnah_Mikvaot.7'),
+					]);
+					const mishnahData = await mishnahRes.json();
+					const enData = await enRes.json();
+					const bartData = await bartRes.json();
+					const heVersion = mishnahData.versions?.find((v: any) => v.language === 'he');
+					const enVersion = enData.versions?.find((v: any) => v.language === 'en');
+					const bartVersion = bartData.versions?.find((v: any) => v.language === 'he');
+					const texts: string[] = heVersion?.text || [];
+					const enTexts: string[] = enVersion?.text || [];
+					const bart: string[][] = bartVersion?.text || [];
+					let html = '';
+					for (let i = 3; i < Math.min(texts.length, 7); i++) {
+						const text = texts[i].replace(/<[^>]*>/g, '');
+						const bartParts = bart[i] || [];
+						const bartId = `bart-neshama-${i}`;
+						let bartHtml = '';
+						if (bartParts.length > 0) {
+							bartHtml = `<span class="bartenura-toggle" onclick="document.getElementById('${bartId}').classList.toggle('open');this.textContent=this.textContent==='ברטנורא +'?'ברטנורא −':'ברטנורא +'">ברטנורא +</span>`;
+							bartHtml += `<div class="bartenura" id="${bartId}">${bartParts.join(' ')}</div>`;
+						}
+						const enId = `en-neshama-${i}`;
+						let enHtml = '';
+						if (enTexts[i]) {
+							enHtml = `<span class="translation-toggle" onclick="document.getElementById('${enId}').classList.toggle('open');this.textContent=this.textContent==='Translation +'?'Translation −':'Translation +'">Translation +</span>`;
+							enHtml += `<div class="mishnah-en" id="${enId}">${enTexts[i]}</div>`;
+						}
+						html += `<div class="mishnah"><span class="mishnah-num">${gematriya(i + 1)}.</span> ${text}${enHtml}${bartHtml}</div>`;
+					}
+					content.innerHTML = html;
+				} catch {
+					content.innerHTML = '<div class="error">שגיאה בטעינה</div>';
+				}
 			}
 
 			async function save() {
