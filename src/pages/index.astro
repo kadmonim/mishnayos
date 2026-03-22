@@ -548,18 +548,55 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 
 			const imageInput = document.getElementById('imageInput') as HTMLInputElement;
 			const imageName = document.getElementById('imageName')!;
-			imageInput.addEventListener('change', () => {
+			let processedImage: Blob | null = null;
+
+			function compressImage(file: File): Promise<Blob> {
+				return new Promise((resolve, reject) => {
+					const img = new Image();
+					img.onload = () => {
+						const MAX_W = 600, MAX_H = 315;
+						let w = img.width, h = img.height;
+						const scale = Math.min(MAX_W / w, MAX_H / h, 1);
+						w = Math.round(w * scale);
+						h = Math.round(h * scale);
+						const canvas = document.createElement('canvas');
+						canvas.width = w;
+						canvas.height = h;
+						canvas.getContext('2d')!.drawImage(img, 0, 0, w, h);
+
+						let quality = 0.85;
+						(function tryCompress() {
+							canvas.toBlob(blob => {
+								if (!blob) return reject(new Error('Canvas export failed'));
+								if (blob.size <= 102400 || quality <= 0.1) {
+									resolve(blob);
+								} else {
+									quality -= 0.1;
+									tryCompress();
+								}
+							}, 'image/jpeg', quality);
+						})();
+					};
+					img.onerror = () => reject(new Error('Failed to load image'));
+					img.src = URL.createObjectURL(file);
+				});
+			}
+
+			imageInput.addEventListener('change', async () => {
 				const file = imageInput.files?.[0];
 				if (file) {
-					if (file.size > 102400) {
-						alert('התמונה חייבת להיות עד 100KB');
-						imageInput.value = '';
-						imageName.textContent = '';
-						return;
+					imageName.textContent = 'מעבד...';
+					try {
+						processedImage = await compressImage(file);
+						const kb = (processedImage.size / 1024).toFixed(0);
+						imageName.textContent = `${file.name} (${kb}KB)`;
+					} catch {
+						imageName.textContent = 'שגיאה בעיבוד התמונה';
+						processedImage = null;
 					}
-					imageName.textContent = file.name;
 				} else {
 					imageName.textContent = '';
+					processedImage = null;
 				}
 			});
 
@@ -570,9 +607,8 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 					formData.append('name', currentName);
 					formData.append('letters', currentLetters);
 					formData.append('personName', personNameInput.value.trim());
-					const imageFile = imageInput.files?.[0];
-					if (imageFile) {
-						formData.append('image', imageFile);
+					if (processedImage) {
+						formData.append('image', processedImage, 'photo.jpg');
 					}
 					const res = await fetch('/api/save', {
 						method: 'POST',
