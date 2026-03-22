@@ -647,7 +647,10 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 				const num = LETTER_NUM[baseLetter];
 				if (!num) return null;
 				const res = await fetch(`/data/letters/${num}-${priority}.json`);
-				if (!res.ok) return null;
+				if (!res.ok) {
+					console.error(`Failed to load letter data: ${num}-${priority}.json, status: ${res.status}`);
+					return null;
+				}
 				return res.json();
 			}
 
@@ -736,9 +739,9 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 						<span class="letter-tag">אות ${r.letter}</span>
 					</div>`;
 					if (r.error) {
-						html += `<div class="error">שגיאה בטעינת הפרק</div>`;
-					} else if (r.texts.length === 0) {
-						html += `<div class="error">לא נמצא טקסט</div>`;
+						html += `<div class="error">שגיאה בטעינת הפרק (אות ${r.letter})</div>`;
+					} else if (!r.texts || r.texts.length === 0) {
+						html += `<div class="error">לא נמצא טקסט (אות ${r.letter})</div>`;
 					} else {
 						for (let i = 0; i < r.texts.length; i++) {
 							const text = r.texts[i].replace(/<[^>]*>/g, '');
