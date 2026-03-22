@@ -4,119 +4,136 @@
     "name": "אבות הטומאה",
     "masechet": "Mishnah_Kelim",
     "perek": 1,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 41
   },
   {
     "letter": "א",
     "name": "אדם וכלים",
     "masechet": "Mishnah_Oholot",
     "perek": 6,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 42
   },
   {
     "letter": "א",
     "name": "אוכל מעשר",
     "masechet": "Mishnah_Tevul_Yom",
     "perek": 4,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 43
   },
   {
     "letter": "א",
     "name": "אוכלין עראי",
     "masechet": "Mishnah_Challah",
     "perek": 3,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 33
   },
   {
     "letter": "א",
     "name": "אור לארבעה עשר",
     "masechet": "Mishnah_Pesachim",
     "perek": 1,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 3
   },
   {
     "letter": "א",
     "name": "אותו ואת בנו",
     "masechet": "Mishnah_Chullin",
     "perek": 5,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 22
   },
   {
     "letter": "א",
     "name": "אחד דיני ממונות",
     "masechet": "Mishnah_Sanhedrin",
     "perek": 4,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 50
   },
   {
     "letter": "א",
     "name": "איזהו מקומן של זבחים",
     "masechet": "Mishnah_Zevachim",
     "perek": 5,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 23
   },
   {
     "letter": "א",
     "name": "איזהו נשך",
     "masechet": "Mishnah_Bava_Metzia",
     "perek": 5,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 51
   },
   {
     "letter": "א",
     "name": "איזהו עריס",
     "masechet": "Mishnah_Kilayim",
     "perek": 6,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 34
   },
   {
     "letter": "א",
     "name": "אין איסור משום כלאים",
     "masechet": "Mishnah_Kilayim",
     "perek": 9,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 35
   },
   {
     "letter": "א",
     "name": "אין בין המודר",
     "masechet": "Mishnah_Nedarim",
     "perek": 4,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 13
   },
   {
     "letter": "א",
     "name": "אין דורשין בעריות",
     "masechet": "Mishnah_Chagigah",
     "perek": 2,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 4
   },
   {
     "letter": "א",
     "name": "אין מעמידין בהמה",
     "masechet": "Mishnah_Avodah_Zarah",
     "perek": 2,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 52
   },
   {
     "letter": "א",
     "name": "אין מקדישין",
     "masechet": "Mishnah_Arakhin",
     "perek": 7,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 24
   },
   {
     "letter": "א",
     "name": "אין נותנין דבילה",
     "masechet": "Mishnah_Terumot",
     "perek": 11,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 36
   },
   {
     "letter": "א",
     "name": "אין נערכין",
     "masechet": "Mishnah_Arakhin",
     "perek": 2,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 25
   },
   {
     "letter": "א",
@@ -131,42 +148,48 @@
     "name": "אין צדין",
     "masechet": "Mishnah_Beitzah",
     "perek": 3,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 5
   },
   {
     "letter": "א",
     "name": "אין תורמין",
     "masechet": "Mishnah_Terumot",
     "perek": 2,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 37
   },
   {
     "letter": "א",
     "name": "אלו בהרות",
     "masechet": "Mishnah_Negaim",
     "perek": 7,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 44
   },
   {
     "letter": "א",
     "name": "אלו דברים בפסח",
     "masechet": "Mishnah_Pesachim",
     "perek": 6,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 6
   },
   {
     "letter": "א",
     "name": "אלו דברים מקולי בית שמאי",
     "masechet": "Mishnah_Eduyot",
     "perek": 4,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 53
   },
   {
     "letter": "א",
     "name": "אלו דברים שאין להם שיעור",
     "masechet": "Mishnah_Peah",
     "perek": 1,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 38
   },
   {
     "letter": "א",
@@ -181,252 +204,288 @@
     "name": "אלו הן הגולין",
     "masechet": "Mishnah_Makkot",
     "perek": 2,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 54
   },
   {
     "letter": "א",
     "name": "אלו הן הלוקין",
     "masechet": "Mishnah_Makkot",
     "perek": 3,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 55
   },
   {
     "letter": "א",
     "name": "אלו הן הממונים",
     "masechet": "Mishnah_Shekalim",
     "perek": 5,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 7
   },
   {
     "letter": "א",
     "name": "אלו הן הנשרפים",
     "masechet": "Mishnah_Sanhedrin",
     "perek": 9,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 56
   },
   {
     "letter": "א",
     "name": "אלו הנחנקין",
     "masechet": "Mishnah_Sanhedrin",
     "perek": 11,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 57
   },
   {
     "letter": "א",
     "name": "אלו חוצצין באדם",
     "masechet": "Mishnah_Mikvaot",
     "perek": 9,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 45
   },
   {
     "letter": "א",
     "name": "אלו טרפות",
     "masechet": "Mishnah_Chullin",
     "perek": 3,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 26
   },
   {
     "letter": "א",
     "name": "אלו כלים מצילין",
     "masechet": "Mishnah_Kelim",
     "perek": 10,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 46
   },
   {
     "letter": "א",
     "name": "אלו מטמאין",
     "masechet": "Mishnah_Oholot",
     "perek": 2,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 47
   },
   {
     "letter": "א",
     "name": "אלו מנחות נקמצות",
     "masechet": "Mishnah_Menachot",
     "perek": 6,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 27
   },
   {
     "letter": "א",
     "name": "אלו מפסיקין",
     "masechet": "Mishnah_Peah",
     "perek": 2,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 39
   },
   {
     "letter": "א",
     "name": "אלו מציאות",
     "masechet": "Mishnah_Bava_Metzia",
     "perek": 2,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 58
   },
   {
     "letter": "א",
     "name": "אלו נאמרין בכל לשון",
     "masechet": "Mishnah_Sotah",
     "perek": 7,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 14
   },
   {
     "letter": "א",
     "name": "אלו נערות",
     "masechet": "Mishnah_Ketubot",
     "perek": 3,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 15
   },
   {
     "letter": "א",
     "name": "אלו עוברין",
     "masechet": "Mishnah_Pesachim",
     "perek": 3,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 8
   },
   {
     "letter": "א",
     "name": "אלו קדשים",
     "masechet": "Mishnah_Temurah",
     "perek": 3,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 28
   },
   {
     "letter": "א",
     "name": "אלמנה לכהן גדול",
     "masechet": "Mishnah_Yevamot",
     "perek": 7,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 16
   },
   {
     "letter": "א",
     "name": "אלמנה ניזונת",
     "masechet": "Mishnah_Ketubot",
     "perek": 11,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 17
   },
   {
     "letter": "א",
     "name": "אם אינן מכירין",
     "masechet": "Mishnah_Rosh_Hashanah",
     "perek": 2,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 9
   },
   {
     "letter": "א",
     "name": "אמר להם הממונה בואו והפיסו",
     "masechet": "Mishnah_Tamid",
     "perek": 3,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 29
   },
   {
     "letter": "א",
     "name": "אמר להם הממונה ברכו",
     "masechet": "Mishnah_Tamid",
     "perek": 5,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 30
   },
   {
     "letter": "א",
     "name": "אמר להם הממונה צאו וראו",
     "masechet": "Mishnah_Yoma",
     "perek": 3,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 10
   },
   {
     "letter": "א",
     "name": "אמר רבי עקיבא",
     "masechet": "Mishnah_Shabbat",
     "perek": 9,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 11
   },
   {
     "letter": "א",
     "name": "אמרו לו אכלת חלב",
     "masechet": "Mishnah_Keritot",
     "perek": 3,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 31
   },
   {
     "letter": "א",
     "name": "אנדרוגינוס",
     "masechet": "Mishnah_Bikkurim",
     "perek": 4,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 40
   },
   {
     "letter": "א",
     "name": "אף על פי",
     "masechet": "Mishnah_Ketubot",
     "perek": 5,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 18
   },
   {
     "letter": "א",
     "name": "ארבע מיתות",
     "masechet": "Mishnah_Sanhedrin",
     "perek": 7,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 59
   },
   {
     "letter": "א",
     "name": "ארבעה אבות נזיקין",
     "masechet": "Mishnah_Bava_Kamma",
     "perek": 1,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 60
   },
   {
     "letter": "א",
     "name": "ארבעה אחין",
     "masechet": "Mishnah_Yevamot",
     "perek": 3,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 19
   },
   {
     "letter": "א",
     "name": "ארבעה מחוסרי כפרה",
     "masechet": "Mishnah_Keritot",
     "perek": 2,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 32
   },
   {
     "letter": "א",
     "name": "ארבעה נדרים",
     "masechet": "Mishnah_Nedarim",
     "perek": 3,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 20
   },
   {
     "letter": "א",
     "name": "ארבעה ראשי שנים",
     "masechet": "Mishnah_Rosh_Hashanah",
     "perek": 1,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 12
   },
   {
     "letter": "א",
     "name": "ארבעה שומרין הן",
     "masechet": "Mishnah_Shevuot",
     "perek": 8,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 61
   },
   {
     "letter": "א",
     "name": "ארובה",
     "masechet": "Mishnah_Oholot",
     "perek": 10,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 48
   },
   {
     "letter": "א",
     "name": "ארוסה ושומרת יבם",
     "masechet": "Mishnah_Sotah",
     "perek": 4,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 21
   },
   {
     "letter": "א",
     "name": "ארץ ישראל טהורה",
     "masechet": "Mishnah_Mikvaot",
     "perek": 8,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 49
   },
   {
     "letter": "ב",
@@ -441,21 +500,24 @@
     "name": "בא סימן",
     "masechet": "Mishnah_Niddah",
     "perek": 6,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 29
   },
   {
     "letter": "ב",
     "name": "באחד באדר",
     "masechet": "Mishnah_Shekalim",
     "perek": 1,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 3
   },
   {
     "letter": "ב",
     "name": "בגד שצבעו",
     "masechet": "Mishnah_Orlah",
     "perek": 3,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 24
   },
   {
     "letter": "ב",
@@ -470,210 +532,240 @@
     "name": "בג' פרקים בשנה תורמין",
     "masechet": "Mishnah_Shekalim",
     "perek": 3,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 4
   },
   {
     "letter": "ב",
     "name": "בהמה המקשה",
     "masechet": "Mishnah_Chullin",
     "perek": 4,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 18
   },
   {
     "letter": "ב",
     "name": "בהרת עזה",
     "masechet": "Mishnah_Negaim",
     "perek": 2,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 30
   },
   {
     "letter": "ב",
     "name": "בו ביום נמנו וגמרו",
     "masechet": "Mishnah_Yadayim",
     "perek": 4,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 31
   },
   {
     "letter": "ב",
     "name": "בזמן שכהן גדול",
     "masechet": "Mishnah_Tamid",
     "perek": 7,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 19
   },
   {
     "letter": "ב",
     "name": "ביצה שנולדה ביום טוב",
     "masechet": "Mishnah_Beitzah",
     "perek": 1,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 5
   },
   {
     "letter": "ב",
     "name": "בית שמאי אומרים אין ממאנין",
     "masechet": "Mishnah_Yevamot",
     "perek": 13,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 13
   },
   {
     "letter": "ב",
     "name": "בית שמאי אומרים הפקר לעניים",
     "masechet": "Mishnah_Peah",
     "perek": 6,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 25
   },
   {
     "letter": "ב",
     "name": "בית שמאי אומרים הקדש טעות",
     "masechet": "Mishnah_Nazir",
     "perek": 5,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 14
   },
   {
     "letter": "ב",
     "name": "בית שמאי אומרים כל הניתנין",
     "masechet": "Mishnah_Zevachim",
     "perek": 4,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 20
   },
   {
     "letter": "ב",
     "name": "בכל מערבין",
     "masechet": "Mishnah_Eruvin",
     "perek": 3,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 6
   },
   {
     "letter": "ב",
     "name": "במה אשה יוצאה",
     "masechet": "Mishnah_Shabbat",
     "perek": 6,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 7
   },
   {
     "letter": "ב",
     "name": "במה בהמה יוצאה",
     "masechet": "Mishnah_Shabbat",
     "perek": 5,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 8
   },
   {
     "letter": "ב",
     "name": "במה דברים אמורים",
     "masechet": "Mishnah_Kinnim",
     "perek": 3,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 21
   },
   {
     "letter": "ב",
     "name": "במה טומנין",
     "masechet": "Mishnah_Shabbat",
     "perek": 4,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 9
   },
   {
     "letter": "ב",
     "name": "במה מדליקין",
     "masechet": "Mishnah_Shabbat",
     "perek": 2,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 10
   },
   {
     "letter": "ב",
     "name": "בן זומא אומר",
     "masechet": "Mishnah_Avot",
     "perek": 4,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 16
   },
   {
     "letter": "ב",
     "name": "בן סורר ומורה",
     "masechet": "Mishnah_Sanhedrin",
     "perek": 8,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 33
   },
   {
     "letter": "ב",
     "name": "בנות כותים",
     "masechet": "Mishnah_Niddah",
     "perek": 4,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 32
   },
   {
     "letter": "ב",
     "name": "בנות שוח",
     "masechet": "Mishnah_Sheviit",
     "perek": 5,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 26
   },
   {
     "letter": "ב",
     "name": "בני העיר",
     "masechet": "Mishnah_Megillah",
     "perek": 3,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 11
   },
   {
     "letter": "ב",
     "name": "בעשרה מאמרות",
     "masechet": "Mishnah_Avot",
     "perek": 5,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 17
   },
   {
     "letter": "ב",
     "name": "בצל",
     "masechet": "Mishnah_Terumot",
     "perek": 10,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 27
   },
   {
     "letter": "ב",
     "name": "בראשונה היו אומרין",
     "masechet": "Mishnah_Sheviit",
     "perek": 4,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 28
   },
   {
     "letter": "ב",
     "name": "בראשונה כל מי שרוצה",
     "masechet": "Mishnah_Yoma",
     "perek": 2,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 12
   },
   {
     "letter": "ב",
     "name": "בשלושה מקומות הכהנים שומרים",
     "masechet": "Mishnah_Tamid",
     "perek": 1,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 22
   },
   {
     "letter": "ב",
     "name": "בשלשה מקומות הכהנים שומרים",
     "masechet": "Mishnah_Middot",
     "perek": 1,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 23
   },
   {
     "letter": "ב",
     "name": "בתולה נשאת",
     "masechet": "Mishnah_Ketubot",
     "perek": 1,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 15
   },
   {
     "letter": "ג",
     "name": "גדיש שלא לוקט תחתיו",
     "masechet": "Mishnah_Peah",
     "perek": 5,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 3
   },
   {
     "letter": "ג",
     "name": "גופה של בהרת",
     "masechet": "Mishnah_Negaim",
     "perek": 6,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 4
   },
   {
     "letter": "ג",
@@ -704,14 +796,16 @@
     "name": "דיני ממונות (זה בורר)",
     "masechet": "Mishnah_Sanhedrin",
     "perek": 3,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 5
   },
   {
     "letter": "ד",
     "name": "דם הנידה",
     "masechet": "Mishnah_Niddah",
     "perek": 7,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 4
   },
   {
     "letter": "ד",
@@ -726,364 +820,416 @@
     "name": "דם שחיטה",
     "masechet": "Mishnah_Keritot",
     "perek": 5,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 3
   },
   {
     "letter": "ה",
     "name": "האוכל תרומה מזיד",
     "masechet": "Mishnah_Terumot",
     "perek": 7,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 74
   },
   {
     "letter": "ה",
     "name": "האוכל תרומה שוגג",
     "masechet": "Mishnah_Terumot",
     "perek": 6,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 75
   },
   {
     "letter": "ה",
     "name": "האומר התקבל גט זה",
     "masechet": "Mishnah_Gittin",
     "perek": 6,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 18
   },
   {
     "letter": "ה",
     "name": "האומר לחבירו",
     "masechet": "Mishnah_Kiddushin",
     "perek": 3,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 19
   },
   {
     "letter": "ה",
     "name": "האומר לחבירו בית כור",
     "masechet": "Mishnah_Bava_Batra",
     "perek": 7,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 141
   },
   {
     "letter": "ה",
     "name": "האומר משקלי",
     "masechet": "Mishnah_Arakhin",
     "perek": 5,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 47
   },
   {
     "letter": "ה",
     "name": "האזוב הקצר",
     "masechet": "Mishnah_Parah",
     "perek": 12,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 97
   },
   {
     "letter": "ה",
     "name": "האיש מקדש",
     "masechet": "Mishnah_Kiddushin",
     "perek": 2,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 20
   },
   {
     "letter": "ה",
     "name": "האשה בזמן שהיא בבית",
     "masechet": "Mishnah_Pesachim",
     "perek": 8,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 3
   },
   {
     "letter": "ה",
     "name": "האשה נקנית",
     "masechet": "Mishnah_Kiddushin",
     "perek": 1,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 21
   },
   {
     "letter": "ה",
     "name": "האשה שהיא עושה צרכיה",
     "masechet": "Mishnah_Niddah",
     "perek": 9,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 98
   },
   {
     "letter": "ה",
     "name": "האשה שהיתה אוכלת",
     "masechet": "Mishnah_Terumot",
     "perek": 8,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 76
   },
   {
     "letter": "ה",
     "name": "האשה שהיתה כובשת ירק",
     "masechet": "Mishnah_Tahorot",
     "perek": 2,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 99
   },
   {
     "letter": "ה",
     "name": "האשה שהלך בעלה",
     "masechet": "Mishnah_Yevamot",
     "perek": 10,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 22
   },
   {
     "letter": "ה",
     "name": "האשה שהלך בעלה וצרתה",
     "masechet": "Mishnah_Yevamot",
     "perek": 16,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 23
   },
   {
     "letter": "ה",
     "name": "האשה שהלכה",
     "masechet": "Mishnah_Yevamot",
     "perek": 15,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 24
   },
   {
     "letter": "ה",
     "name": "האשה שנפלו לה נכסים",
     "masechet": "Mishnah_Ketubot",
     "perek": 8,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 25
   },
   {
     "letter": "ה",
     "name": "האשה שנתארמלה",
     "masechet": "Mishnah_Ketubot",
     "perek": 2,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 26
   },
   {
     "letter": "ה",
     "name": "הבא על יבמתו",
     "masechet": "Mishnah_Yevamot",
     "perek": 6,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 27
   },
   {
     "letter": "ה",
     "name": "הבגד מטמא",
     "masechet": "Mishnah_Kelim",
     "perek": 27,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 100
   },
   {
     "letter": "ה",
     "name": "הבונה",
     "masechet": "Mishnah_Shabbat",
     "perek": 12,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 4
   },
   {
     "letter": "ה",
     "name": "הבית והעלייה",
     "masechet": "Mishnah_Bava_Metzia",
     "perek": 10,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 142
   },
   {
     "letter": "ה",
     "name": "הבית שנסדק",
     "masechet": "Mishnah_Oholot",
     "perek": 11,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 101
   },
   {
     "letter": "ה",
     "name": "הגוזל ומאכיל",
     "masechet": "Mishnah_Bava_Kamma",
     "perek": 10,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 143
   },
   {
     "letter": "ה",
     "name": "הגוזל עצים",
     "masechet": "Mishnah_Bava_Kamma",
     "perek": 9,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 144
   },
   {
     "letter": "ה",
     "name": "הגועל בית הבד",
     "masechet": "Mishnah_Tahorot",
     "perek": 10,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 102
   },
   {
     "letter": "ה",
     "name": "הדר עם העובד כוכבים",
     "masechet": "Mishnah_Eruvin",
     "perek": 6,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 5
   },
   {
     "letter": "ה",
     "name": "הדר עם עם הארץ",
     "masechet": "Mishnah_Tahorot",
     "perek": 8,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 103
   },
   {
     "letter": "ה",
     "name": "הוציאו לו את הכף",
     "masechet": "Mishnah_Yoma",
     "perek": 5,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 6
   },
   {
     "letter": "ה",
     "name": "הורה כהן משיח",
     "masechet": "Mishnah_Horayot",
     "perek": 2,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 145
   },
   {
     "letter": "ה",
     "name": "הורו בית דין",
     "masechet": "Mishnah_Horayot",
     "perek": 1,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 146
   },
   {
     "letter": "ה",
     "name": "הזב והטהור",
     "masechet": "Mishnah_Zavim",
     "perek": 3,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 104
   },
   {
     "letter": "ה",
     "name": "הזהב",
     "masechet": "Mishnah_Bava_Metzia",
     "perek": 4,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 147
   },
   {
     "letter": "ה",
     "name": "הזורע תרומה",
     "masechet": "Mishnah_Terumot",
     "perek": 9,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 77
   },
   {
     "letter": "ה",
     "name": "הזורק גט לאשתו",
     "masechet": "Mishnah_Gittin",
     "perek": 8,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 28
   },
   {
     "letter": "ה",
     "name": "הזורק טומאה",
     "masechet": "Mishnah_Tahorot",
     "perek": 4,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 105
   },
   {
     "letter": "ה",
     "name": "הזורק מרשות היחיד לרשות הרבים",
     "masechet": "Mishnah_Shabbat",
     "perek": 11,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 7
   },
   {
     "letter": "ה",
     "name": "הזיז",
     "masechet": "Mishnah_Oholot",
     "perek": 14,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 106
   },
   {
     "letter": "ה",
     "name": "הזרוע והלחיים",
     "masechet": "Mishnah_Chullin",
     "perek": 10,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 48
   },
   {
     "letter": "ה",
     "name": "החובל בחבירו",
     "masechet": "Mishnah_Bava_Kamma",
     "perek": 8,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 148
   },
   {
     "letter": "ה",
     "name": "החולץ",
     "masechet": "Mishnah_Yevamot",
     "perek": 4,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 29
   },
   {
     "letter": "ה",
     "name": "החורש את הקבר",
     "masechet": "Mishnah_Oholot",
     "perek": 17,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 107
   },
   {
     "letter": "ה",
     "name": "החטים והזונין",
     "masechet": "Mishnah_Kilayim",
     "perek": 1,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 78
   },
   {
     "letter": "ה",
     "name": "החלו עולים במעלות",
     "masechet": "Mishnah_Tamid",
     "perek": 6,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 49
   },
   {
     "letter": "ה",
     "name": "החליל",
     "masechet": "Mishnah_Sukkah",
     "perek": 5,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 8
   },
   {
     "letter": "ה",
     "name": "החרס",
     "masechet": "Mishnah_Kelim",
     "perek": 4,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 108
   },
   {
     "letter": "ה",
     "name": "הטומאה בכותל",
     "masechet": "Mishnah_Oholot",
     "perek": 7,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 109
   },
   {
     "letter": "ה",
     "name": "הטמא שירד",
     "masechet": "Mishnah_Mikvaot",
     "perek": 2,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 110
   },
   {
     "letter": "ה",
     "name": "היה מביא",
     "masechet": "Mishnah_Sotah",
     "perek": 2,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 30
   },
   {
     "letter": "ה",
     "name": "היה נוטל",
     "masechet": "Mishnah_Sotah",
     "perek": 3,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 31
   },
   {
     "letter": "ה",
     "name": "היה עובר בשוק",
     "masechet": "Mishnah_Maasrot",
     "perek": 2,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 79
   },
   {
     "letter": "ה",
@@ -1098,581 +1244,664 @@
     "name": "היו בודקין",
     "masechet": "Mishnah_Sanhedrin",
     "perek": 5,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 149
   },
   {
     "letter": "ה",
     "name": "הישן תחת המיטה",
     "masechet": "Mishnah_Sukkah",
     "perek": 2,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 9
   },
   {
     "letter": "ה",
     "name": "הכדור והאמום",
     "masechet": "Mishnah_Kelim",
     "perek": 23,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 111
   },
   {
     "letter": "ה",
     "name": "הכובש השולק המולח",
     "masechet": "Mishnah_Maasrot",
     "perek": 4,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 80
   },
   {
     "letter": "ה",
     "name": "הכונס צאן לדיר",
     "masechet": "Mishnah_Bava_Kamma",
     "perek": 6,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 150
   },
   {
     "letter": "ה",
     "name": "הכותב לאשתו",
     "masechet": "Mishnah_Ketubot",
     "perek": 9,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 32
   },
   {
     "letter": "ה",
     "name": "הכל חייבין בראיה",
     "masechet": "Mishnah_Chagigah",
     "perek": 1,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 10
   },
   {
     "letter": "ה",
     "name": "הכל מטמאין",
     "masechet": "Mishnah_Negaim",
     "perek": 3,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 112
   },
   {
     "letter": "ה",
     "name": "הכל מטמאין בזיבה",
     "masechet": "Mishnah_Zavim",
     "perek": 2,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 113
   },
   {
     "letter": "ה",
     "name": "הכל ממירין",
     "masechet": "Mishnah_Temurah",
     "perek": 1,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 50
   },
   {
     "letter": "ה",
     "name": "הכל מעריכין",
     "masechet": "Mishnah_Arakhin",
     "perek": 1,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 51
   },
   {
     "letter": "ה",
     "name": "הכל שוחטין",
     "masechet": "Mishnah_Chullin",
     "perek": 1,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 52
   },
   {
     "letter": "ה",
     "name": "הכרים והכסתות",
     "masechet": "Mishnah_Kelim",
     "perek": 20,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 114
   },
   {
     "letter": "ה",
     "name": "הלוקח בהמה",
     "masechet": "Mishnah_Bekhorot",
     "perek": 3,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 53
   },
   {
     "letter": "ה",
     "name": "הלוקח מן הנחתום",
     "masechet": "Mishnah_Demai",
     "perek": 5,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 81
   },
   {
     "letter": "ה",
     "name": "הלוקח עובר חמורו",
     "masechet": "Mishnah_Bekhorot",
     "perek": 1,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 54
   },
   {
     "letter": "ה",
     "name": "הלוקח עובר פרתו",
     "masechet": "Mishnah_Bekhorot",
     "perek": 2,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 55
   },
   {
     "letter": "ה",
     "name": "הלוקח פירות",
     "masechet": "Mishnah_Demai",
     "perek": 4,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 82
   },
   {
     "letter": "ה",
     "name": "המביא אשם",
     "masechet": "Mishnah_Keritot",
     "perek": 6,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 56
   },
   {
     "letter": "ה",
     "name": "המביא גט",
     "masechet": "Mishnah_Gittin",
     "perek": 1,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 33
   },
   {
     "letter": "ה",
     "name": "המביא גט (אחר)",
     "masechet": "Mishnah_Gittin",
     "perek": 2,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 34
   },
   {
     "letter": "ה",
     "name": "המביא כדי יין",
     "masechet": "Mishnah_Beitzah",
     "perek": 4,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 11
   },
   {
     "letter": "ה",
     "name": "המביא כלי חרס",
     "masechet": "Mishnah_Parah",
     "perek": 5,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 115
   },
   {
     "letter": "ה",
     "name": "המבריך את הגפן",
     "masechet": "Mishnah_Kilayim",
     "perek": 7,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 83
   },
   {
     "letter": "ה",
     "name": "המגרש",
     "masechet": "Mishnah_Gittin",
     "perek": 9,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 35
   },
   {
     "letter": "ה",
     "name": "המדיר",
     "masechet": "Mishnah_Ketubot",
     "perek": 7,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 36
   },
   {
     "letter": "ה",
     "name": "המוכר את הבית",
     "masechet": "Mishnah_Bava_Batra",
     "perek": 4,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 151
   },
   {
     "letter": "ה",
     "name": "המוכר את הספינה",
     "masechet": "Mishnah_Bava_Batra",
     "perek": 5,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 152
   },
   {
     "letter": "ה",
     "name": "המוכר את שדהו",
     "masechet": "Mishnah_Arakhin",
     "perek": 9,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 57
   },
   {
     "letter": "ה",
     "name": "המוכר פירות",
     "masechet": "Mishnah_Bava_Batra",
     "perek": 6,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 153
   },
   {
     "letter": "ה",
     "name": "המוליך פרות",
     "masechet": "Mishnah_Maaser_Sheni",
     "perek": 4,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 84
   },
   {
     "letter": "ה",
     "name": "המוצא תפילין",
     "masechet": "Mishnah_Eruvin",
     "perek": 10,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 12
   },
   {
     "letter": "ה",
     "name": "המוציא יין",
     "masechet": "Mishnah_Shabbat",
     "perek": 8,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 13
   },
   {
     "letter": "ה",
     "name": "המזבח היה שלשים ושתים",
     "masechet": "Mishnah_Middot",
     "perek": 3,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 58
   },
   {
     "letter": "ה",
     "name": "המזבח מקדש את הראוי לו",
     "masechet": "Mishnah_Zevachim",
     "perek": 9,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 59
   },
   {
     "letter": "ה",
     "name": "המזמין את חבירו",
     "masechet": "Mishnah_Demai",
     "perek": 7,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 85
   },
   {
     "letter": "ה",
     "name": "המכניס ידיו לבית המנוגע",
     "masechet": "Mishnah_Yadayim",
     "perek": 3,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 116
   },
   {
     "letter": "ה",
     "name": "המכנס חלות",
     "masechet": "Mishnah_Tevul_Yom",
     "perek": 1,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 117
   },
   {
     "letter": "ה",
     "name": "המנחות והנסכים",
     "masechet": "Mishnah_Menachot",
     "perek": 12,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 60
   },
   {
     "letter": "ה",
     "name": "המניח את הכד",
     "masechet": "Mishnah_Bava_Kamma",
     "perek": 3,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 154
   },
   {
     "letter": "ה",
     "name": "המניח כלים",
     "masechet": "Mishnah_Mikvaot",
     "perek": 4,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 118
   },
   {
     "letter": "ה",
     "name": "המעביר תאנים",
     "masechet": "Mishnah_Maasrot",
     "perek": 3,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 86
   },
   {
     "letter": "ה",
     "name": "המעלה פירותיו לגג",
     "masechet": "Mishnah_Makhshirin",
     "perek": 6,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 119
   },
   {
     "letter": "ה",
     "name": "המפלת",
     "masechet": "Mishnah_Niddah",
     "perek": 3,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 120
   },
   {
     "letter": "ה",
     "name": "המפקיד",
     "masechet": "Mishnah_Bava_Metzia",
     "perek": 3,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 155
   },
   {
     "letter": "ה",
     "name": "המפריש מקצת תרומה",
     "masechet": "Mishnah_Terumot",
     "perek": 4,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 87
   },
   {
     "letter": "ה",
     "name": "המפרק",
     "masechet": "Mishnah_Kelim",
     "perek": 19,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 121
   },
   {
     "letter": "ה",
     "name": "המצניע לזרע",
     "masechet": "Mishnah_Shabbat",
     "perek": 10,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 14
   },
   {
     "letter": "ה",
     "name": "המקבל שדה",
     "masechet": "Mishnah_Demai",
     "perek": 6,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 88
   },
   {
     "letter": "ה",
     "name": "המקבל שדה מחבירו",
     "masechet": "Mishnah_Bava_Metzia",
     "perek": 9,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 156
   },
   {
     "letter": "ה",
     "name": "המקדיש את שדהו",
     "masechet": "Mishnah_Arakhin",
     "perek": 8,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 61
   },
   {
     "letter": "ה",
     "name": "המקדש ונפל",
     "masechet": "Mishnah_Parah",
     "perek": 6,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 122
   },
   {
     "letter": "ה",
     "name": "המקנא לאשתו",
     "masechet": "Mishnah_Sotah",
     "perek": 1,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 37
   },
   {
     "letter": "ה",
     "name": "הנהנה שוה פרוטה",
     "masechet": "Mishnah_Meilah",
     "perek": 5,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 62
   },
   {
     "letter": "ה",
     "name": "הנוגע בזב",
     "masechet": "Mishnah_Zavim",
     "perek": 5,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 123
   },
   {
     "letter": "ה",
     "name": "הנוגע בכובד העליון",
     "masechet": "Mishnah_Kelim",
     "perek": 21,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 124
   },
   {
     "letter": "ה",
     "name": "הנודר מן הירק",
     "masechet": "Mishnah_Nedarim",
     "perek": 7,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 38
   },
   {
     "letter": "ה",
     "name": "הנודר מן המבושל",
     "masechet": "Mishnah_Nedarim",
     "perek": 6,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 39
   },
   {
     "letter": "ה",
     "name": "הנוטע לסייג",
     "masechet": "Mishnah_Orlah",
     "perek": 1,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 89
   },
   {
     "letter": "ה",
     "name": "הנושא את האשה",
     "masechet": "Mishnah_Ketubot",
     "perek": 12,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 40
   },
   {
     "letter": "ה",
     "name": "הניזקין",
     "masechet": "Mishnah_Gittin",
     "perek": 5,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 41
   },
   {
     "letter": "ה",
     "name": "הנכרים אין להם נזירות",
     "masechet": "Mishnah_Nazir",
     "perek": 9,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 42
   },
   {
     "letter": "ה",
     "name": "הנתקים",
     "masechet": "Mishnah_Negaim",
     "perek": 10,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 125
   },
   {
     "letter": "ה",
     "name": "הסייף והסכין והפיגיון",
     "masechet": "Mishnah_Kelim",
     "perek": 13,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 126
   },
   {
     "letter": "ה",
     "name": "העוקר שתלים",
     "masechet": "Mishnah_Maasrot",
     "perek": 5,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 90
   },
   {
     "letter": "ה",
     "name": "העור והרוטב",
     "masechet": "Mishnah_Chullin",
     "perek": 9,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 63
   },
   {
     "letter": "ה",
     "name": "העושה מאור",
     "masechet": "Mishnah_Oholot",
     "perek": 13,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 127
   },
   {
     "letter": "ה",
     "name": "העושה שלשה פטפוטים",
     "masechet": "Mishnah_Kelim",
     "perek": 6,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 128
   },
   {
     "letter": "ה",
     "name": "העיד רבי יהושע בן בתירא",
     "masechet": "Mishnah_Eduyot",
     "perek": 8,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 157
   },
   {
     "letter": "ה",
     "name": "העיד ר' יהושע ורבי צדוק",
     "masechet": "Mishnah_Eduyot",
     "perek": 7,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 158
   },
   {
     "letter": "ה",
     "name": "הערל",
     "masechet": "Mishnah_Yevamot",
     "perek": 8,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 43
   },
   {
     "letter": "ה",
     "name": "הפאה ניתנת במחובר",
     "masechet": "Mishnah_Peah",
     "perek": 4,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 91
   },
   {
     "letter": "ה",
     "name": "הפורח",
     "masechet": "Mishnah_Negaim",
     "perek": 8,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 129
   },
   {
     "letter": "ה",
     "name": "הפיגם והיברוזין",
     "masechet": "Mishnah_Sheviit",
     "perek": 9,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 92
   },
   {
     "letter": "ה",
     "name": "הקדר",
     "masechet": "Mishnah_Tahorot",
     "perek": 7,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 130
   },
   {
     "letter": "ה",
     "name": "הקומץ",
     "masechet": "Mishnah_Menachot",
     "perek": 2,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 64
   },
   {
     "letter": "ה",
     "name": "הקומץ (אחר)",
     "masechet": "Mishnah_Menachot",
     "perek": 3,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 65
   },
   {
     "letter": "ה",
     "name": "הקורא את המגילה למפרע",
     "masechet": "Mishnah_Megillah",
     "perek": 2,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 15
   },
   {
     "letter": "ה",
     "name": "הקורא את המגילה עומד",
     "masechet": "Mishnah_Megillah",
     "perek": 4,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 16
   },
   {
     "letter": "ה",
     "name": "הקלין שבדמאי",
     "masechet": "Mishnah_Demai",
     "perek": 1,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 93
   },
   {
     "letter": "ה",
     "name": "הקלתות",
     "masechet": "Mishnah_Kelim",
     "perek": 7,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 131
   },
   {
     "letter": "ה",
     "name": "הר הבית",
     "masechet": "Mishnah_Middot",
     "perek": 2,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 66
   },
   {
     "letter": "ה",
     "name": "הרואה כתם",
     "masechet": "Mishnah_Niddah",
     "perek": 8,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 132
   },
   {
     "letter": "ה",
@@ -1687,196 +1916,224 @@
     "name": "הרואה ראיה אחת",
     "masechet": "Mishnah_Zavim",
     "perek": 1,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 133
   },
   {
     "letter": "ה",
     "name": "הרוטב והכרישין",
     "masechet": "Mishnah_Tahorot",
     "perek": 3,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 134
   },
   {
     "letter": "ה",
     "name": "הרי עלי עשרון",
     "masechet": "Mishnah_Menachot",
     "perek": 13,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 67
   },
   {
     "letter": "ה",
     "name": "הריני נזיר",
     "masechet": "Mishnah_Nazir",
     "perek": 2,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 44
   },
   {
     "letter": "ה",
     "name": "השג יד",
     "masechet": "Mishnah_Arakhin",
     "perek": 4,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 68
   },
   {
     "letter": "ה",
     "name": "השואל את הפרה",
     "masechet": "Mishnah_Bava_Metzia",
     "perek": 8,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 159
   },
   {
     "letter": "ה",
     "name": "השוחה לשתות",
     "masechet": "Mishnah_Makhshirin",
     "perek": 4,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 135
   },
   {
     "letter": "ה",
     "name": "השוחט אחד בעוף",
     "masechet": "Mishnah_Chullin",
     "perek": 2,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 69
   },
   {
     "letter": "ה",
     "name": "השוחט והמעלה",
     "masechet": "Mishnah_Zevachim",
     "perek": 13,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 70
   },
   {
     "letter": "ה",
     "name": "השוכר את האומנין",
     "masechet": "Mishnah_Bava_Metzia",
     "perek": 6,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 160
   },
   {
     "letter": "ה",
     "name": "השוכר את הפועל",
     "masechet": "Mishnah_Avodah_Zarah",
     "perek": 5,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 161
   },
   {
     "letter": "ה",
     "name": "השוכר את הפועלים",
     "masechet": "Mishnah_Bava_Metzia",
     "perek": 7,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 162
   },
   {
     "letter": "ה",
     "name": "השולח גט",
     "masechet": "Mishnah_Gittin",
     "perek": 4,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 45
   },
   {
     "letter": "ה",
     "name": "השולחן והדולפקי",
     "masechet": "Mishnah_Kelim",
     "perek": 22,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 136
   },
   {
     "letter": "ה",
     "name": "השותפין שנדרו",
     "masechet": "Mishnah_Nedarim",
     "perek": 5,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 46
   },
   {
     "letter": "ה",
     "name": "השותפין שרצו לעשות",
     "masechet": "Mishnah_Bava_Batra",
     "perek": 1,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 163
   },
   {
     "letter": "ה",
     "name": "השחין והמכוה",
     "masechet": "Mishnah_Negaim",
     "perek": 9,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 137
   },
   {
     "letter": "ה",
     "name": "השידה",
     "masechet": "Mishnah_Kelim",
     "perek": 18,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 138
   },
   {
     "letter": "ה",
     "name": "השליח שעושה שליחותו",
     "masechet": "Mishnah_Meilah",
     "perek": 6,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 71
   },
   {
     "letter": "ה",
     "name": "השרץ והצפרדע",
     "masechet": "Mishnah_Tahorot",
     "perek": 5,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 139
   },
   {
     "letter": "ה",
     "name": "התודה",
     "masechet": "Mishnah_Menachot",
     "perek": 7,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 72
   },
   {
     "letter": "ה",
     "name": "התורם קישות",
     "masechet": "Mishnah_Terumot",
     "perek": 3,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 94
   },
   {
     "letter": "ה",
     "name": "התכלת",
     "masechet": "Mishnah_Menachot",
     "perek": 4,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 73
   },
   {
     "letter": "ה",
     "name": "התנור שחצצו",
     "masechet": "Mishnah_Kelim",
     "perek": 8,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 140
   },
   {
     "letter": "ה",
     "name": "התרומה והבכורים",
     "masechet": "Mishnah_Bikkurim",
     "perek": 2,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 95
   },
   {
     "letter": "ה",
     "name": "התרומה ותרומת מעשר",
     "masechet": "Mishnah_Orlah",
     "perek": 2,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 96
   },
   {
     "letter": "ה",
     "name": "התרומה מה היו עושין בה",
     "masechet": "Mishnah_Shekalim",
     "perek": 4,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 17
   },
   {
     "letter": "ו",
     "name": "ואלו דברים שמתעשרין",
     "masechet": "Mishnah_Demai",
     "perek": 2,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 7
   },
   {
     "letter": "ו",
@@ -1891,14 +2148,16 @@
     "name": "ואלו מותרין",
     "masechet": "Mishnah_Nedarim",
     "perek": 2,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 3
   },
   {
     "letter": "ו",
     "name": "ואלו נדרים",
     "masechet": "Mishnah_Nedarim",
     "perek": 11,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 4
   },
   {
     "letter": "ו",
@@ -1913,14 +2172,16 @@
     "name": "ולד חטאת",
     "masechet": "Mishnah_Temurah",
     "perek": 4,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 5
   },
   {
     "letter": "ו",
     "name": "ולד חטאת (אחר)",
     "masechet": "Mishnah_Meilah",
     "perek": 3,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 6
   },
   {
     "letter": "ז",
@@ -1943,7 +2204,8 @@
     "name": "זיתים שכבשן בטרפיהן",
     "masechet": "Mishnah_Oktzin",
     "perek": 2,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 3
   },
   {
     "letter": "ח",
@@ -1966,70 +2228,80 @@
     "name": "חזקת הבתים",
     "masechet": "Mishnah_Bava_Batra",
     "perek": 3,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 12
   },
   {
     "letter": "ח",
     "name": "חטאת העוף מועלין בה",
     "masechet": "Mishnah_Meilah",
     "perek": 2,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 6
   },
   {
     "letter": "ח",
     "name": "חטאת העוף נעשית",
     "masechet": "Mishnah_Kinnim",
     "perek": 1,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 7
   },
   {
     "letter": "ח",
     "name": "חטאת העוף שעשאה",
     "masechet": "Mishnah_Zevachim",
     "perek": 7,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 8
   },
   {
     "letter": "ח",
     "name": "חלון",
     "masechet": "Mishnah_Eruvin",
     "perek": 7,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 3
   },
   {
     "letter": "ח",
     "name": "חמש עשרה נשים",
     "masechet": "Mishnah_Yevamot",
     "perek": 1,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 4
   },
   {
     "letter": "ח",
     "name": "חמשה דברים",
     "masechet": "Mishnah_Challah",
     "perek": 1,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 9
   },
   {
     "letter": "ח",
     "name": "חמשה לא יתרומו",
     "masechet": "Mishnah_Terumot",
     "perek": 1,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 10
   },
   {
     "letter": "ח",
     "name": "חמשה שמלאו",
     "masechet": "Mishnah_Parah",
     "perek": 7,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 11
   },
   {
     "letter": "ח",
     "name": "חרש שנשא פקחת",
     "masechet": "Mishnah_Yevamot",
     "perek": 14,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 5
   },
   {
     "letter": "ט",
@@ -2044,7 +2316,8 @@
     "name": "טבעת אדם",
     "masechet": "Mishnah_Kelim",
     "perek": 12,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 3
   },
   {
     "letter": "ט",
@@ -2059,7 +2332,8 @@
     "name": "ידיעות הטומאה",
     "masechet": "Mishnah_Shevuot",
     "perek": 2,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 16
   },
   {
     "letter": "י",
@@ -2074,7 +2348,8 @@
     "name": "יום טוב שחל להיות ערב שבת",
     "masechet": "Mishnah_Beitzah",
     "perek": 2,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 3
   },
   {
     "letter": "י",
@@ -2089,154 +2364,176 @@
     "name": "יוצא דופן",
     "masechet": "Mishnah_Niddah",
     "perek": 5,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 11
   },
   {
     "letter": "י",
     "name": "יציאות השבת",
     "masechet": "Mishnah_Shabbat",
     "perek": 1,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 4
   },
   {
     "letter": "י",
     "name": "יש בכור",
     "masechet": "Mishnah_Bekhorot",
     "perek": 8,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 6
   },
   {
     "letter": "י",
     "name": "יש בערכין",
     "masechet": "Mishnah_Arakhin",
     "perek": 3,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 7
   },
   {
     "letter": "י",
     "name": "יש בקדשי מזבח",
     "masechet": "Mishnah_Temurah",
     "perek": 7,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 8
   },
   {
     "letter": "י",
     "name": "יש בקרבנות",
     "masechet": "Mishnah_Temurah",
     "perek": 2,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 9
   },
   {
     "letter": "י",
     "name": "יש בשיער לבן",
     "masechet": "Mishnah_Negaim",
     "perek": 4,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 12
   },
   {
     "letter": "י",
     "name": "יש מביאין את הטומאה",
     "masechet": "Mishnah_Oholot",
     "perek": 8,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 13
   },
   {
     "letter": "י",
     "name": "יש מביאין בכורים",
     "masechet": "Mishnah_Bikkurim",
     "perek": 1,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 10
   },
   {
     "letter": "י",
     "name": "יש מותרות",
     "masechet": "Mishnah_Yevamot",
     "perek": 9,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 5
   },
   {
     "letter": "י",
     "name": "יש מעלין",
     "masechet": "Mishnah_Mikvaot",
     "perek": 7,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 14
   },
   {
     "letter": "י",
     "name": "יש נוחלין",
     "masechet": "Mishnah_Bava_Batra",
     "perek": 8,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 17
   },
   {
     "letter": "י",
     "name": "יש צריכין",
     "masechet": "Mishnah_Oktzin",
     "perek": 3,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 15
   },
   {
     "letter": "כ",
     "name": "כהן גדול דן",
     "masechet": "Mishnah_Sanhedrin",
     "perek": 2,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 64
   },
   {
     "letter": "כ",
     "name": "כהן גדול ונזיר",
     "masechet": "Mishnah_Nazir",
     "perek": 7,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 12
   },
   {
     "letter": "כ",
     "name": "כהן משיח",
     "masechet": "Mishnah_Horayot",
     "perek": 3,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 65
   },
   {
     "letter": "כ",
     "name": "כוורת",
     "masechet": "Mishnah_Oholot",
     "perek": 9,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 41
   },
   {
     "letter": "כ",
     "name": "כיסוי הדם",
     "masechet": "Mishnah_Chullin",
     "perek": 6,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 18
   },
   {
     "letter": "כ",
     "name": "כיצד אשת אחיו",
     "masechet": "Mishnah_Yevamot",
     "perek": 2,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 13
   },
   {
     "letter": "כ",
     "name": "כיצד בוצרין",
     "masechet": "Mishnah_Oholot",
     "perek": 18,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 42
   },
   {
     "letter": "כ",
     "name": "כיצד העדים נעשים זוממין",
     "masechet": "Mishnah_Makkot",
     "perek": 1,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 66
   },
   {
     "letter": "כ",
     "name": "כיצד הרגל מועדת",
     "masechet": "Mishnah_Bava_Kamma",
     "perek": 2,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 67
   },
   {
     "letter": "כ",
@@ -2251,7 +2548,8 @@
     "name": "כיצד מטהרין",
     "masechet": "Mishnah_Negaim",
     "perek": 14,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 43
   },
   {
     "letter": "כ",
@@ -2266,434 +2564,496 @@
     "name": "כיצד מערימין",
     "masechet": "Mishnah_Temurah",
     "perek": 5,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 19
   },
   {
     "letter": "כ",
     "name": "כיצד מפרישין",
     "masechet": "Mishnah_Bikkurim",
     "perek": 3,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 32
   },
   {
     "letter": "כ",
     "name": "כיצד משתתפין",
     "masechet": "Mishnah_Eruvin",
     "perek": 8,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 3
   },
   {
     "letter": "כ",
     "name": "כיצד צולין",
     "masechet": "Mishnah_Pesachim",
     "perek": 7,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 4
   },
   {
     "letter": "כ",
     "name": "כירה",
     "masechet": "Mishnah_Shabbat",
     "perek": 3,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 5
   },
   {
     "letter": "כ",
     "name": "כל גגות העיר",
     "masechet": "Mishnah_Eruvin",
     "perek": 9,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 6
   },
   {
     "letter": "כ",
     "name": "כל האסורין",
     "masechet": "Mishnah_Temurah",
     "perek": 6,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 20
   },
   {
     "letter": "כ",
     "name": "כל הבגדים",
     "masechet": "Mishnah_Negaim",
     "perek": 11,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 44
   },
   {
     "letter": "כ",
     "name": "כל הבשר",
     "masechet": "Mishnah_Chullin",
     "perek": 8,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 21
   },
   {
     "letter": "כ",
     "name": "כל הבתים",
     "masechet": "Mishnah_Negaim",
     "perek": 12,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 45
   },
   {
     "letter": "כ",
     "name": "כל הגט",
     "masechet": "Mishnah_Gittin",
     "perek": 3,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 14
   },
   {
     "letter": "כ",
     "name": "כל הזבחים שנזבחו",
     "masechet": "Mishnah_Zevachim",
     "perek": 1,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 22
   },
   {
     "letter": "כ",
     "name": "כל הזבחים שנתערבו",
     "masechet": "Mishnah_Zevachim",
     "perek": 8,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 23
   },
   {
     "letter": "כ",
     "name": "כל הזבחים שקבלו דמן",
     "masechet": "Mishnah_Zevachim",
     "perek": 2,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 24
   },
   {
     "letter": "כ",
     "name": "כל היד",
     "masechet": "Mishnah_Niddah",
     "perek": 2,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 46
   },
   {
     "letter": "כ",
     "name": "כל הכלים יש להם",
     "masechet": "Mishnah_Kelim",
     "perek": 25,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 47
   },
   {
     "letter": "כ",
     "name": "כל הכלים ניטלין",
     "masechet": "Mishnah_Shabbat",
     "perek": 17,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 7
   },
   {
     "letter": "כ",
     "name": "כל המטלטלין",
     "masechet": "Mishnah_Oholot",
     "perek": 16,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 48
   },
   {
     "letter": "כ",
     "name": "כל המטמאין באהל",
     "masechet": "Mishnah_Oholot",
     "perek": 3,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 49
   },
   {
     "letter": "כ",
     "name": "כל המטמאין באהל",
     "masechet": "Mishnah_Eduyot",
     "perek": 3,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 68
   },
   {
     "letter": "כ",
     "name": "כל המנחות באות",
     "masechet": "Mishnah_Menachot",
     "perek": 5,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 25
   },
   {
     "letter": "כ",
     "name": "כל המנחות שנקמצו",
     "masechet": "Mishnah_Menachot",
     "perek": 1,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 26
   },
   {
     "letter": "כ",
     "name": "כל המעורב למקוה",
     "masechet": "Mishnah_Mikvaot",
     "perek": 6,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 50
   },
   {
     "letter": "כ",
     "name": "כל הנשבעין",
     "masechet": "Mishnah_Shevuot",
     "perek": 7,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 69
   },
   {
     "letter": "כ",
     "name": "כל העזרה",
     "masechet": "Mishnah_Middot",
     "perek": 5,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 27
   },
   {
     "letter": "כ",
     "name": "כל הפסולין",
     "masechet": "Mishnah_Zevachim",
     "perek": 3,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 28
   },
   {
     "letter": "כ",
     "name": "כל הצלמים",
     "masechet": "Mishnah_Avodah_Zarah",
     "perek": 3,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 70
   },
   {
     "letter": "כ",
     "name": "כל הראוי",
     "masechet": "Mishnah_Parah",
     "perek": 10,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 51
   },
   {
     "letter": "כ",
     "name": "כל הרוקין",
     "masechet": "Mishnah_Shekalim",
     "perek": 8,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 8
   },
   {
     "letter": "כ",
     "name": "כל התדיר מחבירו",
     "masechet": "Mishnah_Zevachim",
     "perek": 10,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 29
   },
   {
     "letter": "כ",
     "name": "כל זית שיש לו שם",
     "masechet": "Mishnah_Peah",
     "perek": 7,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 33
   },
   {
     "letter": "כ",
     "name": "כל ידות האוכלין",
     "masechet": "Mishnah_Tevul_Yom",
     "perek": 3,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 52
   },
   {
     "letter": "כ",
     "name": "כל ידות הכלים",
     "masechet": "Mishnah_Mikvaot",
     "perek": 10,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 53
   },
   {
     "letter": "כ",
     "name": "כל ישראל יש להם חלק",
     "masechet": "Mishnah_Sanhedrin",
     "perek": 10,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 71
   },
   {
     "letter": "כ",
     "name": "כל כלי בעלי בתים",
     "masechet": "Mishnah_Kelim",
     "perek": 17,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 54
   },
   {
     "letter": "כ",
     "name": "כל כלי עץ",
     "masechet": "Mishnah_Kelim",
     "perek": 16,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 55
   },
   {
     "letter": "כ",
     "name": "כל כנויי נדרים",
     "masechet": "Mishnah_Nedarim",
     "perek": 1,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 15
   },
   {
     "letter": "כ",
     "name": "כל כנויי נזירות",
     "masechet": "Mishnah_Nazir",
     "perek": 1,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 16
   },
   {
     "letter": "כ",
     "name": "כל כתבי הקודש",
     "masechet": "Mishnah_Shabbat",
     "perek": 16,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 9
   },
   {
     "letter": "כ",
     "name": "כל משקה",
     "masechet": "Mishnah_Makhshirin",
     "perek": 1,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 56
   },
   {
     "letter": "כ",
     "name": "כל סאה",
     "masechet": "Mishnah_Kilayim",
     "perek": 2,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 34
   },
   {
     "letter": "כ",
     "name": "כל ספק נגעים",
     "masechet": "Mishnah_Negaim",
     "perek": 5,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 57
   },
   {
     "letter": "כ",
     "name": "כל פסולי המוקדשין",
     "masechet": "Mishnah_Bekhorot",
     "perek": 5,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 30
   },
   {
     "letter": "כ",
     "name": "כל קרבנות הציבור",
     "masechet": "Mishnah_Menachot",
     "perek": 8,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 31
   },
   {
     "letter": "כ",
     "name": "כל שהוא יד",
     "masechet": "Mishnah_Oktzin",
     "perek": 1,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 58
   },
   {
     "letter": "כ",
     "name": "כל שעה",
     "masechet": "Mishnah_Pesachim",
     "perek": 2,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 10
   },
   {
     "letter": "כ",
     "name": "כלאי הכרם",
     "masechet": "Mishnah_Kilayim",
     "perek": 8,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 35
   },
   {
     "letter": "כ",
     "name": "כלי זכוכית",
     "masechet": "Mishnah_Kelim",
     "perek": 30,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 59
   },
   {
     "letter": "כ",
     "name": "כלי מתכות כמה הוא",
     "masechet": "Mishnah_Kelim",
     "perek": 14,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 60
   },
   {
     "letter": "כ",
     "name": "כלי מתכות פשוטיהן",
     "masechet": "Mishnah_Kelim",
     "perek": 11,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 61
   },
   {
     "letter": "כ",
     "name": "כלי עץ",
     "masechet": "Mishnah_Kelim",
     "perek": 2,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 62
   },
   {
     "letter": "כ",
     "name": "כלי עץ (אחר)",
     "masechet": "Mishnah_Kelim",
     "perek": 15,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 63
   },
   {
     "letter": "כ",
     "name": "כלל אמרו במעשרות",
     "masechet": "Mishnah_Maasrot",
     "perek": 1,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 36
   },
   {
     "letter": "כ",
     "name": "כלל גדול אמרו",
     "masechet": "Mishnah_Sheviit",
     "perek": 7,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 37
   },
   {
     "letter": "כ",
     "name": "כלל גדול אמרו",
     "masechet": "Mishnah_Sheviit",
     "perek": 8,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 38
   },
   {
     "letter": "כ",
     "name": "כלל גדול אמרו בשבת",
     "masechet": "Mishnah_Shabbat",
     "perek": 7,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 11
   },
   {
     "letter": "כ",
     "name": "כרם רבעי",
     "masechet": "Mishnah_Maaser_Sheni",
     "perek": 5,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 39
   },
   {
     "letter": "כ",
     "name": "כרם שחרב",
     "masechet": "Mishnah_Kilayim",
     "perek": 5,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 40
   },
   {
     "letter": "כ",
     "name": "כשם שהמים בודקין",
     "masechet": "Mishnah_Sotah",
     "perek": 5,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 17
   },
   {
     "letter": "ל",
     "name": "לא היו כופתין",
     "masechet": "Mishnah_Tamid",
     "perek": 4,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 3
   },
   {
     "letter": "ל",
     "name": "לא יאמר אדם לחבירו",
     "masechet": "Mishnah_Maaser_Sheni",
     "perek": 3,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 4
   },
   {
     "letter": "ל",
     "name": "לא יחפור",
     "masechet": "Mishnah_Bava_Batra",
     "perek": 2,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 5
   },
   {
     "letter": "ל",
@@ -2716,28 +3076,32 @@
     "name": "לפני אידיהן",
     "masechet": "Mishnah_Avodah_Zarah",
     "perek": 1,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 6
   },
   {
     "letter": "מ",
     "name": "מאימתי כל אדם מותרין",
     "masechet": "Mishnah_Peah",
     "perek": 8,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 27
   },
   {
     "letter": "מ",
     "name": "מאימתי מוציאין",
     "masechet": "Mishnah_Sheviit",
     "perek": 3,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 28
   },
   {
     "letter": "מ",
     "name": "מאימתי מזכירין",
     "masechet": "Mishnah_Taanit",
     "perek": 1,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 3
   },
   {
     "letter": "מ",
@@ -2752,119 +3116,136 @@
     "name": "מאכילין את העניים דמאי",
     "masechet": "Mishnah_Demai",
     "perek": 3,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 29
   },
   {
     "letter": "מ",
     "name": "מבוי",
     "masechet": "Mishnah_Eruvin",
     "perek": 1,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 4
   },
   {
     "letter": "מ",
     "name": "מגדל",
     "masechet": "Mishnah_Oholot",
     "perek": 4,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 33
   },
   {
     "letter": "מ",
     "name": "מגילה נקראת",
     "masechet": "Mishnah_Megillah",
     "perek": 1,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 5
   },
   {
     "letter": "מ",
     "name": "מומין אלו",
     "masechet": "Mishnah_Bekhorot",
     "perek": 7,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 25
   },
   {
     "letter": "מ",
     "name": "מחט או טבעת",
     "masechet": "Mishnah_Kelim",
     "perek": 9,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 34
   },
   {
     "letter": "מ",
     "name": "מי רביעית",
     "masechet": "Mishnah_Yadayim",
     "perek": 1,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 35
   },
   {
     "letter": "מ",
     "name": "מי שאחזו קורדיקוס",
     "masechet": "Mishnah_Gittin",
     "perek": 7,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 16
   },
   {
     "letter": "מ",
     "name": "מי שאמר הריני נזיר ושמע",
     "masechet": "Mishnah_Nazir",
     "perek": 4,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 17
   },
   {
     "letter": "מ",
     "name": "מי שאמר הריני נזיר מגלח",
     "masechet": "Mishnah_Nazir",
     "perek": 3,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 18
   },
   {
     "letter": "מ",
     "name": "מי שהוציאוהו עובדי כוכבים",
     "masechet": "Mishnah_Eruvin",
     "perek": 4,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 6
   },
   {
     "letter": "מ",
     "name": "מי שהחשיך",
     "masechet": "Mishnah_Shabbat",
     "perek": 24,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 7
   },
   {
     "letter": "מ",
     "name": "מי שהיה טמא",
     "masechet": "Mishnah_Pesachim",
     "perek": 9,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 8
   },
   {
     "letter": "מ",
     "name": "מי שהיה נשוי",
     "masechet": "Mishnah_Ketubot",
     "perek": 10,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 19
   },
   {
     "letter": "מ",
     "name": "מי שהפך",
     "masechet": "Mishnah_Moed_Katan",
     "perek": 2,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 9
   },
   {
     "letter": "מ",
     "name": "מי שטבל",
     "masechet": "Mishnah_Makhshirin",
     "perek": 5,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 36
   },
   {
     "letter": "מ",
     "name": "מי שמת",
     "masechet": "Mishnah_Bava_Batra",
     "perek": 9,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 41
   },
   {
     "letter": "מ",
@@ -2879,147 +3260,168 @@
     "name": "מי שקינא לאשתו",
     "masechet": "Mishnah_Sotah",
     "perek": 6,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 20
   },
   {
     "letter": "מ",
     "name": "מלבנות התבואה",
     "masechet": "Mishnah_Peah",
     "perek": 3,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 30
   },
   {
     "letter": "מ",
     "name": "מעות שנמצאו",
     "masechet": "Mishnah_Shekalim",
     "perek": 7,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 10
   },
   {
     "letter": "מ",
     "name": "מעין",
     "masechet": "Mishnah_Mikvaot",
     "perek": 5,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 37
   },
   {
     "letter": "מ",
     "name": "מעשר בהמה",
     "masechet": "Mishnah_Bekhorot",
     "perek": 9,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 26
   },
   {
     "letter": "מ",
     "name": "מעשר שני אין מוכרין",
     "masechet": "Mishnah_Maaser_Sheni",
     "perek": 1,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 31
   },
   {
     "letter": "מ",
     "name": "מעשר שני ניתן לאכילה",
     "masechet": "Mishnah_Maaser_Sheni",
     "perek": 2,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 32
   },
   {
     "letter": "מ",
     "name": "מפנין",
     "masechet": "Mishnah_Shabbat",
     "perek": 18,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 11
   },
   {
     "letter": "מ",
     "name": "מצות חליצה",
     "masechet": "Mishnah_Yevamot",
     "perek": 12,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 21
   },
   {
     "letter": "מ",
     "name": "מציאת האשה",
     "masechet": "Mishnah_Ketubot",
     "perek": 6,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 22
   },
   {
     "letter": "מ",
     "name": "מצרפין",
     "masechet": "Mishnah_Shekalim",
     "perek": 2,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 12
   },
   {
     "letter": "מ",
     "name": "מקום שהיה רשות היחיד",
     "masechet": "Mishnah_Tahorot",
     "perek": 6,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 38
   },
   {
     "letter": "מ",
     "name": "מקום שנהגו",
     "masechet": "Mishnah_Pesachim",
     "perek": 4,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 13
   },
   {
     "letter": "מ",
     "name": "מראות נגעים",
     "masechet": "Mishnah_Negaim",
     "perek": 1,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 39
   },
   {
     "letter": "מ",
     "name": "מרובה",
     "masechet": "Mishnah_Bava_Kamma",
     "perek": 7,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 42
   },
   {
     "letter": "מ",
     "name": "משה קבל תורה",
     "masechet": "Mishnah_Avot",
     "perek": 1,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 24
   },
   {
     "letter": "מ",
     "name": "משוח מלחמה",
     "masechet": "Mishnah_Sotah",
     "perek": 8,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 23
   },
   {
     "letter": "מ",
     "name": "משילין פירות",
     "masechet": "Mishnah_Beitzah",
     "perek": 5,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 14
   },
   {
     "letter": "מ",
     "name": "משקה טבול יום",
     "masechet": "Mishnah_Tevul_Yom",
     "perek": 2,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 40
   },
   {
     "letter": "מ",
     "name": "משקין בית השלחין",
     "masechet": "Mishnah_Moed_Katan",
     "perek": 1,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 15
   },
   {
     "letter": "נ",
     "name": "נגמר הדין",
     "masechet": "Mishnah_Sanhedrin",
     "perek": 6,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 8
   },
   {
     "letter": "נ",
@@ -3034,7 +3436,8 @@
     "name": "נומי הסדין",
     "masechet": "Mishnah_Kelim",
     "perek": 29,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 5
   },
   {
     "letter": "נ",
@@ -3049,42 +3452,48 @@
     "name": "נטל לידו אחת",
     "masechet": "Mishnah_Yadayim",
     "perek": 2,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 6
   },
   {
     "letter": "נ",
     "name": "נסר",
     "masechet": "Mishnah_Oholot",
     "perek": 12,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 7
   },
   {
     "letter": "נ",
     "name": "נערה המאורסה",
     "masechet": "Mishnah_Nedarim",
     "perek": 10,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 3
   },
   {
     "letter": "נ",
     "name": "נערה שנתפתתה",
     "masechet": "Mishnah_Ketubot",
     "perek": 4,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 4
   },
   {
     "letter": "ס",
     "name": "סאה תרומה טמאה",
     "masechet": "Mishnah_Terumot",
     "perek": 5,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 5
   },
   {
     "letter": "ס",
     "name": "סגוס",
     "masechet": "Mishnah_Oholot",
     "perek": 15,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 6
   },
   {
     "letter": "ס",
@@ -3099,7 +3508,8 @@
     "name": "סדר תעניות כיצד",
     "masechet": "Mishnah_Taanit",
     "perek": 2,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 3
   },
   {
     "letter": "ס",
@@ -3114,42 +3524,48 @@
     "name": "סנדל עמקי",
     "masechet": "Mishnah_Kelim",
     "perek": 26,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 7
   },
   {
     "letter": "ס",
     "name": "ספק אכל חלב",
     "masechet": "Mishnah_Keritot",
     "perek": 4,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 4
   },
   {
     "letter": "ע",
     "name": "עגלה ערופה",
     "masechet": "Mishnah_Sotah",
     "perek": 9,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 3
   },
   {
     "letter": "ע",
     "name": "עד אימתי חורשין בשדה האילן",
     "masechet": "Mishnah_Sheviit",
     "perek": 1,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 8
   },
   {
     "letter": "ע",
     "name": "עד אימתי חורשין בשדה הלבן",
     "masechet": "Mishnah_Sheviit",
     "perek": 2,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 9
   },
   {
     "letter": "ע",
     "name": "עד כמה",
     "masechet": "Mishnah_Bekhorot",
     "perek": 4,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 6
   },
   {
     "letter": "ע",
@@ -3164,14 +3580,16 @@
     "name": "על אלו מומין",
     "masechet": "Mishnah_Bekhorot",
     "perek": 6,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 7
   },
   {
     "letter": "ע",
     "name": "עקביא בן מהללאל",
     "masechet": "Mishnah_Avot",
     "perek": 3,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 5
   },
   {
     "letter": "ע",
@@ -3186,21 +3604,24 @@
     "name": "ערוגה",
     "masechet": "Mishnah_Kilayim",
     "perek": 3,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 10
   },
   {
     "letter": "ע",
     "name": "עשרה בתים",
     "masechet": "Mishnah_Negaim",
     "perek": 13,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 11
   },
   {
     "letter": "ע",
     "name": "עשרה יוחסין",
     "masechet": "Mishnah_Kiddushin",
     "perek": 4,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 4
   },
   {
     "letter": "פ",
@@ -3223,14 +3644,16 @@
     "name": "פרת חטאת",
     "masechet": "Mishnah_Parah",
     "perek": 4,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 4
   },
   {
     "letter": "פ",
     "name": "פתחו של היכל",
     "masechet": "Mishnah_Middot",
     "perek": 4,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 3
   },
   {
     "letter": "צ",
@@ -3261,14 +3684,16 @@
     "name": "קדשי קדשים ששחטן בדרום",
     "masechet": "Mishnah_Meilah",
     "perek": 1,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 3
   },
   {
     "letter": "ק",
     "name": "קדשי קדשים ששחטן בראש המזבח",
     "masechet": "Mishnah_Zevachim",
     "perek": 6,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 4
   },
   {
     "letter": "ק",
@@ -3283,21 +3708,24 @@
     "name": "קן סתומה",
     "masechet": "Mishnah_Kinnim",
     "perek": 2,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 5
   },
   {
     "letter": "ק",
     "name": "קרחת הכרם",
     "masechet": "Mishnah_Kilayim",
     "perek": 4,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 6
   },
   {
     "letter": "ר",
     "name": "ראוהו אחיו",
     "masechet": "Mishnah_Tamid",
     "perek": 2,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 8
   },
   {
     "letter": "ר",
@@ -3312,77 +3740,88 @@
     "name": "ראשית הגז",
     "masechet": "Mishnah_Chullin",
     "perek": 11,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 9
   },
   {
     "letter": "ר",
     "name": "רבי אומר",
     "masechet": "Mishnah_Avot",
     "perek": 2,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 7
   },
   {
     "letter": "ר",
     "name": "רבי אליעזר אומר פותחין",
     "masechet": "Mishnah_Nedarim",
     "perek": 9,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 5
   },
   {
     "letter": "ר",
     "name": "רבי אליעזר אומר פרת חטאת",
     "masechet": "Mishnah_Parah",
     "perek": 2,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 11
   },
   {
     "letter": "ר",
     "name": "רבי אליעזר דמילה",
     "masechet": "Mishnah_Shabbat",
     "perek": 19,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 3
   },
   {
     "letter": "ר",
     "name": "רבי חנניא סגן הכהנים",
     "masechet": "Mishnah_Eduyot",
     "perek": 2,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 15
   },
   {
     "letter": "ר",
     "name": "רבי יהודה אומר ששה דברים",
     "masechet": "Mishnah_Eduyot",
     "perek": 5,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 16
   },
   {
     "letter": "ר",
     "name": "רבי יהודה בן בבא",
     "masechet": "Mishnah_Eduyot",
     "perek": 6,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 17
   },
   {
     "letter": "ר",
     "name": "רבי ישמעאל אומר העומר",
     "masechet": "Mishnah_Menachot",
     "perek": 10,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 10
   },
   {
     "letter": "ר",
     "name": "רבי ישמעאל אומר שלש אבנים",
     "masechet": "Mishnah_Avodah_Zarah",
     "perek": 4,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 18
   },
   {
     "letter": "ר",
     "name": "רבן גמליאל",
     "masechet": "Mishnah_Yevamot",
     "perek": 5,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 6
   },
   {
     "letter": "ר",
@@ -3397,84 +3836,96 @@
     "name": "ר' אליעזר אומר עגלה בת שתים",
     "masechet": "Mishnah_Parah",
     "perek": 1,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 12
   },
   {
     "letter": "ר",
     "name": "ר' אליעזר דתולין",
     "masechet": "Mishnah_Shabbat",
     "perek": 20,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 4
   },
   {
     "letter": "ר",
     "name": "ר' יהושע אומר",
     "masechet": "Mishnah_Zavim",
     "perek": 4,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 13
   },
   {
     "letter": "ר",
     "name": "ר' יוסי אומר",
     "masechet": "Mishnah_Mikvaot",
     "perek": 3,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 14
   },
   {
     "letter": "ש",
     "name": "שבועות שתים שהן ד'",
     "masechet": "Mishnah_Shevuot",
     "perek": 1,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 28
   },
   {
     "letter": "ש",
     "name": "שבועות שתים שהן ד' (שני)",
     "masechet": "Mishnah_Shevuot",
     "perek": 3,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 29
   },
   {
     "letter": "ש",
     "name": "שבועת הדיינין",
     "masechet": "Mishnah_Shevuot",
     "perek": 6,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 30
   },
   {
     "letter": "ש",
     "name": "שבועת העדות",
     "masechet": "Mishnah_Shevuot",
     "perek": 4,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 31
   },
   {
     "letter": "ש",
     "name": "שבועת הפקדון",
     "masechet": "Mishnah_Shevuot",
     "perek": 5,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 32
   },
   {
     "letter": "ש",
     "name": "שביעית משמטת",
     "masechet": "Mishnah_Sheviit",
     "perek": 10,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 15
   },
   {
     "letter": "ש",
     "name": "שבעה ימים קודם יום הכיפורים",
     "masechet": "Mishnah_Yoma",
     "perek": 1,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 3
   },
   {
     "letter": "ש",
     "name": "שבעת ימים קודם לשריפת הפרה",
     "masechet": "Mishnah_Parah",
     "perek": 3,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 18
   },
   {
     "letter": "ש",
@@ -3489,42 +3940,48 @@
     "name": "שום היתומים",
     "masechet": "Mishnah_Arakhin",
     "perek": 6,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 10
   },
   {
     "letter": "ש",
     "name": "שור שנגח את הפרה",
     "masechet": "Mishnah_Bava_Kamma",
     "perek": 5,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 33
   },
   {
     "letter": "ש",
     "name": "שור שנגח ד' וה'",
     "masechet": "Mishnah_Bava_Kamma",
     "perek": 4,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 34
   },
   {
     "letter": "ש",
     "name": "שילוח הקן",
     "masechet": "Mishnah_Chullin",
     "perek": 12,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 11
   },
   {
     "letter": "ש",
     "name": "שיעור כלי חרס",
     "masechet": "Mishnah_Kelim",
     "perek": 3,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 19
   },
   {
     "letter": "ש",
     "name": "שלושה מינין",
     "masechet": "Mishnah_Nazir",
     "perek": 6,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 7
   },
   {
     "letter": "ש",
@@ -3539,147 +3996,168 @@
     "name": "שלושים ושש כריתות",
     "masechet": "Mishnah_Keritot",
     "perek": 1,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 12
   },
   {
     "letter": "ש",
     "name": "שלש ארצות",
     "masechet": "Mishnah_Sheviit",
     "perek": 6,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 16
   },
   {
     "letter": "ש",
     "name": "שלש על שלש",
     "masechet": "Mishnah_Kelim",
     "perek": 28,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 20
   },
   {
     "letter": "ש",
     "name": "שלשה עשר דברים",
     "masechet": "Mishnah_Tahorot",
     "perek": 1,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 21
   },
   {
     "letter": "ש",
     "name": "שלשה עשר שופרות",
     "masechet": "Mishnah_Shekalim",
     "perek": 6,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 4
   },
   {
     "letter": "ש",
     "name": "שלשה תריסין",
     "masechet": "Mishnah_Kelim",
     "perek": 24,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 22
   },
   {
     "letter": "ש",
     "name": "שמאי אומר",
     "masechet": "Mishnah_Niddah",
     "perek": 1,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 23
   },
   {
     "letter": "ש",
     "name": "שמאי אומר",
     "masechet": "Mishnah_Eduyot",
     "perek": 1,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 35
   },
   {
     "letter": "ש",
     "name": "שמונה שרצים",
     "masechet": "Mishnah_Shabbat",
     "perek": 14,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 5
   },
   {
     "letter": "ש",
     "name": "שני דייני גזירות",
     "masechet": "Mishnah_Ketubot",
     "perek": 13,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 8
   },
   {
     "letter": "ש",
     "name": "שני נזירים",
     "masechet": "Mishnah_Nazir",
     "perek": 8,
-    "seder": "Nashim"
+    "seder": "Nashim",
+    "priority": 9
   },
   {
     "letter": "ש",
     "name": "שני שעירי יום הכיפורים",
     "masechet": "Mishnah_Yoma",
     "perek": 6,
-    "seder": "Moed"
+    "seder": "Moed",
+    "priority": 6
   },
   {
     "letter": "ש",
     "name": "שנים אוחזין",
     "masechet": "Mishnah_Bava_Metzia",
     "perek": 1,
-    "seder": "Nezikin"
+    "seder": "Nezikin",
+    "priority": 36
   },
   {
     "letter": "ש",
     "name": "שנים טמאין",
     "masechet": "Mishnah_Oholot",
     "perek": 1,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 24
   },
   {
     "letter": "ש",
     "name": "שנים שהיו שומרים",
     "masechet": "Mishnah_Parah",
     "perek": 8,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 25
   },
   {
     "letter": "ש",
     "name": "שק שהוא מלא פירות",
     "masechet": "Mishnah_Makhshirin",
     "perek": 3,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 26
   },
   {
     "letter": "ש",
     "name": "שש מעלות",
     "masechet": "Mishnah_Mikvaot",
     "perek": 1,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 27
   },
   {
     "letter": "ש",
     "name": "שתי הלחם",
     "masechet": "Mishnah_Menachot",
     "perek": 11,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 13
   },
   {
     "letter": "ש",
     "name": "שתי מידות",
     "masechet": "Mishnah_Menachot",
     "perek": 9,
-    "seder": "Kodashim"
+    "seder": "Kodashim",
+    "priority": 14
   },
   {
     "letter": "ש",
     "name": "שתי נשים",
     "masechet": "Mishnah_Challah",
     "perek": 4,
-    "seder": "Zeraim"
+    "seder": "Zeraim",
+    "priority": 17
   },
   {
     "letter": "ת",
     "name": "תינוקת",
     "masechet": "Mishnah_Niddah",
     "perek": 10,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 3
   },
   {
     "letter": "ת",
@@ -3694,14 +4172,16 @@
     "name": "תנור שהוא עומד בתוך",
     "masechet": "Mishnah_Oholot",
     "perek": 5,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 4
   },
   {
     "letter": "ת",
     "name": "תנור תחלתו ארבעה",
     "masechet": "Mishnah_Kelim",
     "perek": 5,
-    "seder": "Tahorot"
+    "seder": "Tahorot",
+    "priority": 5
   },
   {
     "letter": "ת",
