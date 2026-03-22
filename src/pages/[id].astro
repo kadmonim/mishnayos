@@ -507,12 +507,12 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 				if (isEnglish) {
 					html.setAttribute('lang', 'en');
 					document.getElementById('mainTitle').textContent = 'Mishnah for Yahrtzeit';
-					document.getElementById('dedication').textContent = 'L\'ilui Nishmas R\' Mordechai ben Yehoshua Zelig Rivkin a\"h and Mrs. Dvasha bas R\' Menachem Mendel a\"h';
+	
 					engToggle.textContent = 'עב';
 				} else {
 					html.setAttribute('lang', 'he');
 					document.getElementById('mainTitle').textContent = 'לימוד משניות לפי אותיות השם';
-					document.getElementById('dedication').textContent = 'לעילוי נשמת ר\' מרדכי בן יהושע זעליג ריבקין';
+	
 					engToggle.textContent = 'EN';
 				}
 			}
