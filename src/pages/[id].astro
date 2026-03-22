@@ -97,7 +97,6 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 				border: 1px solid #e0d8c8;
 				border-radius: 10px;
 				margin-bottom: 1.5rem;
-				overflow: hidden;
 			}
 			.chapter-header {
 				background: #f0ebe0;
@@ -743,7 +742,6 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 					} else if (!r.texts || r.texts.length === 0) {
 						html += `<div class="error">לא נמצא טקסט (אות ${r.letter})</div>`;
 					} else {
-						html += `<div style="color:#999;font-size:11px;padding:4px 8px">debug: ${r.texts.length} mishnayot, first=${r.texts[0].substring(0,20)}</div>`;
 						for (let i = 0; i < r.texts.length; i++) {
 							const text = r.texts[i].replace(/<[^>]*>/g, '');
 							const bartParts = r.bartenura[i] || [];
