@@ -1,8 +1,9 @@
 ---
-
+const lang = Astro.request.headers.get('accept-language') || '';
+const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 ---
 
-<html lang="he" dir="rtl">
+<html lang="he" dir="rtl" data-prefers-en={prefersEnglish ? 'true' : 'false'}>
 	<head>
 		<meta charset="utf-8" />
 
@@ -291,9 +292,11 @@
 
 
 		<script>
+			const prefersEnglish = document.documentElement.dataset.prefersEn === 'true';
 			let isEnglish = false;
 			const engToggle = document.getElementById('engToggle')!;
-			engToggle.addEventListener('click', () => {
+
+			function toggleEnglish() {
 				isEnglish = !isEnglish;
 				engToggle.classList.toggle('active');
 				document.getElementById('results')!.classList.toggle('show-english');
@@ -327,7 +330,9 @@
 					document.getElementById('dedication')!.textContent = 'לעילוי נשמת ר\' מרדכי בן יהושע זעליג ריבקין';
 					engToggle.textContent = 'EN';
 				}
-			});
+			}
+			engToggle.addEventListener('click', toggleEnglish);
+			if (prefersEnglish) toggleEnglish();
 
 			const LETTER_MAP: Record<string, { masechet: string; perek: number; heRef: string }> = {
 				'א': { masechet: 'Mishnah_Berakhot', perek: 5, heRef: 'ברכות פרק ה׳' },

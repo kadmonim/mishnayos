@@ -14,9 +14,11 @@ const name: string = record.name;
 const personName: string | null = record.person_name;
 const letters: string = record.letters;
 const pageId: string = record.id;
+const lang = Astro.request.headers.get('accept-language') || '';
+const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 ---
 
-<html lang="he" dir="rtl">
+<html lang="he" dir="rtl" data-prefers-en={prefersEnglish ? 'true' : 'false'}>
 	<head>
 		<meta charset="utf-8" />
 
@@ -50,15 +52,7 @@ const pageId: string = record.id;
 				margin-bottom: 2rem;
 				font-size: 1.1rem;
 			}
-			.back-link {
-				display: block;
-				text-align: center;
-				margin-bottom: 1.5rem;
-				color: #8b7355;
-				text-decoration: none;
-			}
-			.back-link:hover { text-decoration: underline; }
-			#letters {
+#letters {
 				display: flex;
 				flex-wrap: wrap;
 				gap: 0.5rem;
@@ -290,7 +284,6 @@ const pageId: string = record.id;
 			{personName || name}
 			<button class="edit-btn" id="editBtn" style="display:none;">✎</button>
 		</p>
-		<a class="back-link" id="backLink" href="/">← חזרה לחיפוש</a>
 
 		<div class="edit-bar" id="editBar">
 			<div class="edit-row">
@@ -365,9 +358,10 @@ const pageId: string = record.id;
 				}
 			});
 
+			const prefersEnglish = document.documentElement.dataset.prefersEn === 'true';
 			let isEnglish = false;
 			const engToggle = document.getElementById('engToggle');
-			engToggle.addEventListener('click', () => {
+			function toggleEnglish() {
 				isEnglish = !isEnglish;
 				engToggle.classList.toggle('active');
 				document.getElementById('results').classList.toggle('show-english');
@@ -376,17 +370,17 @@ const pageId: string = record.id;
 				if (isEnglish) {
 					html.setAttribute('lang', 'en');
 					document.getElementById('mainTitle').textContent = 'Mishnah for Yahrtzeit';
-					document.getElementById('backLink').textContent = '← Back to search';
 					document.getElementById('dedication').textContent = 'L\'ilui Nishmas R\' Mordechai ben Yehoshua Zelig Rivkin';
 					engToggle.textContent = 'עב';
 				} else {
 					html.setAttribute('lang', 'he');
 					document.getElementById('mainTitle').textContent = 'לימוד משניות לפי אותיות השם';
-					document.getElementById('backLink').textContent = '← חזרה לחיפוש';
 					document.getElementById('dedication').textContent = 'לעילוי נשמת ר\' מרדכי בן יהושע זעליג ריבקין';
 					engToggle.textContent = 'EN';
 				}
-			});
+			}
+			engToggle.addEventListener('click', toggleEnglish);
+			if (prefersEnglish) toggleEnglish();
 
 			let fontSize = 140;
 			const fontLabel = document.getElementById('fontLabel');
