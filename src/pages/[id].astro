@@ -431,16 +431,7 @@ const pageId: string = record.id;
 			};
 
 			const allLetters = [...name].filter(c => LETTER_MAP[c]);
-			const seen = new Set();
-			const unique = [];
-			for (const l of allLetters) {
-				const info = LETTER_MAP[l];
-				const key = `${info.masechet}.${info.perek}`;
-				if (!seen.has(key)) {
-					seen.add(key);
-					unique.push({ letter: l, ...info });
-				}
-			}
+			const unique = allLetters.map(l => ({ letter: l, ...LETTER_MAP[l] }));
 
 			const lettersDiv = document.getElementById('letters');
 			const resultsDiv = document.getElementById('results');

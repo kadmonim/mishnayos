@@ -395,16 +395,7 @@
 
 				currentLetters = letters.join('');
 
-				const seen = new Set<string>();
-				const unique: { letter: string; masechet: string; perek: number; heRef: string }[] = [];
-				for (const l of letters) {
-					const info = LETTER_MAP[l];
-					const key = `${info.masechet}.${info.perek}`;
-					if (!seen.has(key)) {
-						seen.add(key);
-						unique.push({ letter: l, ...info });
-					}
-				}
+				const unique = letters.map(l => ({ letter: l, ...LETTER_MAP[l] }));
 
 				lettersDiv.innerHTML = '';
 				for (const item of unique) {
