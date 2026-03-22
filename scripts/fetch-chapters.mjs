@@ -2,6 +2,7 @@ import { readFileSync, writeFileSync } from 'fs';
 
 const chapters = JSON.parse(readFileSync('src/data/chapters.json', 'utf-8'));
 const letters = 'אבגדהוזחטיכלמנסעפצקרשת'.split('');
+const LETTER_NUM = { 'א':1,'ב':2,'ג':3,'ד':4,'ה':5,'ו':6,'ז':7,'ח':8,'ט':9,'י':10,'כ':11,'ל':12,'מ':13,'נ':14,'ס':15,'ע':16,'פ':17,'צ':18,'ק':19,'ר':20,'ש':21,'ת':22 };
 const MAX_PRIORITY = 4;
 
 async function fetchChapter(masechet, perek) {
@@ -65,7 +66,7 @@ for (const letter of letters) {
     };
 
     writeFileSync(
-      `src/data/letters/${letter}-${p}.json`,
+      `src/data/letters/${LETTER_NUM[letter]}-${p}.json`,
       JSON.stringify(output, null, 2) + '\n'
     );
   }

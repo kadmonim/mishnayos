@@ -640,9 +640,13 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 			const altChaptersCheck = document.getElementById('altChaptersCheck');
 			altChaptersCheck.checked = localStorage.getItem('altChapters') === 'true';
 
+			const LETTER_NUM = { 'א':1,'ב':2,'ג':3,'ד':4,'ה':5,'ו':6,'ז':7,'ח':8,'ט':9,'י':10,'כ':11,'ל':12,'מ':13,'נ':14,'ס':15,'ע':16,'פ':17,'צ':18,'ק':19,'ר':20,'ש':21,'ת':22 };
+
 			async function loadLetterData(letter, priority) {
 				const baseLetter = FINAL_MAP[letter] || letter;
-				const res = await fetch(`/data/letters/${encodeURIComponent(baseLetter)}-${priority}.json`);
+				const num = LETTER_NUM[baseLetter];
+				if (!num) return null;
+				const res = await fetch(`/data/letters/${num}-${priority}.json`);
 				if (!res.ok) return null;
 				return res.json();
 			}
