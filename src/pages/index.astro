@@ -267,6 +267,15 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 		<div id="saveSection">
 			<div class="save-row">
 				<input type="text" id="personNameInput" placeholder="שם הנפטר/ת (לעילוי נשמת...)" />
+			</div>
+			<div class="save-row" style="margin-top: 0.5rem;">
+				<label id="imageLabel" style="cursor: pointer; color: #8b7355; font-size: 0.9rem;">
+					📷 <span id="imageLabelText">העלה תמונה (עד 100KB)</span>
+					<input type="file" id="imageInput" accept="image/*" style="display: none;" />
+				</label>
+				<span id="imageName" style="font-size: 0.85rem; color: #666;"></span>
+			</div>
+			<div class="save-row" style="margin-top: 0.5rem;">
 				<button class="save-btn" id="saveBtn">שמור קישור</button>
 			</div>
 		</div>
@@ -313,6 +322,7 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 					document.getElementById('saveBtn')!.textContent = 'Save Link';
 					document.getElementById('savedLinkLabel')!.textContent = 'Link saved: ';
 					document.getElementById('copyBtn')!.textContent = 'Copy';
+					document.getElementById('imageLabelText')!.textContent = 'Upload image (max 100KB)';
 					document.getElementById('dedication')!.textContent = 'L\'ilui Nishmas R\' Mordechai ben Yehoshua Zelig Rivkin';
 					engToggle.textContent = 'עב';
 				} else {
@@ -327,6 +337,7 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 					document.getElementById('saveBtn')!.textContent = 'שמור קישור';
 					document.getElementById('savedLinkLabel')!.textContent = 'הקישור נשמר: ';
 					document.getElementById('copyBtn')!.textContent = 'העתק';
+					document.getElementById('imageLabelText')!.textContent = 'העלה תמונה (עד 100KB)';
 					document.getElementById('dedication')!.textContent = 'לעילוי נשמת ר\' מרדכי בן יהושע זעליג ריבקין';
 					engToggle.textContent = 'EN';
 				}
@@ -535,17 +546,37 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 				}
 			}
 
+			const imageInput = document.getElementById('imageInput') as HTMLInputElement;
+			const imageName = document.getElementById('imageName')!;
+			imageInput.addEventListener('change', () => {
+				const file = imageInput.files?.[0];
+				if (file) {
+					if (file.size > 102400) {
+						alert('התמונה חייבת להיות עד 100KB');
+						imageInput.value = '';
+						imageName.textContent = '';
+						return;
+					}
+					imageName.textContent = file.name;
+				} else {
+					imageName.textContent = '';
+				}
+			});
+
 			async function save() {
 				saveBtn.textContent = 'שומר...';
 				try {
+					const formData = new FormData();
+					formData.append('name', currentName);
+					formData.append('letters', currentLetters);
+					formData.append('personName', personNameInput.value.trim());
+					const imageFile = imageInput.files?.[0];
+					if (imageFile) {
+						formData.append('image', imageFile);
+					}
 					const res = await fetch('/api/save', {
 						method: 'POST',
-						headers: { 'Content-Type': 'application/json' },
-						body: JSON.stringify({
-							name: currentName,
-							letters: currentLetters,
-							personName: personNameInput.value.trim() || null,
-						}),
+						body: formData,
 					});
 					const data = await res.json();
 					if (data.editToken) {

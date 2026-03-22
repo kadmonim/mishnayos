@@ -30,6 +30,7 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 		<meta property="og:title" content={`משניות אותיות ${name}`} />
 		<meta property="og:description" content={`לעילוי נשמת ${personName || name}`} />
 		<meta property="og:type" content="website" />
+		{record.has_image && <meta property="og:image" content={`${Astro.url.origin}/api/image/${pageId}`} />}
 		<meta name="description" content={`משניות אותיות ${name} - לעילוי נשמת ${personName || name}`} />
 		<style is:global>
 			* { box-sizing: border-box; margin: 0; padding: 0; }
@@ -45,6 +46,17 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 				font-size: 1.8rem;
 				text-align: center;
 				margin-bottom: 0.5rem;
+			}
+			.hero-image {
+				text-align: center;
+				margin-bottom: 1.5rem;
+			}
+			.hero-image img {
+				max-width: 100%;
+				max-height: 300px;
+				border-radius: 10px;
+				border: 1px solid #e0d8c8;
+				object-fit: contain;
 			}
 			.subtitle {
 				text-align: center;
@@ -279,6 +291,11 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 			<button class="eng-toggle" id="engToggle">EN</button>
 		</div>
 
+		{record.has_image && (
+			<div class="hero-image">
+				<img src={`/api/image/${pageId}`} alt={personName || name} />
+			</div>
+		)}
 		<h1 id="mainTitle">לימוד משניות לפי אותיות השם</h1>
 		<p class="subtitle" id="subtitle">
 			{personName || name}
@@ -291,6 +308,13 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 			</div>
 			<div class="edit-row">
 				<input type="text" id="editPersonName" value={personName || ''} placeholder="שם הנפטר/ת (לעילוי נשמת...)" />
+			</div>
+			<div class="edit-row">
+				<label style="cursor: pointer; color: #8b7355; font-size: 0.9rem;">
+					📷 <span id="editImageLabelText">העלה תמונה (עד 100KB)</span>
+					<input type="file" id="editImageInput" accept="image/*" style="display: none;" />
+				</label>
+				<span id="editImageName" style="font-size: 0.85rem; color: #666;"></span>
 			</div>
 			<div class="edit-row">
 				<button id="editSaveBtn">שמור</button>
@@ -327,6 +351,22 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 			document.getElementById('editBtn').addEventListener('click', () => {
 				document.getElementById('editBar').classList.toggle('visible');
 			});
+			const editImageInput = document.getElementById('editImageInput');
+			const editImageName = document.getElementById('editImageName');
+			editImageInput.addEventListener('change', () => {
+				const file = editImageInput.files?.[0];
+				if (file) {
+					if (file.size > 102400) {
+						alert('התמונה חייבת להיות עד 100KB');
+						editImageInput.value = '';
+						editImageName.textContent = '';
+						return;
+					}
+					editImageName.textContent = file.name;
+				} else {
+					editImageName.textContent = '';
+				}
+			});
 			document.getElementById('editSaveBtn').addEventListener('click', async () => {
 				const newName = document.getElementById('editName').value.trim();
 				const newPersonName = document.getElementById('editPersonName').value.trim();
@@ -336,16 +376,19 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 					return hebrewLetters.includes(c);
 				}).join('');
 				try {
+					const formData = new FormData();
+					formData.append('id', pageId);
+					formData.append('editToken', editToken);
+					formData.append('name', newName);
+					formData.append('letters', newLetters);
+					formData.append('personName', newPersonName);
+					const imageFile = editImageInput.files?.[0];
+					if (imageFile) {
+						formData.append('image', imageFile);
+					}
 					const res = await fetch('/api/update', {
 						method: 'POST',
-						headers: { 'Content-Type': 'application/json' },
-						body: JSON.stringify({
-							id: pageId,
-							editToken,
-							name: newName,
-							letters: newLetters,
-							personName: newPersonName || null,
-						}),
+						body: formData,
 					});
 					const data = await res.json();
 					if (data.ok) {
