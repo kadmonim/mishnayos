@@ -561,9 +561,11 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 				setTimeout(() => copyBtn.textContent = 'העתק', 2000);
 			});
 
+			let searchGen = 0;
 			async function search() {
 				const name = nameInput.value.trim();
 				if (!name) return;
+				const gen = ++searchGen;
 
 				currentName = name;
 				savedLinkDiv.style.display = 'none';
@@ -599,12 +601,14 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 							const data = await loadLetterData(item.letter, item.priority);
 							if (!data) throw new Error('No data');
 							const badge = { letter: item.letter, masechet: data.masechet, perek: data.perek, heRef: data.name };
-							return { ...badge, texts: data.mishnayot, enTexts: data.english, bartenura: data.bartenura, error: false, idx };
+							return { ...badge, texts: data.mishnayot || [], enTexts: data.english || [], bartenura: data.bartenura || [], error: false, idx };
 						} catch {
 							return { letter: item.letter, masechet: '', perek: 0, heRef: '', texts: [] as string[], enTexts: [] as string[], bartenura: [] as string[][], error: true, idx };
 						}
 					})
 				);
+
+				if (gen !== searchGen) return; // stale call, discard
 
 				// Build letter badges after data loads (so we have heRef)
 				for (const r of results) {
@@ -639,13 +643,13 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 						for (let i = 0; i < r.texts.length; i++) {
 							const text = r.texts[i].replace(/<[^>]*>/g, '');
 							const bartParts = r.bartenura[i] || [];
-							const bartId = `bart-${r.masechet}-${r.perek}-${i}`;
+							const bartId = `bart-${r.idx}-${i}`;
 							let bartHtml = '';
 							if (bartParts.length > 0) {
 								bartHtml = `<span class="bartenura-toggle" onclick="document.getElementById('${bartId}').classList.toggle('open');this.textContent=this.textContent==='ברטנורא +'?'ברטנורא −':'ברטנורא +'">ברטנורא +</span>`;
 								bartHtml += `<div class="bartenura" id="${bartId}">${bartParts.join(' ')}</div>`;
 							}
-							const enId = `en-${r.masechet}-${r.perek}-${i}`;
+							const enId = `en-${r.idx}-${i}`;
 							let enHtml = '';
 							if (r.enTexts[i]) {
 								enHtml = `<span class="translation-toggle" onclick="document.getElementById('${enId}').classList.toggle('open');this.textContent=this.textContent==='Translation +'?'Translation −':'Translation +'">Translation +</span>`;

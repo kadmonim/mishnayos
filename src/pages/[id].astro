@@ -681,7 +681,9 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 				return t || o;
 			}
 
+			let loadGen = 0;
 			async function loadChapters() {
+				const gen = ++loadGen;
 				const allLetters = [...name].filter(c => hebrewLettersStr.includes(c));
 				const useAlt = altChaptersCheck.checked;
 				const letterCount = {};
@@ -701,12 +703,14 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 						try {
 							const data = await loadLetterData(item.letter, item.priority);
 							if (!data) throw new Error('No data');
-							return { letter: item.letter, masechet: data.masechet, perek: data.perek, heRef: data.name, texts: data.mishnayot, enTexts: data.english, bartenura: data.bartenura, error: false, idx };
+							return { letter: item.letter, masechet: data.masechet, perek: data.perek, heRef: data.name, texts: data.mishnayot || [], enTexts: data.english || [], bartenura: data.bartenura || [], error: false, idx };
 						} catch {
 							return { letter: item.letter, masechet: '', perek: 0, heRef: '', texts: [], enTexts: [], bartenura: [], error: true, idx };
 						}
 					})
 				);
+
+				if (gen !== loadGen) return; // stale call, discard
 
 				for (const r of results) {
 					const badge = document.createElement('span');
