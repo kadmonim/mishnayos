@@ -97,6 +97,7 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 				border: 1px solid #e0d8c8;
 				border-radius: 10px;
 				margin-bottom: 1.5rem;
+				overflow: hidden;
 			}
 			.chapter-header {
 				background: #f0ebe0;
@@ -748,14 +749,16 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 							const bartId = `bart-${r.idx}-${i}`;
 							let bartHtml = '';
 							if (bartParts.length > 0) {
+								const safeBart = bartParts.map(p => p.replace(/</g, '&lt;')).join(' ');
 								bartHtml = `<span class="bartenura-toggle" onclick="document.getElementById('${bartId}').classList.toggle('open');this.textContent=this.textContent==='ברטנורא +'?'ברטנורא −':'ברטנורא +'">ברטנורא +</span>`;
-								bartHtml += `<div class="bartenura" id="${bartId}">${bartParts.join(' ')}</div>`;
+								bartHtml += `<div class="bartenura" id="${bartId}">${safeBart}</div>`;
 							}
 							const enId = `en-${r.idx}-${i}`;
 							let enHtml = '';
 							if (r.enTexts[i]) {
+								const safeEn = r.enTexts[i].replace(/</g, '&lt;');
 								enHtml = `<span class="translation-toggle" onclick="document.getElementById('${enId}').classList.toggle('open');this.textContent=this.textContent==='Translation +'?'Translation −':'Translation +'">Translation +</span>`;
-								enHtml += `<div class="mishnah-en" id="${enId}">${r.enTexts[i]}</div>`;
+								enHtml += `<div class="mishnah-en" id="${enId}">${safeEn}</div>`;
 							}
 							html += `<div class="mishnah"><span class="mishnah-num">${gematriya(i + 1)}.</span> ${text}${enHtml}${bartHtml}</div>`;
 						}
