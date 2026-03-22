@@ -325,6 +325,7 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 	</head>
 	<body>
 		<div class="top-bar">
+			<button class="eng-toggle" id="firstOnlyToggle" title="הצג רק משנה ראשונה">מ״א</button>
 			<button class="eng-toggle" id="engToggle">EN</button>
 		</div>
 
@@ -517,6 +518,19 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 			}
 			engToggle.addEventListener('click', toggleEnglish);
 			if (prefersEnglish) toggleEnglish();
+
+			let firstOnly = false;
+			const firstOnlyToggle = document.getElementById('firstOnlyToggle');
+			firstOnlyToggle.addEventListener('click', () => {
+				firstOnly = !firstOnly;
+				firstOnlyToggle.classList.toggle('active');
+				document.querySelectorAll('.chapter').forEach(ch => {
+					const mishnayot = ch.querySelectorAll('.mishnah');
+					mishnayot.forEach((m, i) => {
+						m.style.display = (firstOnly && i > 0) ? 'none' : '';
+					});
+				});
+			});
 
 			let fontSize = 140;
 			const fontLabel = document.getElementById('fontLabel');

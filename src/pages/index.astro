@@ -290,6 +290,7 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 	</head>
 	<body>
 		<div class="top-bar">
+			<button class="eng-toggle" id="firstOnlyToggle" title="הצג רק משנה ראשונה">מ״א</button>
 			<button class="eng-toggle" id="engToggle">EN</button>
 		</div>
 
@@ -366,6 +367,7 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 					(document.getElementById('nameInput') as HTMLInputElement).style.direction = 'ltr';
 					document.getElementById('searchBtn')!.textContent = 'Go';
 					(document.getElementById('personNameInput') as HTMLInputElement).placeholder = 'L\'iluy Nishmas Dedication';
+					(document.getElementById('personNameInput') as HTMLInputElement).style.direction = 'ltr';
 					document.getElementById('saveBtn')!.textContent = 'Save Link';
 					document.getElementById('savedLinkLabel')!.textContent = 'Link saved: ';
 					document.getElementById('copyBtn')!.textContent = 'Copy';
@@ -381,6 +383,7 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 					(document.getElementById('nameInput') as HTMLInputElement).style.direction = 'rtl';
 					document.getElementById('searchBtn')!.textContent = 'הצג';
 					(document.getElementById('personNameInput') as HTMLInputElement).placeholder = 'שם הנפטר/ת (לעילוי נשמת...)';
+					(document.getElementById('personNameInput') as HTMLInputElement).style.direction = 'rtl';
 					document.getElementById('saveBtn')!.textContent = 'שמור קישור';
 					document.getElementById('savedLinkLabel')!.textContent = 'הקישור נשמר: ';
 					document.getElementById('copyBtn')!.textContent = 'העתק';
@@ -391,6 +394,19 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 			}
 			engToggle.addEventListener('click', toggleEnglish);
 			if (prefersEnglish) toggleEnglish();
+
+			let firstOnly = false;
+			const firstOnlyToggle = document.getElementById('firstOnlyToggle')!;
+			firstOnlyToggle.addEventListener('click', () => {
+				firstOnly = !firstOnly;
+				firstOnlyToggle.classList.toggle('active');
+				document.querySelectorAll('.chapter').forEach(ch => {
+					const mishnayot = ch.querySelectorAll('.mishnah');
+					mishnayot.forEach((m, i) => {
+						(m as HTMLElement).style.display = (firstOnly && i > 0) ? 'none' : '';
+					});
+				});
+			});
 
 			const LETTER_MAP: Record<string, { masechet: string; perek: number; heRef: string }> = {
 				'א': { masechet: 'Mishnah_Berakhot', perek: 5, heRef: 'ברכות פרק ה׳' },
