@@ -396,6 +396,10 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 					<input type="checkbox" id="firstOnlyCheck" />
 					<span id="firstOnlyLabel">הצג רק משנה ראשונה לכל אות</span>
 				</label>
+				<label class="settings-option">
+					<input type="checkbox" id="altChaptersCheck" />
+					<span id="altChaptersLabel">פרקים שונים לאותיות כפולות</span>
+				</label>
 			</div>
 		</div>
 
@@ -622,56 +626,33 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 				fontLabel.textContent = `${fontSize}%`;
 			}
 
-			const LETTER_MAP = {
-				'א': { masechet: 'Mishnah_Berakhot', perek: 5, heRef: 'ברכות פרק ה׳' },
-				'ב': { masechet: 'Mishnah_Taanit', perek: 4, heRef: 'תענית פרק ד׳' },
-				'ג': { masechet: 'Mishnah_Bava_Batra', perek: 10, heRef: 'בבא בתרא פרק י׳' },
-				'ד': { masechet: 'Mishnah_Sanhedrin', perek: 1, heRef: 'סנהדרין פרק א׳' },
-				'ה': { masechet: 'Mishnah_Berakhot', perek: 2, heRef: 'ברכות פרק ב׳' },
-				'ו': { masechet: 'Mishnah_Moed_Katan', perek: 3, heRef: 'מועד קטן פרק ג׳' },
-				'ז': { masechet: 'Mishnah_Tahorot', perek: 9, heRef: 'טהרות פרק ט׳' },
-				'ח': { masechet: 'Mishnah_Shabbat', perek: 22, heRef: 'שבת פרק כ״ב' },
-				'ט': { masechet: 'Mishnah_Yoma', perek: 4, heRef: 'יומא פרק ד׳' },
-				'י': { masechet: 'Mishnah_Rosh_Hashanah', perek: 4, heRef: 'ראש השנה פרק ד׳' },
-				'כ': { masechet: 'Mishnah_Berakhot', perek: 6, heRef: 'ברכות פרק ו׳' },
-				'ך': { masechet: 'Mishnah_Berakhot', perek: 6, heRef: 'ברכות פרק ו׳' },
-				'ל': { masechet: 'Mishnah_Sukkah', perek: 4, heRef: 'סוכה פרק ד׳' },
-				'מ': { masechet: 'Mishnah_Berakhot', perek: 1, heRef: 'ברכות פרק א׳' },
-				'ם': { masechet: 'Mishnah_Berakhot', perek: 1, heRef: 'ברכות פרק א׳' },
-				'נ': { masechet: 'Mishnah_Shabbat', perek: 21, heRef: 'שבת פרק כ״א' },
-				'ן': { masechet: 'Mishnah_Shabbat', perek: 21, heRef: 'שבת פרק כ״א' },
-				'ס': { masechet: 'Mishnah_Sukkah', perek: 1, heRef: 'סוכה פרק א׳' },
-				'ע': { masechet: 'Mishnah_Pesachim', perek: 10, heRef: 'פסחים פרק י׳' },
-				'פ': { masechet: 'Mishnah_Challah', perek: 2, heRef: 'חלה פרק ב׳' },
-				'ף': { masechet: 'Mishnah_Challah', perek: 2, heRef: 'חלה פרק ב׳' },
-				'צ': { masechet: 'Mishnah_Parah', perek: 9, heRef: 'פרה פרק ט׳' },
-				'ץ': { masechet: 'Mishnah_Parah', perek: 9, heRef: 'פרה פרק ט׳' },
-				'ק': { masechet: 'Mishnah_Nedarim', perek: 8, heRef: 'נדרים פרק ח׳' },
-				'ר': { masechet: 'Mishnah_Shabbat', perek: 13, heRef: 'שבת פרק י״ג' },
-				'ש': { masechet: 'Mishnah_Shabbat', perek: 23, heRef: 'שבת פרק כ״ג' },
-				'ת': { masechet: 'Mishnah_Berakhot', perek: 4, heRef: 'ברכות פרק ד׳' },
+			const FINAL_MAP = { 'ך': 'כ', 'ם': 'מ', 'ן': 'נ', 'ף': 'פ', 'ץ': 'צ' };
+			const hebrewLettersStr = 'אבגדהוזחטיכךלמםנןסעפףצץקרשת';
+			const altChaptersCheck = document.getElementById('altChaptersCheck');
+
+			async function loadLetterData(letter, priority) {
+				const baseLetter = FINAL_MAP[letter] || letter;
+				const res = await fetch(`/data/letters/${baseLetter}-${priority}.json`);
+				if (!res.ok) return null;
+				return res.json();
+			}
+
+			const MASECHET_HE = {
+				Mishnah_Berakhot: 'ברכות', Mishnah_Peah: 'פאה', Mishnah_Demai: 'דמאי', Mishnah_Kilayim: 'כלאים', Mishnah_Sheviit: 'שביעית', Mishnah_Terumot: 'תרומות', Mishnah_Maasrot: 'מעשרות', Mishnah_Maaser_Sheni: 'מעשר שני', Mishnah_Challah: 'חלה', Mishnah_Orlah: 'ערלה', Mishnah_Bikkurim: 'ביכורים',
+				Mishnah_Shabbat: 'שבת', Mishnah_Eruvin: 'עירובין', Mishnah_Pesachim: 'פסחים', Mishnah_Shekalim: 'שקלים', Mishnah_Yoma: 'יומא', Mishnah_Sukkah: 'סוכה', Mishnah_Beitzah: 'ביצה', Mishnah_Rosh_Hashanah: 'ראש השנה', Mishnah_Taanit: 'תענית', Mishnah_Megillah: 'מגילה', Mishnah_Moed_Katan: 'מועד קטן', Mishnah_Chagigah: 'חגיגה',
+				Mishnah_Yevamot: 'יבמות', Mishnah_Ketubot: 'כתובות', Mishnah_Nedarim: 'נדרים', Mishnah_Nazir: 'נזיר', Mishnah_Sotah: 'סוטה', Mishnah_Gittin: 'גיטין', Mishnah_Kiddushin: 'קידושין',
+				Mishnah_Bava_Kamma: 'בבא קמא', Mishnah_Bava_Metzia: 'בבא מציעא', Mishnah_Bava_Batra: 'בבא בתרא', Mishnah_Sanhedrin: 'סנהדרין', Mishnah_Makkot: 'מכות', Mishnah_Shevuot: 'שבועות', Mishnah_Eduyot: 'עדויות', Mishnah_Avodah_Zarah: 'עבודה זרה', Mishnah_Avot: 'אבות', Mishnah_Horayot: 'הוריות',
+				Mishnah_Zevachim: 'זבחים', Mishnah_Menachot: 'מנחות', Mishnah_Chullin: 'חולין', Mishnah_Bekhorot: 'בכורות', Mishnah_Arakhin: 'ערכין', Mishnah_Temurah: 'תמורה', Mishnah_Keritot: 'כריתות', Mishnah_Meilah: 'מעילה', Mishnah_Tamid: 'תמיד', Mishnah_Middot: 'מידות', Mishnah_Kinnim: 'קינים',
+				Mishnah_Kelim: 'כלים', Mishnah_Oholot: 'אהלות', Mishnah_Negaim: 'נגעים', Mishnah_Parah: 'פרה', Mishnah_Tahorot: 'טהרות', Mishnah_Mikvaot: 'מקוואות', Mishnah_Niddah: 'נדה', Mishnah_Makhshirin: 'מכשירין', Mishnah_Zavim: 'זבים', Mishnah_Tevul_Yom: 'טבול יום', Mishnah_Yadayim: 'ידים', Mishnah_Oktzin: 'עוקצין',
 			};
 
-			const allLetters = [...name].filter(c => LETTER_MAP[c]);
-			const unique = allLetters.map(l => ({ letter: l, ...LETTER_MAP[l] }));
+			function masechetHeRef(masechet, perek) {
+				return `מסכת ${MASECHET_HE[masechet] || masechet} פרק ${gematriya(perek)}`;
+			}
 
 			const lettersDiv = document.getElementById('letters');
 			const resultsDiv = document.getElementById('results');
 			const loadingDiv = document.getElementById('loading');
-
-			for (const item of unique) {
-				const badge = document.createElement('span');
-				badge.className = 'letter-badge';
-				badge.textContent = item.letter;
-				badge.title = item.heRef;
-				badge.addEventListener('click', () => {
-					document.querySelectorAll('.letter-badge').forEach(b => b.classList.remove('active'));
-					badge.classList.add('active');
-					const target = document.getElementById(`chapter-${item.masechet}-${item.perek}`);
-					target?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-				});
-				lettersDiv.appendChild(badge);
-			}
 
 			function gematriya(n) {
 				const ones = ['', 'א', 'ב', 'ג', 'ד', 'ה', 'ו', 'ז', 'ח', 'ט'];
@@ -686,35 +667,54 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 				return t || o;
 			}
 
-			(async () => {
+			async function loadChapters() {
+				const allLetters = [...name].filter(c => hebrewLettersStr.includes(c));
+				const useAlt = altChaptersCheck.checked;
+				const letterCount = {};
+				const items = allLetters.map(l => {
+					const base = FINAL_MAP[l] || l;
+					letterCount[base] = (letterCount[base] || 0) + 1;
+					const priority = useAlt ? letterCount[base] : 1;
+					return { letter: l, baseLetter: base, priority: Math.min(priority, 4) };
+				});
+
+				lettersDiv.innerHTML = '';
+				loadingDiv.style.display = 'block';
+				resultsDiv.innerHTML = '';
+
 				const results = await Promise.all(
-					unique.map(async (item) => {
+					items.map(async (item, idx) => {
 						try {
-							const [mishnahRes, enRes, bartRes] = await Promise.all([
-								fetch(`https://www.sefaria.org/api/v3/texts/${item.masechet}.${item.perek}`),
-								fetch(`https://www.sefaria.org/api/v3/texts/${item.masechet}.${item.perek}?version=english`),
-								fetch(`https://www.sefaria.org/api/v3/texts/Bartenura_on_${item.masechet}.${item.perek}`),
-							]);
-							const mishnahData = await mishnahRes.json();
-							const enData = await enRes.json();
-							const bartData = await bartRes.json();
-							const heVersion = mishnahData.versions?.find(v => v.language === 'he');
-							const enVersion = enData.versions?.find(v => v.language === 'en');
-							const bartVersion = bartData.versions?.find(v => v.language === 'he');
-							return { ...item, texts: heVersion?.text || [], enTexts: enVersion?.text || [], bartenura: bartVersion?.text || [], error: false };
+							const data = await loadLetterData(item.letter, item.priority);
+							if (!data) throw new Error('No data');
+							return { letter: item.letter, masechet: data.masechet, perek: data.perek, heRef: data.name, texts: data.mishnayot, enTexts: data.english, bartenura: data.bartenura, error: false, idx };
 						} catch {
-							return { ...item, texts: [], enTexts: [], bartenura: [], error: true };
+							return { letter: item.letter, masechet: '', perek: 0, heRef: '', texts: [], enTexts: [], bartenura: [], error: true, idx };
 						}
 					})
 				);
+
+				for (const r of results) {
+					const badge = document.createElement('span');
+					badge.className = 'letter-badge';
+					badge.textContent = r.letter;
+					badge.title = r.heRef;
+					badge.addEventListener('click', () => {
+						document.querySelectorAll('.letter-badge').forEach(b => b.classList.remove('active'));
+						badge.classList.add('active');
+						const target = document.getElementById(`chapter-${r.idx}`);
+						target?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+					});
+					lettersDiv.appendChild(badge);
+				}
 
 				loadingDiv.style.display = 'none';
 
 				let html = '';
 				for (const r of results) {
-					html += `<div class="chapter" id="chapter-${r.masechet}-${r.perek}">`;
+					html += `<div class="chapter" id="chapter-${r.idx}">`;
 					html += `<div class="chapter-header">
-						<span>משנה ${r.heRef}</span>
+						<span>${masechetHeRef(r.masechet, r.perek)}</span>
 						<span class="letter-tag">אות ${r.letter}</span>
 					</div>`;
 					if (r.error) {
@@ -725,13 +725,13 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 						for (let i = 0; i < r.texts.length; i++) {
 							const text = r.texts[i].replace(/<[^>]*>/g, '');
 							const bartParts = r.bartenura[i] || [];
-							const bartId = `bart-${r.masechet}-${r.perek}-${i}`;
+							const bartId = `bart-${r.idx}-${i}`;
 							let bartHtml = '';
 							if (bartParts.length > 0) {
 								bartHtml = `<span class="bartenura-toggle" onclick="document.getElementById('${bartId}').classList.toggle('open');this.textContent=this.textContent==='ברטנורא +'?'ברטנורא −':'ברטנורא +'">ברטנורא +</span>`;
 								bartHtml += `<div class="bartenura" id="${bartId}">${bartParts.join(' ')}</div>`;
 							}
-							const enId = `en-${r.masechet}-${r.perek}-${i}`;
+							const enId = `en-${r.idx}-${i}`;
 							let enHtml = '';
 							if (r.enTexts[i]) {
 								enHtml = `<span class="translation-toggle" onclick="document.getElementById('${enId}').classList.toggle('open');this.textContent=this.textContent==='Translation +'?'Translation −':'Translation +'">Translation +</span>`;
@@ -743,7 +743,10 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 					html += `</div>`;
 				}
 				resultsDiv.innerHTML = html;
-			})();
+			}
+
+			altChaptersCheck.addEventListener('change', loadChapters);
+			loadChapters();
 
 			// Load נשמה section (Mikvaot 7:4-7)
 			(async () => {

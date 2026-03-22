@@ -1,0 +1,101 @@
+{
+  "letter": "ז",
+  "priority": 2,
+  "name": "זיעת בתים",
+  "masechet": "Mishnah_Makhshirin",
+  "perek": 2,
+  "heRef": "זיעת בתים",
+  "seder": "Tahorot",
+  "mishnayot": [
+    "זֵעַת בָּתִּים, בּוֹרוֹת, שִׁיחִין וּמְעָרוֹת, טְהוֹרָה. זֵעַת הָאָדָם, טְהוֹרָה. שָׁתָה מַיִם טְמֵאִין וְהִזִּיעַ, זֵעָתוֹ טְהוֹרָה. בָּא בְמַיִם שְׁאוּבִים וְהִזִּיעַ, זֵעָתוֹ טְמֵאָה. נִסְתַּפֵּג וְאַחַר כָּךְ הִזִּיעַ, זֵעָתוֹ טְהוֹרָה: \n",
+    "מֶרְחָץ טְמֵאָה, זֵעָתָהּ טְמֵאָה. וּטְהוֹרָה, בְּכִי יֻתַּן. הַבְּרֵכָה שֶׁבַּבַּיִת, הַבַּיִת מַזִּיעַ מֵחֲמָתָהּ, אִם טְמֵאָה, זֵעַת כָּל הַבַּיִת שֶׁמֵּחֲמַת הַבְּרֵכָה, טְמֵאָה: \n",
+    "שְׁתֵּי בְרֵכוֹת, אַחַת טְהוֹרָה וְאַחַת טְמֵאָה, הַמַּזִּיעַ קָרוֹב לַטְּמֵאָה, טָמֵא. קָרוֹב לַטְּהוֹרָה, טָהוֹר. מֶחֱצָה לְמֶחֱצָה, טָמֵא. בַּרְזֶל טָמֵא שֶׁבְּלָלוֹ עִם בַּרְזֶל טָהוֹר, אִם רֹב מִן הַטָּמֵא, טָמֵא. וְאִם רֹב מִן הַטָּהוֹר, טָהוֹר. מֶחֱצָה לְמֶחֱצָה, טָמֵא. גִּסְטְרָיוֹת שֶׁיִּשְׂרָאֵל וְנָכְרִים מַטִּילִין לְתוֹכָהּ, אִם רֹב מִן הַטָּמֵא, טָמֵא. וְאִם רֹב מִן הַטָּהוֹר, טָהוֹר. מֶחֱצָה לְמֶחֱצָה, טָמֵא. מֵי שְׁפִיכוּת שֶׁיָּרְדוּ עֲלֵיהֶן מֵי גְשָׁמִים, אִם רֹב מִן הַטָּמֵא, טָמֵא. וְאִם רֹב מִן הַטָּהוֹר, טָהוֹר. מֶחֱצָה לְמֶחֱצָה, טָמֵא. אֵימָתַי, בִּזְמַן שֶׁקָּדְמוּ מֵי שְׁפִיכוּת. אֲבָל אִם קָדְמוּ מֵי גְשָׁמִים, אֲפִלּוּ כָל שֶׁהֵן, לְמֵי שְׁפִיכוּת, טָמֵא: \n",
+    "הַטּוֹרֵף אֶת גַּגּוֹ וְהַמְכַבֵּס אֶת כְּסוּתוֹ וְיָרְדוּ עֲלֵיהֶן גְּשָׁמִים, אִם רֹב מִן הַטָּמֵא, טָמֵא. וְאִם רֹב מִן הַטָּהוֹר, טָהוֹר. מֶחֱצָה לְמֶחֱצָה, טָמֵא. רַבִּי יְהוּדָה אוֹמֵר, אִם הוֹסִיפוּ לְנַטֵּף: \n",
+    "עִיר שֶׁיִּשְׂרָאֵל וְנָכְרִים דָּרִים בָּהּ וְהָיָה בָהּ מֶרְחָץ מַרְחֶצֶת בְּשַׁבָּת, אִם רֹב נָכְרִים, רוֹחֵץ מִיָּד. וְאִם רֹב יִשְׂרָאֵל, יַמְתִּין כְּדֵי שֶׁיֵּחַמּוּ הַחַמִּין. מֶחֱצָה לְמֶחֱצָה, יַמְתִּין כְּדֵי שֶׁיֵּחַמּוּ הַחַמִּין. רַבִּי יְהוּדָה אוֹמֵר, בְּאַמְבָּטִי קְטַנָּה, אִם יֶשׁ בָּהּ רָשׁוּת, רוֹחֵץ בָּהּ מִיָּד: \n",
+    "מָצָא בָהּ יָרָק נִמְכָּר, אִם רֹב נָכְרִים, לוֹקֵחַ מִיָּד. וְאִם רֹב יִשְׂרָאֵל, יַמְתִּין כְּדֵי שֶׁיָּבֹאוּ מִמָּקוֹם קָרוֹב. מֶחֱצָה לְמֶחֱצָה, יַמְתִּין כְּדֵי שֶׁיָּבֹאוּ מִמָּקוֹם קָרוֹב. וְאִם יֶשׁ בּוֹ רָשׁוּת, לוֹקֵחַ מִיָּד: \n",
+    "מָצָא בָהּ תִּינוֹק מֻשְׁלָךְ, אִם רֹב נָכְרִים, נָכְרִי. וְאִם רֹב יִשְׂרָאֵל, יִשְׂרָאֵל. מֶחֱצָה לְמֶחֱצָה, יִשְׂרָאֵל. רַבִּי יְהוּדָה אוֹמֵר, הוֹלְכִין אַחַר רֹב הַמַּשְׁלִיכִין: \n",
+    "מָצָא בָהּ מְצִיאָה, אִם רֹב נָכְרִים, אֵינוֹ צָרִיךְ לְהַכְרִיז. וְאִם רֹב יִשְׂרָאֵל, צָרִיךְ לְהַכְרִיז. מֶחֱצָה לְמֶחֱצָה, צָרִיךְ לְהַכְרִיז. מָצָא בָהּ פַּת, הוֹלְכִין אַחַר רֹב הַנַּחְתּוֹמִין. וְאִם הָיְתָה פַת עִסָּה, הוֹלְכִים אַחַר רֹב אוֹכְלֵי פַת עִסָּה. רַבִּי יְהוּדָה אוֹמֵר, אִם הָיְתָה פַת קִבָּר, הוֹלְכִין אַחַר רֹב אוֹכְלֵי פַת קִבָּר: \n",
+    "מָצָא בָהּ בָּשָׂר, הוֹלְכִין אַחַר רֹב הַטַּבָּחִים. אִם הָיָה מְבֻשָּׁל, הוֹלְכִים אַחַר רֹב אוֹכְלֵי בָשָׂר מְבֻשָּׁל: \n",
+    "הַמּוֹצֵא פֵרוֹת בַּדֶּרֶךְ, אִם רֹב מַכְנִיסִין לְבָתֵּיהֶן, פָּטוּר. וְלִמְכֹּר בַּשּׁוּק, חַיָּב. מֶחֱצָה לְמֶחֱצָה, דְּמַאי. אוֹצָר שֶׁיִּשְׂרָאֵל וְנָכְרִים מַטִּילִין לְתוֹכוֹ, אִם רֹב נָכְרִים, וַדַּאי. וְאִם רֹב יִשְׂרָאֵל, דְּמַאי. מֶחֱצָה לְמֶחֱצָה, וַדַּאי, דִּבְרֵי רַבִּי מֵאִיר. וַחֲכָמִים אוֹמְרִים, אֲפִלּוּ כֻלָּם נָכְרִים וְיִשְׂרָאֵל אֶחָד מַטִּיל לְתוֹכוֹ, דְּמַאי: \n",
+    "פֵּרוֹת שְׁנִיָּה שֶׁרַבּוּ עַל שֶׁל שְׁלִישִׁית, וְשֶׁל שְׁלִישִׁית עַל שֶׁל רְבִיעִית, וְשֶׁל רְבִיעִית עַל שֶׁל חֲמִישִׁית, וְשֶׁל חֲמִישִׁית עַל שֶׁל שִׁשִּׁית, וְשֶׁל שִׁשִּׁית עַל שֶׁל שְׁבִיעִית, וְשֶׁל שְׁבִיעִית עַל שֶׁל מוֹצָאֵי שְׁבִיעִית, הוֹלְכִין אַחַר הָרֹב. מֶחֱצָה לְמֶחֱצָה, לְהַחֲמִיר: \n"
+  ],
+  "english": [
+    "The sweat of houses, of cisterns, of ditches and caverns does not cause susceptibility to uncleanness. A man's perspiration does not cause susceptibility to uncleanness. If a man drank unclean water and perspired, his perspiration does not cause susceptibility to uncleanness. If he entered into drawn water and perspired, his perspiration causes susceptibility to uncleanness. If he dried himself and then perspired, his perspiration does not cause susceptibility to uncleanness.",
+    "The sweat of an unclean bath is unclean, But that of a clean bath comes under the law of ‘if water be put’. If there was a pool in a house, the house sweats because of it if the pool was unclean, the sweat of all the house which was caused by the pool is unclean.",
+    "Two pools, the one clean and the other unclean: The sweat near the unclean pool is unclean, And the sweat near the clean pool is clean, And what is at equal distance [from both pools] is unclean. Unclean iron was smelted with clean iron: If the greater part [came] from the unclean iron, it is unclean; If the greater part [came] from the clean iron, it is clean; But if there was half of each, it is unclean. Pots owned by Israelites and non-Jews used for passing water: If the greater part is from the unclean [urine], it is unclean; If the greater part is from the clean [urine], it is clean; But if there was half of each, it is unclean. Waste-water, in which rain had fallen: If the greater part consisted of the unclean water, it is unclean; If the greater part consisted of clean water, it is clean; But if there was half of each, it is unclean. When [is this the case]? When the waste-water came first; but if the rain water came before [the waste-water], it is unclean whatever the quantity [of the rain water].",
+    "If one flattened out his roof or washed his garment and rain came down upon it: If the greater part consisted of the unclean water, it is unclean; If the greater part consisted of the clean water, it is clean; But if there was half of each, it is unclean. Rabbi Judah says: if the dripping increased, [it is clean].",
+    "A city in which Israelites and non-Jews dwell together and there was a bathhouse working on Shabbat: If the majority [of the inhabitants] were non-Jews, one may bathe in it immediately [after the conclusion of the Shabbat]; If the majority were Israelites, one must wait until the water can be heated; If they were half and half, one must [also] wait until the water can be heated. Rabbi Judah says: if the bathhouse was small and there was there a [non-Jewish] authority, one may bathe in it immediately [after the conclusion of Shabbat].",
+    "If one found in that city vegetables sold [on Shabbat]: If the majority [of the inhabitants] were non-Jews, one may buy them immediately [after the conclusion of Shabbat]; If the majority were Israelites, one must wait until [vegetables] can arrive from the nearest place; If they were half and half, one must [also] wait until [vegetables] can arrive from the nearest place; If there was there a [non-Jewish] authority, one may buy them immediately [after the conclusion of Shabbat].",
+    "If one found [an abandoned] child there: If the majority [of the inhabitants] were non-Jews, it is considered a non-Jew; If the majority were Israelites, it is considered an Israelite; If they were half and half, it is also considered an Israelite. Rabbi Judah says: we must consider the majority of those who abandon their children.",
+    "If one found there lost property, If the majority [of the inhabitants] were non-Jews, he need not proclaim it; If the majority were Israelites, he must proclaim it; If they were half and half, he must [also] proclaim it. If one found bread there we must consider who form the majority of the bakers. If it was bread of clean flour, we must consider who form the majority of those who eat bread of pure flour. Rabbi Judah says: if it was coarse bread, we must consider who form the majority of those who eat coarse bread.",
+    "If one found meat there, we follow the majority of the butchers. If it was cooked meat, we follow the majority of those who eat cooked meat.",
+    "If one found produce on the road: If the majority [of the inhabitants] gathered produce into their homes, he is exempt [from tithes]; If [the majority gathered it] for selling in the market, he is liable [for tithes]; If they were half and half, the produce is demai. A granary into which both Israelites and non-Jews put their produce, If the majority were non-Jews, [the produce must be considered] certainly untithed; If the majority were Israelites, [it must be considered] demai; If they were half and half, [it must be considered] certainly untithed, the words of Rabbi Meir. But the sages say: even if they were all non-Jews, and only one Israelite put his produce into the granary, [it must be considered] demai.",
+    "If the produce of the second year exceeded in quantity the produce of the third year, or the produce of the third year exceeded the produce of the fourth year, or the produce of the fourth year exceeded the produce of the fifth year, or the produce of the fifth year exceeded the produce of the sixth year, or the produce of the sixth year exceeded the produce of the seventh year, or the produce of the seventh year exceeded the produce of the year after the conclusion of the seventh year, we follow the majority. If half and half, the rule is stringent."
+  ],
+  "bartenura": [
+    [
+      "<b>זֵעַת בָּתִּים טְהוֹרָה.</b> אֵינָהּ מַכְשֶׁרֶת הַזְּרָעִים לְקַבֵּל טֻמְאָה:",
+      "<b>זֵעָתוֹ טְמֵאָה.</b> דְּמֵחֲמַת הַמַּיִם הִיא. וְדַוְקָא בָא בְּמַיִם שְׁאוּבִין. אֲבָל בָּא בְּמַיִם מְחֻבָּרִים דְּלֹא מַכְשְׁרֵי, לֹא, דְּאַף עַל גַּב דְּהַשְׁתָּא מִיהָא תְלוּשִׁים נִינְהוּ, לֹא לְרָצוֹן נִתְלְשׁוּ<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"ב\"></i>:"
+    ],
+    [
+      "<b>מֶרְחָץ טְמֵאָה.</b> שֶׁל מַיִם שְׁאוּבִין:",
+      "<b>זֵעָתָהּ טְמֵאָה.</b> מַכְשֶׁרֶת אֶת הַפֵּרוֹת וּמְטַמֵּאתָן<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"ג\"></i>:",
+      "<b>וּטְהוֹרָה.</b> כְּלוֹמַר, וְזֵעַת מֶרְחָץ טְהוֹרָה, כְּגוֹן מֶרְחָץ שֶׁל מֵי מַעְיָן דְּלָאו מַיִם שְׁאוּבִים נִינְהוּ, הֲרֵי הוּא בְּכִי יֻתַּן, שֶׁהַזֵּעָה מַכְשֶׁרֶת אֶת הַפֵּרוֹת:",
+      "<b>אִם טְמֵאָה.</b> הַבְּרֵכָה. כָּל זֵעָה שֶׁיַּזִיעַ הַבַּיִת מֵחֲמָתָהּ, מַכְשֶׁרֶת וּמְטַמְּאָה. אֲבָל שֶׁלֹּא מֵחֲמָתָהּ, הַוְיָא לַהּ זֵעַת הַבַּיִת וּטְהוֹרָה:"
+    ],
+    [
+      "<b>בַּרְזֶל טָמֵא.</b> שֶׁבָּא מִשִּׁבְרֵי כֵלִים טְמֵאִין:",
+      "<b>שֶׁבְּלָלוֹ.</b> שֶׁטְּרָפוֹ וְעֵרְבוֹ עִם בַּרְזֶל טָהוֹר שֶׁבָּא מִן הָעֶשֶׁת:",
+      "<b>אִם רֹב מִן הַטָּמֵא טָמֵא.</b> חֲכָמִים גָּזְרוּ עַל כְּלֵי מַתָּכוֹת שֶׁנִּטְמְאוּ וּשְׁבָרָן וְהִתִּיכָן וְעָשָׂה מֵהֶן כֵּלִים, שֶׁיַּחְזְרוּ לְטֻמְאָתָן הַיְשָׁנָה עַד שֶׁיַּזֶּה עֲלֵיהֶן שְׁלִישִׁי וּשְׁבִיעִי וְיַטְבִּילֵם וְיַעֲרִיב שִׁמְשָׁן:",
+      "<b>גִּסְטְרָיוֹת.</b> כְּמִין קְדֵרוֹת עֲשׂוּיוֹת לְהַשְׁתִּין בָּהֶן. וּבְלָשׁוֹן עֲרָבִי קוֹרִין לָהֶן בסריא\"ש:",
+      "<b>שֶׁיִּשְׂרָאֵל וְנָכְרִים מַטִּילִין לְתוֹכָן.</b> מַשְׁתִּינִים לְתוֹכָן. וְשֶׁתֶן שֶׁל נָכְרִי טָמֵא, דְּגָזְרוּ עֲלֵיהֶן שֶׁיִּהְיוּ כְזָבִין לְכָל דִּבְרֵיהֶן:",
+      "<b>מֵי שְׁפִיכוּת.</b> מַיִם שֶׁרָחֲצוּ בָהֶן וְשׁוֹפְכִין אוֹתָן לַחוּץ, וּבְחֶזְקַת טְמֵאִין הֵן:",
+      "<b>אֵימָתַי.</b> מִתְבַּטְּלִין מֵי הַשְּׁפִיכוּת בְּרֹב:",
+      "<b>בִּזְמַן שֶׁקָּדְמוּ.</b> הֵן, וְאַחַר כָּךְ רַבּוּ עֲלֵיהֶן מֵי גְשָׁמִים וְטִהֲרוּם:",
+      "<b>אֲבָל אִם קָדְמוּ מֵי גְשָׁמִים.</b> אֲפִלּוּ נָפְלוּ עֲלֵיהֶן מַשֶּׁהוּ מֵי שְׁפִיכוּת, טְמֵאִים:"
+    ],
+    [
+      "<b>הַמְטַהֵר אֶת גַּגּוֹ.</b> גָּרְסִינַן. וְאִית דְּגָרַס הַטּוֹרֵף אֶת גַּגּוֹ, פֵּרוּשׁ שֶׁטָּח גַּגּוֹ טִיט אוֹ סִיד לְהַשְׁווֹתוֹ. וְהַמַּיִם שֶׁנּוֹתְנִין עָלָיו כְּשֶׁמְּטַהֲרוֹ אוֹ כְשֶׁטָּחוֹ בְטִיט, סְתָמָן שׁוֹפְכִין הֵן וּמְטַמְּאִין. וְכֵן הַמַּיִם שֶׁמְּכַבֵּס בָּהֶן אֶת כְּסוּתוֹ:",
+      "<b>וְיָרְדוּ עֲלֵיהֶן גְּשָׁמִין.</b> שֶׁהֵן מַיִם טְהוֹרִים. וְהַגַּג אוֹ הַכְּסוּת מְנַטְּפִים מַיִם:",
+      "<b>אִם רֹב מִן הַטָּהוֹר טָהוֹר.</b> כְּגוֹן שֶׁבַּתְּחִלָּה הָיָה מְנַטֵּף טִפִּים דַּקּוֹת וּלְאַחַר כֵּן מְנַטֵּף טִפִּים עָבוֹת, בְּיָדוּעַ שֶׁרֹב מִן הַטָּהוֹר:",
+      "<b>אִם הוֹסִיפוּ לְנַטֵּף.</b> שֶׁמְּמַהֲרִים הַטִּפִּים לֵירֵד זוֹ אַחַר זוֹ יוֹתֵר מִבַּתְּחִלָּה, טָהוֹר, דְּוַדַּאי רַבּוּ. וְאַף עַל פִּי שֶׁאֵין הַטִּפּוֹת עַצְמָן יוֹתֵר גְּדוֹלוֹת מִמַּה שֶּׁהָיוּ בַתְּחִלָּה. וְאֵין הֲלָכָה כְּרַבִּי יְהוּדָה:"
+    ],
+    [
+      "<b>רוֹחֵץ בָּהּ מִיָּד.</b> לְמוֹצָאֵי שַׁבָּת, וְאֵין צָרִיךְ לְהַמְתִּין כְּדֵי שֶׁיֵּחַמּוּ. דְּכֵיוָן דְּרֹב נָכְרִים, אַדַּעְתָּא דְּנָכְרִים הוּחֲמוּ:",
+      "<b>אִם יֵשׁ בָּהּ רָשׁוּת.</b> הַמַּלְכוּת קְרוּיָה רָשׁוּת, מִפְּנֵי שֶׁהָרְשׁוּת בְּיָדָהּ לַעֲשׂוֹת כִּרְצוֹנָהּ. וְלָאו דַּוְקָא מֶלֶךְ, אֶלָּא אִם יֵשׁ שָׁם אָדָם חָשׁוּב שֶׁיֵּשׁ לוֹ עֲשָׂרָה עֲבָדִים שֶׁמְּחַמְּמִין לוֹ עֲשָׂרָה קֻמְקוּמִיּוֹת מַיִם בְּבַת אַחַת, מֻתָּר לִרְחֹץ בָּהּ מִיָּד, וְאַף עַל פִּי שֶׁרֹב הָעִיר יִשְׂרָאֵל. דְּאָמְרִינַן לִשְׁמוֹ שֶׁל אוֹתוֹ אָדָם חָשׁוּב הוּחֲמוּ:"
+    ],
+    [
+      "<b>הָיָה בָהּ יָרָק נִמְכָּר.</b> יָרָק שֶׁנִּתְלַשׁ בְּשַׁבָּת, נִמְכָּר לְמוֹצָאֵי שַׁבָּת:",
+      "<b>אִם רֹב נָכְרִים לוֹקֵחַ מִיָּד.</b> דְּכֵיוָן דְּרֹב נָכְרִים, אַדַּעְתָּא דְנָכְרִים נִתְלָשׁ:",
+      "<b>כְּדֵי שֶׁיָּבֹאוּ מִמָּקוֹם קָרוֹב.</b> שֶׁיֵּשׁ שָׁם יָרָק. וְאַף עַל גַּב דְּשֶׁמָּא הוּבָא מִמָּקוֹם רָחוֹק, אֵין צָרִיךְ לְהַמְתִּין אֶלָּא כְדֵי שֶׁיִּלְקְטוּ יָרָק מִמָּקוֹם קָרוֹב שֶׁיֵּשׁ בּוֹ יָרָק<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"ו\"></i> וִיבִיאוּהוּ מִשָּׁם. שֶׁלֹּא אָמְרוּ חֲכָמִים וְלָעֶרֶב יַמְתִּין בִּכְדֵי שֶׁיַּעֲשׂוּ, אֶלָּא גְזֵרָה שֶׁמָּא יֹאמַר לְנָכְרִי בְּשַׁבָּת לֵךְ וְהָבֵא<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"ז\"></i>, וּכְשֶׁרוֹאֶה שֶׁצָּרִיךְ לְהַמְתִּין לָעֶרֶב כְּדֵי שֶׁיָּבֹא הַדָּבָר הַהוּא וַאֲפִלּוּ מִמָּקוֹם קָרוֹב, לֹא יֹאמַר לַנָּכְרִי לַהֲבִיאוֹ בְּשַׁבָּת:",
+      "<b>וְאִם יֵשׁ שָׁם רָשׁוּת לוֹקֵחַ מִיָּד.</b> דְּאַדַּעְתָּא דְאָדָם חָשׁוּב רְגִילִין תָּמִיד לְהָבִיא, וְלֹא אַדַּעְתָּא דְיִשְׂרָאֵל הֱבִיאוֹ:"
+    ],
+    [
+      "<b>אִם רֹב נָכְרִים נָכְרִי.</b> וּמֻתָּר לְהַאֲכִילוֹ נְבֵלוֹת וּטְרֵפוֹת שְׁקָצִים וּרְמָשִׂים בַּיָּדַיִם<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"ח\"></i>:",
+      "<b>וְאִם רֹב יִשְׂרָאֵל יִשְׂרָאֵל.</b> וְחַיָּבִים לְהַחֲזִיר לוֹ אֲבֵדָתוֹ<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"ט\"></i> כְּיִשְׂרָאֵל. וּרְבוּתָא קָא מַשְׁמַע לָן, דְּמוֹצִיאִין מָמוֹן מִיַּד יִשְׂרָאֵל שֶׁזָּכָה בוֹ, וְלֹא אָמְרִינַן אוֹקֵי מָמוֹנָא אַחַזְקָתֵיהּ שֶׁזָּכָה בוֹ עַד דְּמַיְתֵי הִיאַךְ רְאָיָה שֶׁהוּא יִשְׂרָאֵל:",
+      "<b>מֶחֱצָה עַל מֶחֱצָה יִשְׂרָאֵל.</b> לְעִנְיַן נְזָקִין<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"י\"></i>, שֶׁאִם שׁוֹרוֹ נָגַח שׁוֹר שֶׁל יִשְׂרָאֵל, מְשַׁלֵּם חֲצִי נֶזֶק בִּלְבָד. וְאֵינוֹ מְשַׁלֵּם נֶזֶק שָׁלֵם כְּדִין שׁוֹר שֶׁל נָכְרִי שֶׁנָּגַח שׁוֹר שֶׁל יִשְׂרָאֵל<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"יא\"></i>, דְּבֵין תָּם בֵּין מוּעָד מְשַׁלֵּם נֶזֶק שָׁלֵם. דְּמָצֵי אָמַר לֵיהּ, אַיְתֵּי רְאָיָה דְּלָאו יִשְׂרָאֵל אֲנָא וּשְׁקוֹל. וְלִשְׁאָר כָּל הַדְּבָרִים הָוֵי סָפֵק, וְדָנִין בּוֹ לְהַחְמִיר. מִי שֶׁהֲרָגוֹ, אֵינוֹ נֶהֱרָג עָלָיו. קִדֵּשׁ אִשָּׁה, צְרִיכָה גֵט מִסָּפֵק. וְאֵינוֹ כְיִשְׂרָאֵל גָּמוּר עַד שֶׁיִּטְבֹּל לְשֵׁם גֵּרוּת:",
+      "<b>אַחַר רֹב הַמַּשְׁלִיכִין.</b> הַיְנוּ אַחַר הַנָּכְרִים וְאַף עַל פִּי שֶׁהֵן מֻעָט. וַאֲפִלּוּ לֹא הָיְתָה שָׁם אֶלָּא נָכְרִית אַחַת, הִיא חֲשׁוּדָה לְהַשְׁלִיךְ. וְאֵין הֲלָכָה כְּרַבִּי יְהוּדָה:"
+    ],
+    [
+      "<b>רֹב נַחְתּוֹמִים.</b> אִם רֹב נַחְתּוֹמִים נָכְרִים, הַפַּת אֲסוּרָה, דְּפַת שֶׁל נָכְרִים הוּא מִשְּׁמֹנָה עָשָׂר דָּבָר שֶׁגָּזְרוּ בּוֹ בַיּוֹם:",
+      "<b>פַּת עִסָּה.</b> פַּת נְקִיָּה:",
+      "<b>פַּת קִבָּר.</b> פַּת שֶׁאֵינָהּ נְקִיָּה:",
+      "<b>אַחַר רֹב אוֹכְלֵי פַת קִבָּר.</b> אִם רֻבָּן נָכְרִים, הַפַּת אֲסוּרָה. אִי נַמִּי יֵשׁ לְפָרֵשׁ, אַחַר רֹב נַחְתּוֹמִין, אַחַר רֹב אוֹכְלֵי פַת עִסָּה וְכוּ', אִם רֻבָּן חֲבֵרִים, הַפַּת טְהוֹרָה וְאֵין צָרִיךְ לְעַשֵּׂר. וְאִם רֻבָּן עַמֵּי הָאָרֶץ, הַפַּת טְמֵאָה וְצָרִיךְ לְעַשֵּׂר:"
+    ],
+    [
+      "<b>הוֹלְכִין אַחַר רֹב טַבָּחִים.</b> אִם רֹב טַבָּחֵי יִשְׂרָאֵל, הַבָּשָׂר מֻתָּר. דְּאֵין הֲלָכָה כְּרַב דְּאָמַר בָּשָׂר שֶׁנִּתְעַלֵּם מִן הָעַיִן אָסוּר<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"יג\"></i>. וְרַב מוֹקֵי מַתְנִיתִין בְּעוֹמֵד וְרוֹאֶה מִשָּׁעָה שֶׁנִּשְׁחַט עַד שֶׁנָּפְלָה, אֲבָל לֹא יָדַע מִי הַשּׁוֹחֵט:"
+    ],
+    [
+      "<b>אִם רֹב מַכְנִיסִין לְבָתֵּיהֶן פָּטוּר.</b> מִלְּעַשֵּׂר<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"יד\"></i>:",
+      "<b>לִמְכֹּר בַּשּׁוּק חַיָּב.</b> שֶׁרֹב מְבִיאִין לִמְכֹּר בַּשּׁוּק, מִן הַבַּיִת מְבִיאִין אוֹתוֹ, וּכְבָר נִתְחַיֵּב. פֵּרוּשׁ אַחֵר, אִם רֹב מַכְנִיסִין לְבָתֵּיהֶן, פָּטוּר, לְפִי שֶׁרְגִילִין לְעַשֵּׂר קֹדֶם שֶׁיַּכְנִיס לַבַּיִת כְּדֵי שֶׁיּוּכְלוּ לֶאֱכֹל מֵהֶן. דִּלְאַחַר שֶׁהִכְנִיסוּם לַבַּיִת, מִיָּד הֻקְבְּעוּ לְמַעֲשֵׂר. הִלְכָּךְ מַה שֶּׁנּוֹפֵל מֵהֶם בַּדֶּרֶךְ פָּטוּר מִן הַמַּעֲשֵׂר, לְפִי שֶׁהוּא בְחֶזְקַת מְעֻשָּׂר<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"טו\"></i>. אֲבָל כְּשֶׁמַּכְנִיסִין לִמְכֹּר, דַּרְכּוֹ לְהַכְנִיסָן טֶבֶל, לְפִי שֶׁיָּכוֹל לֶאֱכֹל מֵהֶן עֲרַאי, הִלְכָּךְ הַנּוֹפֵל מֵהֶן אֵינוֹ בְחֶזְקַת מְעֻשָּׂר:",
+      "<b>אִם רֹב נָכְרִים וַדַּאי.</b> רַבִּי מֵאִיר לְטַעְמֵיהּ, דִּסְבִירָא לֵיהּ אֵין קִנְיָן לְנָכְרִי בְּאֶרֶץ יִשְׂרָאֵל לְהַפְקִיעַ מִן הַמַּעֲשֵׂר<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"טז\"></i>, וּפֵרוֹת שֶׁגָּדְלוּ בְּקַרְקָעוֹת שֶׁל נָכְרִי, חַיָּבִים בְּמַעֲשֵׂר, וְהַנָּכְרִי פְּשִׁיטָא דְלָא עִשֵּׂר, הִלְכָּךְ וַדַּאי טֶבֶל הֵן:",
+      "<b>וְאִם רֹב יִשְׂרָאֵל דְּמַאי.</b> כְּדִין פֵּרוֹת הַנִּמְצָאִים בְּיַד עַם הָאָרֶץ, שֶׁצָּרִיךְ לְהַפְרִישׁ מֵהֶן תְּרוּמַת מַעֲשֵׂר וּמַעֲשֵׂר שֵׁנִי<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"יז\"></i>:",
+      "<b>וַחֲכָמִים אוֹמְרִים וְכוּ'.</b> חֲכָמִים סְבִירָא לְהוּ יֵשׁ קִנְיָן לְנָכְרִי בְּאֶרֶץ יִשְׂרָאֵל לְהַפְקִיעַ מִן הַמַּעֲשֵׂר. וְאִם לֹא הָיָה יִשְׂרָאֵל מַטִּיל לְתוֹכוֹ, הָיָה הַכֹּל פָּטוּר מִן הַמַּעֲשֵׂר. אֲבָל כְּשֶׁיֵּשׁ אֲפִלּוּ יִשְׂרָאֵל אֶחָד שֶׁמַּטִּיל לְתוֹכוֹ, הַכֹּל דְּמַאי, בִּשְׁבִיל פֵּרוֹתָיו שֶׁל אוֹתוֹ יִשְׂרָאֵל, שֶׁהֵן חַיָּבִין. וַהֲלָכָה כַּחֲכָמִים:"
+    ],
+    [
+      "<b>פֵּרוֹת שְׁנִיָּה שֶׁרַבּוּ עַל שֶׁל שְׁלִישִׁית.</b> שָׁנָה רִאשׁוֹנָה וּשְׁנִיָּה שֶׁל שְׁמִטָּה נוֹהֵג בָּהֶן מַעֲשֵׂר רִאשׁוֹן וּמַעֲשֵׂר שֵׁנִי, וְכֵן רְבִיעִית וַחֲמִישִׁית. אֲבָל שָׁנָה שְׁלִישִׁית וְשִׁשִּׁית, מַעֲשֵׂר רִאשׁוֹן וּמַעֲשַׂר עָנִי:",
+      "<b>וְשֶׁל שְׁבִיעִית.</b> יֵשׁ בּוֹ קְדֻשַּׁת שְׁבִיעִית וּפָטוּר מִן הַמַּעֲשֵׂר. וּלְעִנְיַן כָּל הָנָךְ דִּינֵי קָתָנֵי דְהוֹלְכִים אַחַר הָרֹב:",
+      "<b>מֶחֱצָה לְמֶחֱצָה לְהַחֲמִיר.</b> וּלְעִנְיַן סְפֵקָא דְמַעֲשֵׂר שֵׁנִי וּמַעֲשַׂר עָנִי, יַפְרִישׁ מַעֲשֵׂר אֶחָד, וִיחַלֵּל הַפֵּרוֹת עַל הַמָּעוֹת, וִיחַלֵּק הַפֵּרוֹת לַעֲנִיִּים, וְהַמָּעוֹת יֹאכַל בִּירוּשָׁלַיִם. וּלְעִנְיַן סְפֵקָא דִשְׁבִיעִית, חַיָּבִין בְּמַעֲשֵׂר וְחַיָּבִין בִּקְדֻשַּׁת שְׁבִיעִית שֶׁלֹּא לַעֲשׂוֹת בָּהֶן סְחוֹרָה וּמְלוּגְמָא, וְחַיָּבִין בְּבִעוּר:"
+    ]
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "letter": "ש",
+  "priority": 3,
+  "name": "שבעה ימים קודם יום הכיפורים",
+  "masechet": "Mishnah_Yoma",
+  "perek": 1,
+  "heRef": "שבעה ימים קודם יום הכיפורים",
+  "seder": "Moed",
+  "mishnayot": [
+    "שִׁבְעַת יָמִים קֹדֶם יוֹם הַכִּפּוּרִים מַפְרִישִׁין כֹּהֵן גָּדוֹל מִבֵּיתוֹ לְלִשְׁכַּת פַּלְהֶדְרִין, וּמַתְקִינִין לוֹ כֹהֵן אַחֵר תַּחְתָּיו, שֶׁמָּא יֶאֱרַע בּוֹ פְסוּל. רַבִּי יְהוּדָה אוֹמֵר, אַף אִשָּׁה אַחֶרֶת מַתְקִינִין לוֹ, שֶׁמָּא תָמוּת אִשְׁתּוֹ, שֶׁנֶּאֱמַר (ויקרא טז) וְכִפֶּר בַּעֲדוֹ וּבְעַד בֵּיתוֹ. בֵּיתוֹ, זוֹ אִשְׁתּוֹ. אָמְרוּ לוֹ, אִם כֵּן, אֵין לַדָּבָר סוֹף: \n",
+    "כָּל שִׁבְעַת הַיָּמִים הוּא זוֹרֵק אֶת הַדָּם וּמַקְטִיר אֶת הַקְּטֹרֶת וּמֵטִיב אֶת הַנֵּרוֹת וּמַקְרִיב אֶת הָרֹאשׁ וְאֶת הָרֶגֶל. וּשְׁאָר כָּל הַיָּמִים, אִם רָצָה לְהַקְרִיב, מַקְרִיב, שֶׁכֹּהֵן גָּדוֹל מַקְרִיב חֵלֶק בָּרֹאשׁ וְנוֹטֵל חֵלֶק בָּרֹאשׁ: \n",
+    "מָסְרוּ לוֹ זְקֵנִים מִזִּקְנֵי בֵית דִּין, וְקוֹרִין לְפָנָיו בְּסֵדֶר הַיּוֹם, וְאוֹמְרִים לוֹ, אִישִׁי כֹהֵן גָּדוֹל, קְרָא אַתָּה בְּפִיךָ, שֶׁמָּא שָׁכַחְתָּ אוֹ שֶׁמָּא לֹא לָמָדְתָּ. עֶרֶב יוֹם הַכִּפּוּרִים שַׁחֲרִית, מַעֲמִידִין אוֹתוֹ בְּשַׁעַר מִזְרָח, וּמַעֲבִירִין לְפָנָיו פָּרִים וְאֵילִים וּכְבָשִׂים, כְּדֵי שֶׁיְּהֵא מַכִּיר וְרָגִיל בָּעֲבוֹדָה: \n",
+    "כָּל שִׁבְעַת הַיָּמִים לֹא הָיוּ מוֹנְעִין מִמֶּנּוּ מַאֲכָל וּמִשְׁתֶּה, עֶרֶב יוֹם הַכִּפּוּרִים עִם חֲשֵׁכָה, לֹא הָיוּ מַנִּיחִים אוֹתוֹ לֶאֱכֹל הַרְבֵּה, מִפְּנֵי שֶׁהַמַּאֲכָל מֵבִיא אֶת הַשֵּׁנָה: \n",
+    "מְסָרוּהוּ זִקְנֵי בֵית דִּין לְזִקְנֵי כְהֻנָּה, וְהֶעֱלוּהוּ לַעֲלִיַּת בֵּית אַבְטִינָס, וְהִשְׁבִּיעוּהוּ וְנִפְטְרוּ וְהָלְכוּ לָהֶם. וְאָמְרוּ לוֹ, אִישִׁי כֹהֵן גָּדוֹל, אָנוּ שְׁלוּחֵי בֵית דִּין, וְאַתָּה שְׁלוּחֵנוּ וּשְׁלִיחַ בֵּית דִּין, מַשְׁבִּיעִין אָנוּ עָלֶיךָ בְּמִי שֶׁשִּׁכֵּן שְׁמוֹ בַבַּיִת הַזֶּה, שֶׁלֹּא תְשַׁנֶּה דָבָר מִכָּל מַה שֶּׁאָמַרְנוּ לָךְ. הוּא פוֹרֵשׁ וּבוֹכֶה, וְהֵן פּוֹרְשִׁין וּבוֹכִין: \n",
+    "אִם הָיָה חָכָם, דּוֹרֵשׁ. וְאִם לָאו, תַּלְמִידֵי חֲכָמִים דּוֹרְשִׁין לְפָנָיו. וְאִם רָגִיל לִקְרוֹת, קוֹרֵא. וְאִם לָאו, קוֹרִין לְפָנָיו. וּבַמֶּה קוֹרִין לְפָנָיו, בְּאִיּוֹב וּבְעֶזְרָא וּבְדִבְרֵי הַיָּמִים. זְכַרְיָה בֶּן קְבוּטָל אוֹמֵר, פְּעָמִים הַרְבֵּה קָרִיתִי לְפָנָיו בְּדָנִיֵּאל: \n",
+    "בִּקֵּשׁ לְהִתְנַמְנֵם, פִּרְחֵי כְהֻנָּה מַכִּין לְפָנָיו בְּאֶצְבַּע צְרֵדָה, וְאוֹמְרִים לוֹ, אִישִׁי כֹהֵן גָּדוֹל, עֲמֹד וְהָפֵג אַחַת עַל הָרִצְפָּה. וּמַעֲסִיקִין אוֹתוֹ עַד שֶׁיַּגִּיעַ זְמַן הַשְּׁחִיטָה: \n",
+    "בְּכָל יוֹם תּוֹרְמִין אֶת הַמִּזְבֵּחַ בִּקְרִיאַת הַגֶּבֶר אוֹ סָמוּךְ לוֹ, בֵּין לְפָנָיו בֵּין לְאַחֲרָיו. בְּיוֹם הַכִּפּוּרִים מֵחֲצוֹת, וּבָרְגָלִים מֵאַשְׁמוּרָה הָרִאשׁוֹנָה, וְלֹא הָיְתָה קְרִיאַת הַגֶּבֶר מַגַּעַת עַד שֶׁהָיְתָה עֲזָרָה מְלֵאָה מִיִּשְׂרָאֵל: \n"
+  ],
+  "english": [
+    "<b>Seven days prior to Yom Kippur</b> the Sages would <b>remove the High Priest,</b> who performs the entire Yom Kippur service, <b>from his house to the Chamber of <i>Parhedrin</i>,</b> a room in the Temple designated specifically for the High Priest during that period. <b>And they would designate another priest in his stead</b> to replace him <b>lest a disqualification</b> due to impurity or another circumstance beyond his control prevent him from entering the Temple on Yom Kippur. <b>Rabbi Yehuda says:</b> The Sages would <b>even designate another wife for him lest his wife die, as it is stated</b> in the Torah portion of the Yom Kippur service: <b>“And it will atone for him and for his house”</b> (Leviticus 16:6); the Sages interpreted the term: <b>His house, that is his wife.</b> The priest must be married in order to fulfill this commandment. Due to the concern lest his wife die, another wife was designated to address that possibility. <b>The Rabbis said</b> to Rabbi Yehuda: <b>If so,</b> that this is a concern, <b>there is no end to the matter,</b> as what if the designated replacement wife dies? This possibility need not be a source of concern.",
+    "During <b>all seven days</b> of the High Priest’s sequestering before Yom Kippur, <b>he sprinkles the blood</b> of the daily burnt-offering, <b>and he burns the incense, and he removes</b> the ashes of <b>the lamps</b> of the candelabrum, <b>and he sacrifices the head and the</b> hind <b>leg</b> of the daily offering. The High Priest performs these tasks in order to grow accustomed to the services that he will perform on Yom Kippur. <b>On all the other days</b> of the year, <b>if</b> the High Priest <b>wishes to sacrifice</b> any of the offerings, <b>he sacrifices them, as the High Priest sacrifices</b> any <b>portion</b> that he chooses <b>first and takes</b> any <b>portion</b> that he chooses <b>first.</b>",
+    "The Sages <b>provided</b> the High Priest <b>with Elders</b> selected <b>from the Elders of the court, and they</b> would <b>read before him the order</b> of the service <b>of the day</b> of Yom Kippur. <b>And they</b> would <b>say to him: My Master, High Priest. Read</b> the order of the service <b>with your own mouth,</b> as <b>perhaps you forgot</b> this reading <b>or perhaps you did not learn</b> to read. <b>On Yom Kippur eve</b> in the <b>morning,</b> the Elders <b>stand him at</b> the <b>eastern gate</b> of the courtyard <b>and pass before him bulls and rams and sheep so that he will be familiar</b> with the animals <b>and</b> grow <b>accustomed to the service,</b> as these were the animals sacrificed on Yom Kippur.",
+    "Throughout <b>all the seven days</b> that the High Priest was in the <i>Parhedrin</i> chamber, <b>they would not withhold from him</b> any <b>food or drink</b> that he desired. However, <b>on Yom Kippur eve at nightfall, they would not allow him to eat a great deal because food induces sleep</b> and they did not allow him to sleep, as will be explained.",
+    "<b>The Elders of the court</b> who read the order of the service of the day before the High Priest <b>passed him to the Elders of the priesthood, and they took him up to the House of Avtinas. And they administered him an oath and took leave</b> of him <b>and went on their way.</b> When they administered this oath <b>they said to him: My Master, High Priest. We are agents of the court, and you are our agent and the agent of the court. We administer an oath to you in</b> the name of <b>Him who housed His name in this House, that you will not change</b> even one <b>matter from all that we have said to you</b> with regard to the burning of the incense or any other service that you will perform when alone. After this oath, <b>he would leave</b> them <b>and cry, and they would leave</b> him <b>and cry</b> in sorrow that the oath was necessary.",
+    "They kept him occupied throughout the night to prevent him from sleeping. <b>If he was a scholar, he</b> would <b>teach</b> Torah. <b>If</b> he was <b>not</b> a scholar, <b>Torah scholars</b> would <b>teach</b> Torah <b>before him. And if</b> he was <b>accustomed to read</b> the Bible, <b>he</b> would <b>read; and if</b> he was <b>not, they</b> would <b>read</b> the Bible <b>before him. And what</b> books would <b>they read before him</b> to pique his interest so that he would not fall asleep? They would read <b>from Job, and from Ezra, and from Chronicles. Zekharya, son of Kevutal, says: Many times I read before him from</b> the book of <b>Daniel.</b>",
+    " If the High Priest <b>sought to sleep</b> at night, <b>the young priests</b> would <b>snap the middle [<i>tzerada</i>] finger</b> against the thumb <b>before him, and they</b> would <b>say to him</b> every so often: <b>My Master, High Priest. Stand</b> from your bed <b>and chill</b> yourself <b>once on the floor</b> and overcome your drowsiness. <b>And they</b> would <b>engage him</b> in various ways <b>until the time would arrive to slaughter the</b> daily offering.",
+    "<b>Every day</b> the priests <b>would remove</b> the ashes <b>from the altar</b> and place them on the east side of the ramp <b>at the crow of the rooster or adjacent to it, whether before it or after it,</b> as there was no insistence on a precise time. <b>And on Yom Kippur</b> they would remove the ashes earlier, <b>from midnight</b> onward. <b>And on the Festivals,</b> the ashes were removed even earlier, at the end of <b>the first watch. And the call of the rooster would not arrive</b> on Festivals <b>until the</b> Temple <b>courtyard was full with the Jewish people</b> who vowed to bring offerings and would fulfill their obligations on the Festivals. Those offerings were sacrificed immediately following the daily offering."
+  ],
+  "bartenura": [
+    [
+      "<b>שִׁבְעַת יָמִים. מַפְרִישִׁין כֹּהֵן גָּדוֹל.</b> שֶׁכָּל עֲבוֹדוֹת יוֹם הַכִּפּוּרִים אֵין כְּשֵׁרוֹת אֶלָּא בּוֹ, [יוֹמָא לב: וּבְכַמָּה מְקוֹמוֹת]. שֶׁנֶּאֱמַר גַּבֵּי יוֹם הַכִּפּוּרִים (ויקרא טז) וְכִפֵּר הַכֹּהֵן אֲשֶׁר יִמְשַׁח אוֹתוֹ. וְהַפְרָשָׁה זוֹ, נָפְקָא לָן מִדִּכְתִיב בְּשִׁבְעַת יְמֵי הַמִּלּוּאִים (שם ח) וּמִפֶּתַח אֹהֶל מוֹעֵד לֹא תֵּצְאוּ שִׁבְעַת יָמִים, וּכְתִיב בָּתְרֵיהּ (שם) כַּאֲשֶׁר עָשָׂה בַּיּוֹם הַזֶּה צִוָּה ה'‏ לַעֲשׂוֹת לְכַפֵּר עֲלֵיכֶם, וְדָרְשׁוּ רַבּוֹתֵינוּ, לַעֲשׂוֹת, זֶה מַעֲשֵׂה פָּרָה, לְכַפֵּר עֲלֵיכֶם, זֶה מַעֲשֵׂה יוֹם הַכִּפּוּרִים. שֶׁהַכֹּהֵן הַשּׂוֹרֵף אֶת הַפָּרָה וְהַכֹּהֵן הָעוֹבֵד בְּיוֹם הַכִּפּוּרִים שְׁנֵיהֶם טְעוּנִים הַפְרָשָׁה מִבֵּיתָם שִׁבְעַת יָמִים כְּמוֹ שֶׁהָיוּ טְעוּנִים אַהֲרֹן וּבָנָיו בְּשִׁבְעַת יְמֵי הַמִּלּוּאִים:",
+      "<b>לְלִשְׁכַּת פַּלְהֶדְרִין.</b> פְּקִידֵי הַמֶּלֶךְ נִקְרָאִים פַּלְהֶדְרִין. וּמִתּוֹךְ שֶׁהַכֹּהֲנִים הַגְּדוֹלִים שֶׁהָיוּ בְּבַיִת שֵׁנִי אַחַר שִׁמְעוֹן הַצַּדִּיק הָיוּ נוֹתְנִים מָמוֹן כְּדֵי לְשַׁמֵּשׁ בִּכְהֻנָּה גְּדוֹלָה, וּמִתּוֹךְ שֶׁרְשָׁעִים הָיוּ לֹא הָיוּ מַשְׁלִימִין שְׁנָתָן וְהָיוּ מִתְחַלְּפִין כָּל שְׁנֵים עָשָׂר חֹדֶשׁ כִּפְקִידֵי הַמֶּלֶךְ שֶׁהַמֶּלֶךְ מַחְלִיפָן כָּל שָׁנָה, לְכָךְ נִקְרֵאת לִשְׁכָּה זוֹ לִשְׁכַּת פַּלְהֶדְרִין:",
+      "<b>וּמַתְקִינִין לוֹ.</b> וּמַזְמִינִין כֹּהֵן אַחֵר לִהְיוֹת כֹּהֵן גָּדוֹל תַּחְתָּיו, אִם יֶאֱרַע לוֹ קֶרִי אוֹ שְׁאָר טֻמְאָה:",
+      "<b>אִם כֵּן אֵין לַדָּבָר סוֹף.</b> אִם כֵּן דְּחָיְישַׁת לְמִיתָה אֵין לַדָּבָר סוֹף, שֶׁמָּא גַּם זוֹ תָּמוּת. אֶלָּא לְטֻמְאָה דִּשְׁכִיחָא חָיְשִׁינַן, לְפִיכָךְ מַתְקִינִים לוֹ כֹּהֵן אַחֵר, לְמִיתָה דְּלֹא שְׁכִיחָא שֶׁיָּמוּת מֵת בְּפֶתַע פִּתְאֹם לֹא חָיְישִׁינַן הִלְכָּךְ אֵין מַתְקִינִין לוֹ אִשָּׁה אַחֶרֶת. וַהֲלָכָה כַּחֲכָמִים:"
+    ],
+    [
+      "<b>הוּא זוֹרֵק אֶת הַדָּם.</b> שֶׁל תְּמִידִים, כְּדֵי שֶׁיְּהֵא רָגִיל בַּעֲבוֹדָה:",
+      "<b>וּמֵטִיב אֶת הַנֵּרוֹת.</b> מְדַשְּׁנָן מִן הָאֵפֶר שֶׁל הַפְּתִילוֹת שֶׁכָּבוּ:",
+      "<b>וּשְׁאָר כָּל הַיָּמִים.</b> אִם יִרְצֶה לְהַקְרִיב כָּל קָרְבָּן שֶׁיִּרְצֶה מַקְרִיב, וְאֵין אַנְשֵׁי הַמִּשְׁמָר יְכוֹלִין לְעַכֵּב עַל יָדוֹ:",
+      "<b>מַקְרִיב חֵלֶק בָּרֹאשׁ.</b> רֹאשׁ הוּא לְהַקְרִיב כָּל חֵלֶק שֶׁיִּבְחַר:",
+      "<b>וְנוֹטֵל חֵלֶק בָּרֹאשׁ.</b> בַּחֲלֻקַּת הַקָּדָשִׁים נוֹטֵל מָנָה יָפָה שֶׁיִּבְחַר לוֹ. וְהָנֵי מִלֵּי בְּקָדְשֵׁי מִזְבֵּחַ, אֲבָל בְּקָדְשֵׁי גְּבוּל אֶחָד כֹּהֵן גָּדוֹל וְאֶחָד כֹּהֵן הֶדְיוֹט חוֹלְקִים בְּשָׁוֶה:"
+    ],
+    [
+      "<b>וְקוֹרִין לְפָנָיו.</b> כָּל שִׁבְעַת הַיָּמִים:",
+      "<b>בְּסֵדֶר הַיּוֹם.</b> בְּפָרָשַׁת אַחֲרֵי מוֹת:",
+      "<b>אִישִׁי.</b> אֲדֹנִי:",
+      "<b>שֶׁמָּא לֹא לָמָדְתָּ.</b> בְּמִקְדָּשׁ שֵׁנִי הָיוּ צְרִיכִין לְכָךְ, שֶׁהָיוּ מַעֲמִידִין כֹּהֲנִים גְּדוֹלִים שֶׁאֵינָם מְהֻגָּנִים עַל פִּי הַמַּלְכוּת, דְּאִלּוּ בְּמִקְדָּשׁ רִאשׁוֹן לֹא הָיוּ מַעֲמִידִין כֹּהֵן גָּדוֹל אֶלָּא הַגָּדוֹל שֶׁבַּכֹּהֲנִים בְּחָכְמָה בְּנוֹי בְּכֹחַ וּבְעֹשֶׁר, וְאִם לֹא הָיָה לוֹ עֹשֶׁר אֶחָיו הַכֹּהֲנִים מְגַדְּלִין אוֹתוֹ מִשֶּׁלָּהֶם, שֶׁנֶּאֱמַר (ויקרא כא) וְהַכֹּהֵן הַגָּדוֹל מֵאֶחָיו, גַּדְּלֵהוּ מִשֶּׁל אֶחָיו:",
+      "<b>שֶׁיְּהֵא מַכִּיר.</b> מִתְבּוֹנֵן בַּבְּהֵמוֹת הָעוֹבְרוֹת לְפָנָיו לָתֵת אֶל לִבּוֹ הִלְכוֹת סֵדֶר הַיּוֹם:"
+    ],
+    [
+      "<b>לֹא הָיוּ מַנִּיחִין אוֹתוֹ לֶאֱכֹל הַרְבֵּה.</b> אֲפִלּוּ מִן הַמַּאֲכָלִים שֶׁאֵין מְבִיאִים לִידֵי חִמּוּם, וּמוֹנְעִים מִמֶּנּוּ לְגַמְרֵי כָּל מַאֲכָל הַמֵּבִיא לִידֵי חִמּוּם וְקֶרִי, כְּגוֹן חָלָב וּבֵיצִים וּבָשָׂר שָׁמֵן וְיַיִן יָשָׁן וְכַיּוֹצֵא בָּהֶן:"
+    ],
+    [
+      "<b>מְסָרוּהוּ זִקְנֵי בֵית דִּין.</b> שֶׁקָּרְאוּ לְפָנָיו בְּסֵדֶר הַיּוֹם:",
+      "<b>לְזִקְנֵי כְּהֻנָּה.</b> לְלַמְּדוֹ חֲפִינַת הַקְּטֹרֶת, שֶׁנֶּאֱמַר (שם טז) וּמְלֹא חָפְנָיו קְטֹרֶת סַמִּים. וַעֲבֹדָה קָשָׁה הָיְתָה:",
+      "<b>בֵּית אַבְטִינָס.</b> הֵם הָעֹשִׂים אֶת הַקְּטֹרֶת וְכוֹתְשִׁים אוֹתָהּ וּמְעָרְבִין סַמְמָנֶיהָ:",
+      "<b>וְהִשְׁבִּיעוּהוּ.</b> שֶׁלֹּא יְהֵא צְדוֹקִי לְתַקֵּן הַקְּטֹרֶת עַל הַמַּחְתָּה מִבַּחוּץ וּלְהַכְנִיס מִבִּפְנִים<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"ו\"></i>, שֶׁהֵם דּוֹרְשִׁין כִּי בֶעָנָן אֵרָאֶה עַל הַכַּפֹּרֶת (ויקרא טז), כִּי בֶעָנָן עֲשַׁן הַקְּטֹרֶת יָבֹא וְאָז אֵרָאֶה עַל הַכַּפֹּרֶת. וְאֵין הַדָּבָר כֵּן, שֶׁהֲרֵי הַכָּתוּב אוֹמֵר (שם) וְנָתַן אֶת הַקְּטֹרֶת עַל הָאֵשׁ לִפְנֵי ה':",
+      "<b>הוּא פוֹרֵשׁ וּבוֹכֶה.</b> שֶׁחֲשָׁדוּהוּ לִצְדוֹקִי:",
+      "<b>וְהֵן פּוֹרְשִׁין וּבוֹכִין.</b> עַל שֶׁחֲשָׁדוּהוּ. דְּאָמַר מַר [שַׁבָּת צז.] הַחוֹשֵׁד בִּכְשֵׁרִים לוֹקֶה בְּגוּפוֹ<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"ח\"></i>:"
+    ],
+    [
+      "<b>אִם הָיָה חָכָם דּוֹרֵשׁ.</b> בִּדְבַר הֲלָכָה כָּל לֵיל יוֹם הַכִּפּוּרִים, שֶׁלֹּא יִישַׁן וְיִרְאֶה קֶרִי. וְאִם תַּלְמִיד הוּא וְלֹא חָכָם, שֶׁיּוֹדֵעַ לְהָבִין וְלִשְׁמֹעַ דְּבַר הֲלָכָה וְאֵינוֹ יוֹדֵעַ לִדְרֹשׁ, דּוֹרְשִׁים לְפָנָיו:",
+      "<b>בְּאִיּוֹב וּבְעֶזְרָא.</b> שֶׁהֵן דְּבָרִים הַמּוֹשְׁכִים אֶת הַלֵּב לַשּׁוֹמְעָן, וְאֵין שֵׁנָה חוֹטַפְתּוֹ:"
+    ],
+    [
+      "<b>פִּרְחֵי כְהֻנָּה.</b> בַּחוּרִים שֶׁמַּתְחִיל שְׂעַר זְקָנָם לִפְרֹחַ קְרוּיִין פִּרְחֵי:",
+      "<b>בְּאֶצְבַּע צְרֵדָה.</b> הָאֶצְבַּע הַסְּמוּכָה לָאֲגוּדָל<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"ט\"></i>. וּלְשׁוֹן צְרֵדָה, צָרְתָא דְּדָא, כְּלוֹמַר צָרָתָהּ שֶׁל הָאֲגוּדָל הַסְּמוּכָה לָהּ, הָיוּ מְחַבְּרִים הָאֲגוּדָל בָּאֶצְבַּע הַסְּמוּכָה לָהּ וְשׁוֹמְטָהּ וּמַכֶּה עַל כַּפּוֹ וּמַשְׁמִיעַ קוֹל כְּדֵי שֶׁלֹּא יִישַׁן כֹּהֵן גָּדוֹל:",
+      "<b>עֲמֹד.</b> עַל רַגְלֶיךָ:",
+      "<b>וְהָפֵג אַחַת עַל הָרִצְפָּה.</b> שֶׁל שַׁיִשׁ, לְהָסִיר חֻמָּם, שֶׁצִּנּוּן הָרַגְלַיִם מֵסִיר הַשֵּׁנָה. וְהָפֵג לְשׁוֹן הֲסָרָה, כְּמוֹ מְפִיגִין טַעֲמָן [בֵּיצָה יד.]:"
+    ],
+    [
+      "<b>תּוֹרְמִין אֶת הַמִּזְבֵּחַ.</b> תְּרוּמַת הַדֶּשֶׁן, שֶׁהוּא חוֹתֶה מִן הַדֶּשֶׁן בְּמַחְתָּה בֵּין רַב בֵּין מְעַט, וְנוֹתְנוֹ בְּמִזְרָחוֹ שֶׁל כֶּבֶשׁ וְנִבְלָע שָׁם בִּמְקוֹמוֹ, וְהִיא הָיְתָה תְּחִלַּת הָעֲבוֹדָה בְּשַׁחֲרִית:",
+      "<b>אוֹ סָמוּךְ לוֹ.</b> סָמוּךְ לִקְרִיאַת הַגֶּבֶר, אוֹ מִלְּפָנֶיהָ אוֹ מִלְּאַחֲרֶיהָ:",
+      "<b>בְּיוֹם הַכִּפּוּרִים תּוֹרֵם מֵחֲצוֹת.</b> מִשּׁוּם חֻלְשָׁא דְּכֹהֵן גָּדוֹל, שֶׁעָלָיו לְבַדּוֹ מֻטָּל הַכֹּל, צָרִיךְ לְהַשְׁכִּים יוֹתֵר:",
+      "<b>וּבָרְגָלִים.</b> דִּנְפִישֵׁי יִשְׂרָאֵל וּנְפִישֵׁי קָרְבָּנוֹת וְרַב הַדֶּשֶׁן בִּמְקוֹם הַמַּעֲרָכָה, וְצָרִיךְ לְהַעֲלוֹת הַדֶּשֶׁן מִן הַמַּעֲרָכָה לַמָּקוֹם שֶׁבְּאֶמְצַע הַמִּזְבֵּחַ שֶׁשְּׁמוֹ תַּפּוּחַ, שֶׁלְּשָׁם גַּל גָּדוֹל שֶׁל דֶּשֶׁן צָבוּר וּמְכֻוֶּנֶת כְּתַפּוּחַ, הָיוּ צְרִיכִים לְהַשְׁכִּים יוֹתֵר, וְהָיוּ מַשְׁכִּימִין מִן הָאַשְׁמֹרֶת הָרִאשׁוֹנָה שֶׁהִיא שְׁלִישׁ הַלַּיְלָה:",
+      "<b>וְלֹא הָיְתָה קְרִיאַת הַגֶּבֶר מַגַּעַת.</b> בָּרְגָלִים:",
+      "<b>עַד שֶׁהָיְתָה עֲזָרָה מְלֵאָה מִיִּשְׂרָאֵל.</b> הַמְּבִיאִים קָרְבְּנוֹתֵיהֶם לְהַקְרִיבָם מִיָּד אַחַר תָּמִיד שֶׁל שַׁחַר:"
+    ]
+  ]
+}

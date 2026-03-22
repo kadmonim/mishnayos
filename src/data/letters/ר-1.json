@@ -1,0 +1,63 @@
+{
+  "letter": "ר",
+  "priority": 1,
+  "name": "ר' אליעזר אומר האורג",
+  "masechet": "Mishnah_Shabbat",
+  "perek": 13,
+  "heRef": "ר' אליעזר אומר האורג",
+  "seder": "Moed",
+  "mishnayot": [
+    "רַבִּי אֱלִיעֶזֶר אוֹמֵר, הָאוֹרֵג שְׁלשָׁה חוּטִין בַּתְּחִלָּה וְאַחַת עַל הָאָרִיג, חַיָּב. וַחֲכָמִים אוֹמְרִים, בֵּין בַּתְּחִלָּה בֵּין בַּסּוֹף, שִׁעוּרוֹ שְׁנֵי חוּטִין: \n",
+    "הָעוֹשֶׂה שְׁנֵי בָתֵּי נִירִין בַּנִּירִין, בַּקֵּרוֹס, בַּנָּפָה, בַּכְּבָרָה וּבַסַּל, חַיָּב. וְהַתּוֹפֵר שְׁתֵּי תְפִירוֹת, וְהַקּוֹרֵעַ עַל מְנָת לִתְפֹּר שְׁתֵּי תְפִירוֹת: \n",
+    "הַקּוֹרֵעַ בַּחֲמָתוֹ וְעַל מֵתוֹ, וְכָל הַמְקַלְקְלִין, פְּטוּרִין. וְהַמְקַלְקֵל עַל מְנָת לְתַקֵּן, שִׁעוּרוֹ כַמְתַקֵּן: \n",
+    "שִׁעוּר הַמְלַבֵּן וְהַמְנַפֵּץ וְהַצּוֹבֵעַ וְהַטּוֹוֶה, כִּמְלֹא רֹחַב הַסִּיט כָּפוּל. וְהָאוֹרֵג שְׁנֵי חוּטִין, שִׁעוּרוֹ כִּמְלֹא הַסִּיט: \n",
+    "רַבִּי יְהוּדָה אוֹמֵר, הַצָּד צִפּוֹר לַמִּגְדָּל וּצְבִי לַבַּיִת, חַיָּב. וַחֲכָמִים אוֹמְרִים, צִפּוֹר לַמִּגְדָּל, וּצְבִי לַבַּיִת וְלֶחָצֵר וְלַבֵּיבָרִין. רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל אוֹמֵר, לֹא כָל הַבֵּיבָרִין שָׁוִין. זֶה הַכְּלָל, מְחֻסַּר צִידָה, פָּטוּר, וְשֶׁאֵינוֹ מְחֻסַּר צִידָה, חַיָּב: \n",
+    "צְבִי שֶׁנִּכְנַס לַבַּיִת וְנָעַל אֶחָד בְּפָנָיו, חַיָּב. נָעֲלוּ שְׁנַיִם, פְּטוּרִין. לֹא יָכֹל אֶחָד לִנְעֹל וְנָעֲלוּ שְׁנַיִם, חַיָּבִין. וְרַבִּי שִׁמְעוֹן פּוֹטֵר: \n",
+    "יָשַׁב הָאֶחָד עַל הַפֶּתַח וְלֹא מִלְּאָהוּ, יָשַׁב הַשֵּׁנִי וּמִלְּאָהוּ, הַשֵּׁנִי חַיָּב. יָשַׁב הָרִאשׁוֹן עַל הַפֶּתַח וּמִלְּאָהוּ, וּבָא הַשֵּׁנִי וְיָשַׁב בְּצִדּוֹ, אַף עַל פִּי שֶׁעָמַד הָרִאשׁוֹן וְהָלַךְ לוֹ, הָרִאשׁוֹן חַיָּב וְהַשֵּׁנִי פָּטוּר. הָא לְמַה זֶּה דוֹמֶה, לְנוֹעֵל אֶת בֵּיתוֹ לְשָׁמְרוֹ וְנִמְצָא צְבִי שָׁמוּר בְּתוֹכוֹ: \n"
+  ],
+  "english": [
+    "<b>Rabbi Eliezer says: One who weaves</b> on Shabbat is <b>liable</b> to bring a sin-offering if he wove <b>three threads at the beginning</b> of something new, <b>or</b> if he adds <b>one</b> thread <b>to a</b> preexisting <b>woven fabric. And the Rabbis say: Both at the beginning and at the end, its measure</b> for liability is <b>two threads. </b>",
+    "One who makes two meshes, i.e., ties the threads of the warp, attaching them <b>to</b> either <b>the <i>nirin</i></b> or <b>the <i>keiros</i>,</b> which will be explained in the Gemara, <b>in a winnow, sieve, or basket, is liable</b> for making meshes. <b>And one who sews</b> is liable if he sews <b>two stitches. And one who tears</b> is liable if he tears enough fabric <b>in order to sew two stitches</b> to repair it. ",
+    "<b>One who rends</b> his garment <b>in his anger or</b> in anguish <b>over his dead</b> relative <b>is exempt. And anyone</b> else <b>who performs</b> labors <b>destructively</b> on Shabbat <b>is exempt. And one who</b> performs a labor <b>destructively in order to repair</b> is liable, and <b>his measure</b> for liability is equivalent to the measure for <b>one who</b> performs that labor <b>constructively. </b>",
+    "The measure that determines liability <b>for one who whitens,</b> or <b>one who combs,</b> or <b>one who dyes,</b> or <b>one who spins</b> wool is <b>the full width of a double <i>sit</i>,</b> which is the distance between the forefinger and the middle finger. And for <b>one who weaves two threads, the measure</b> that determines liability <b>is one <i>sit</i>.</b>",
+    "<b>Rabbi Yehuda says: One who traps a bird into a closet</b> or cage, <b>and</b> one who traps <b>a deer into a house is liable. The Rabbis say:</b> One is liable for trapping <b>a bird into a closet</b> <b>and</b> for trapping <b>a deer into a garden, or into a courtyard, or into an enclosure [<i>bivar</i>], he is liable. Rabban Shimon ben Gamliel says: Not all enclosures are identical. This is the principle:</b> If the <b>trapping</b> of the animal <b>is inadequate</b> and it is still necessary to pursue and apprehend it, one is <b>not liable.</b> However, if one trapped a deer into an enclosure <b>in which the trapping is not inadequate,</b> he is <b>liable.</b>",
+    "If <b>a deer entered a house</b> on its own <b>and one locked</b> the door <b>before it, he is liable</b> for trapping. If <b>two</b> people <b>locked</b> the door, <b>they are exempt,</b> because neither performed a complete labor. If <b>one</b> person <b>is incapable of locking</b> the door <b>and two</b> people <b>locked it, they are liable</b> because that is the typical manner of performing that labor. <b>And Rabbi Shimon deems them exempt</b> as he holds that two people who perform a single labor are never liable by Torah law.",
+    "If <b>one person sat in the entrance</b> of a courtyard in which there is a deer, <b>but did not fill</b> the entire doorway, and <b>a second</b> person <b>sat and filled it, the second</b> person <b>is liable</b> because he completed the labor of trapping. However, if <b>the first person sat in the doorway and filled it, and a second person came and sat next to him, the first person is liable and the second is exempt even if the first person stood and went</b> away, leaving the second one to secure the deer. The mishna explains: <b>To what is this</b> second person’s action <b>similar? To one who locks his house to secure it, and it turns out a deer</b> that was trapped before Shabbat <b>is</b> also <b>secured inside it.</b> In that case, he is exempt even though he enhances security on the deer, because he did not trap the animal."
+  ],
+  "bartenura": [
+    [
+      "<b>רַבִּי אֱלִיעֶזֶר אוֹמֵר הָאוֹרֵג שְׁלֹשָׁה חוּטִין בַּתְּחִלָּה.</b> אִם זוֹ תְּחִלַּת אֲרִיגָתוֹ שֶׁל בֶּגֶד אֵינוֹ חַיָּב עַד שֶׁיֶּאֱרֹג שְׁלֹשָׁה חוּטִין, וְאִם מוֹסִיף הוּא עַל הָאָרִיג שִׁעוּרוֹ בְּאֶחָד, דְּמִצְטָרֵף עִם הַשְּׁאָר. וְאֵין הֲלָכָה כְּרַבִּי אֱלִיעֶזֶר:"
+    ],
+    [
+      "<b>שְׁתֵּי בָתֵּי נִירִין.</b> שֶׁנָּתַן שְׁנֵי חוּטִין שֶׁל שְׁתִי בַּנִּיר שֶׁקּוֹרִין ליצ\"ש<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"ב\"></i>:",
+      "<b>בַּנִּירִין.</b> מְפָרֵשׁ בַּגְּמָרָא שֶׁמַּרְכִּיב שְׁנֵי פְּעָמִים [כָּל] חוּט שֶׁל שְׁתִי בַּנִּיר וּבַפַּעַם הַשְּׁלִישִׁית מַרְכִּיבוֹ עַל חוּט הַמֻּרְכָּב עַל הַקָּנֶה:",
+      "<b>בַּקֵּרוֹס.</b> יְרִיעָה אֲרוּגָה<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"ג\"></i> מִסִּיב שֶׁל דֶּקֶל:"
+    ],
+    [
+      "<b>הַקּוֹרֵעַ עַל מֵתוֹ וְכוּ'.</b> בְּמֵת שֶׁאֵינוֹ חַיָּב לִקְרֹעַ עָלָיו הוּא דַּהֲוֵי מְקַלְקֵל וּפָטוּר, אֲבָל עַל מֵת שֶׁחַיָּב לִקְרֹעַ עָלָיו, מְתַקֵּן הוּא וְחַיָּב<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"ו\"></i>:",
+      "<b>וּבַחֲמָתוֹ.</b> וְכָל הַמְקַלְקְלִים פְּטוּרִין. הָא מַתְנִיתִין אִדַּחְיָא לַהּ, וַהֲלָכָה שֶׁהַקּוֹרֵעַ בַּחֲמָתוֹ חַיָּב, שֶׁאַף עַל פִּי שֶׁמְּקַלְקֵל הוּא אֵצֶל הַבֶּגֶד, מְתַקֵּן הוּא אֵצֶל יִצְרוֹ וְדַעְתּוֹ מִתְיַשֶּׁבֶת עָלָיו בְּכָךְ:"
+    ],
+    [
+      "<b>הַמְלַבֵּן.</b> אֶת הַצֶּמֶר, וְהַמְנַפְּצוֹ וְהַצּוֹבְעוֹ וְהַטּוֹוֶה מִמֶּנּוּ, שֶׁהֵן כֻּלָּן אֲבוֹת מְלָאכוֹת, שִׁעוּרָן כְּדֵי שֶׁיִּטְוֶה מֵאוֹתוֹ הַצֶּמֶר חוּט אָרֹךְ כִּמְלֹא רֹחַב הַסִּיט כָּפוּל. וְהַסִּיט הוּא כְּדֵי הֶפְסֵק שֶׁיֵּשׁ בֵּין אַמָּה לָאֶצְבַּע כָּל מַה שֶּׁיּוּכַל אָדָם לְהַרְחִיבוֹ, וּכְשִׁעוּר הָרֶוַח הַזֶּה שְׁתֵּי פְּעָמִים הוּא הַסִּיט כָּפוּל. וְרֶוַח שֶׁבֵּין גֻּדָּל לָאֶצְבַּע פַּעַם אַחַת הוּא גַּם כֵּן כִּמְלֹא רֹחַב הַסִּיט כָּפוּל, מִפְּנֵי שֶׁיֵּשׁ בּוֹ כִּפְלַיִם כְּאוֹתוֹ שֶׁיֵּשׁ בֵּין אַמָּה לָאֶצְבַּע:",
+      "<b>הָאוֹרֵג שְׁנֵי חוּטִין.</b> שִׁעוּרָן בְּרֹחַב הַבֶּגֶד כִּמְלֹא הַסִּיט, שֶׁאַף עַל פִּי שֶׁלֹּא אֲרָגָן עַל פְּנֵי כָּל רֹחַב הַבֶּגֶד, חַיָּב:"
+    ],
+    [
+      "<b>הַצָּד צִפּוֹר.</b> עַד שֶׁהִכְנִיסוֹ לְמִגְדָּל שֶׁל עֵץ, ארמאריא\"ו בְּלַעַ\"ז, חַיָּב, שֶׁזּוֹ הוּא צִידָתוֹ, אֲבָל אִם הִכְנִיסוֹ לַבַּיִת אֵינוֹ נִצּוֹד בְּכָךְ:",
+      "<b>וּצְבִי.</b> נִצּוֹד מִשֶּׁהִכְנִיסוֹ לַבַּיִת וְנָעַל בְּפָנָיו, אֲבָל אִם הִכְנִיסוֹ לַגִּנָּה אוֹ לֶחָצֵר אֵין זוֹ צִידָה:",
+      "<b>וְלַבֵּיבָרִין.</b> קַרְפִּיפוֹת הַמֻּקָּפִים חוֹמָה שֶׁמַּכְנִיסִין שָׁם חַיּוֹת וְנִשְׁמָרִים שָׁם:",
+      "<b>כָּל הַמְחֻסָּר צִידָה.</b> שֶׁקָּשֶׁה לְתָפְשׂוֹ שָׁם, כְּגוֹן שֶׁאֵינוֹ מַגִּיעַ לוֹ בִּשְׁחִיָּה אַחַת שֶׁשּׁוֹחֶה לְתָפְשׂוֹ. וַהֲלָכָה כְּרַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל [דִּמְפָרֵשׁ] לְמִלְתַּיְהוּ דְּרַבָּנָן<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"ט\"></i>:"
+    ],
+    [
+      "<b>צְבִי שֶׁנִּכְנַס.</b> מֵאֵלָיו לַבַּיִת וְנָעַל אֶחָד בְּפָנָיו, זוֹ הִיא צִידָתוֹ:",
+      "<b>נָעֲלוּ שְׁנַיִם פְּטוּרִים.</b> דַּהֲווּ לְהוּ שְׁנַיִם שֶׁעֲשָׂאוּהָ:",
+      "<b>לֹא יָכֹל אֶחָד לִנְעֹל.</b> אוֹרְחֵיהּ הוּא לְנוֹעֲלוֹ בִּשְׁנַיִם, וַהֲרֵי לְכָל אֶחָד מְלָאכָה, דִּבְלָאו אִיהוּ לֹא מִתְעַבְּדָה:",
+      "<b>וְרַבִּי שִׁמְעוֹן פּוֹטֵר.</b> וְאֵין הֲלָכָה כְּרַבִּי שִׁמְעוֹן:"
+    ],
+    [
+      "<b>הַשֵּׁנִי חַיָּב.</b> שֶׁהוּא צָד אוֹתוֹ:",
+      "<b>הָא לְמַה זֶּה דּוֹמֶה.</b> מֵאַחַר שֶׁנִּצּוֹד עַל יְדֵי רִאשׁוֹן:",
+      "<b>לְנוֹעֵל אֶת בֵּיתוֹ לְשָׁמְרוֹ.</b> וְלֹא לָצוּד:",
+      "<b>וְנִמְצָא צְבִי.</b> שֶׁהוּא נִצּוֹד כְּבָר<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"יא\"></i> שָׁמוּר בְּתוֹכוֹ, כָּךְ זֶה אַף עַל פִּי שֶׁעָמַד רִאשׁוֹן אֵין זֶה אֶלָּא כְּשׁוֹמְרוֹ לַצְּבִי שֶׁהָיָה לוֹ מֵאֶתְמוֹל. וְהַשֵּׁנִי פָּטוּר הָאָמוּר בְּמַתְנִיתִין, פָּטוּר וּמֻתָּר:"
+    ]
+  ]
+}

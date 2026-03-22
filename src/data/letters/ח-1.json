@@ -1,0 +1,82 @@
+{
+  "letter": "ח",
+  "priority": 1,
+  "name": "חבית שנשברה",
+  "masechet": "Mishnah_Shabbat",
+  "perek": 22,
+  "heRef": "חבית שנשברה",
+  "seder": "Moed",
+  "mishnayot": [
+    "חָבִית שֶׁנִּשְׁבְּרָה, מַצִּילִין הֵימֶנָּה מְזוֹן שָׁלֹשׁ סְעֻדּוֹת, וְאוֹמֵר לַאֲחֵרִים, בֹּאוּ וְהַצִּילוּ לָכֶם, וּבִלְבַד שֶׁלֹּא יִסְפֹּג. אֵין סוֹחֲטִין אֶת הַפֵּרוֹת לְהוֹצִיא מֵהֶן מַשְׁקִין, וְאִם יָצְאוּ מֵעַצְמָן, אֲסוּרִין. רַבִּי יְהוּדָה אוֹמֵר, אִם לְאֳכָלִין, הַיּוֹצֵא מֵהֶן מֻתָּר, וְאִם לְמַשְׁקִין, הַיּוֹצֵא מֵהֶן אָסוּר. חַלּוֹת דְּבַשׁ שֶׁרִסְּקָן מֵעֶרֶב שַׁבָּת וְיָצְאוּ מֵעַצְמָן, אֲסוּרִין. וְרַבִּי אֱלִיעֶזֶר מַתִּיר: \n",
+    "כֹּל שֶׁבָּא בְחַמִּין מֵעֶרֶב שַׁבָּת, שׁוֹרִין אוֹתוֹ בְחַמִּין בְּשַׁבָּת, וְכֹל שֶׁלֹּא בָא בְחַמִּין מֵעֶרֶב שַׁבָּת, מְדִיחִין אוֹתוֹ בְחַמִּין בְּשַׁבָּת, חוּץ מִן הַמָּלִיחַ הַיָּשָׁן, וְדָגִים מְלוּחִים קְטַנִּים וְקוּלְיָס הָאִסְפָּנִין, שֶׁהֲדָחָתָן זוֹ הִיא גְמַר מְלַאכְתָּן: \n",
+    "שׁוֹבֵר אָדָם אֶת הֶחָבִית לֶאֱכֹל הֵימֶנָּה גְרוֹגָרוֹת, וּבִלְבַד שֶׁלֹּא יִתְכַּוֵּן לַעֲשׂוֹת כְּלִי. וְאֵין נוֹקְבִים מְגוּפָה שֶׁל חָבִית, דִּבְרֵי רַבִּי יְהוּדָה. וַחֲכָמִים מַתִּירִין. וְלֹא יִקְּבֶנָּה מִצִּדָּהּ. וְאִם הָיְתָה נְקוּבָה, לֹא יִתֵּן עָלֶיהָ שַׁעֲוָה, מִפְּנֵי שֶׁהוּא מְמָרֵחַ. אָמַר רַבִּי יְהוּדָה, מַעֲשֶׂה בָא לִפְנֵי רַבָּן יוֹחָנָן בֶּן זַכַּאי בַּעֲרָב, וְאָמַר, חוֹשְׁשָׁנִי לוֹ מֵחַטָּאת: \n",
+    "נוֹתְנִין תַּבְשִׁיל לְתוֹךְ הַבּוֹר בִּשְׁבִיל שֶׁיְּהֵא שָׁמוּר, וְאֶת הַמַּיִם הַיָּפִים בָּרָעִים בִּשְׁבִיל שֶׁיִּצַּנּוּ, וְאֶת הַצּוֹנֵן בַּחַמָּה בִּשְׁבִיל שֶׁיֵּחַמּוּ. מִי שֶׁנָּשְׁרוּ כֵלָיו בַּדֶּרֶךְ בְּמַיִם, מְהַלֵּךְ בָּהֶן וְאֵינוֹ חוֹשֵׁשׁ. הִגִּיעַ לֶחָצֵר הַחִיצוֹנָה, שׁוֹטְחָן בַּחַמָּה, אֲבָל לֹא כְנֶגֶד הָעָם: \n",
+    "הָרוֹחֵץ בְּמֵי מְעָרָה וּבְמֵי טְבֶרְיָא וְנִסְתַּפֵּג, אֲפִלּוּ בְעֶשֶׂר אֲלוּנְטִיאוֹת, לֹא יְבִיאֵם בְּיָדוֹ. אֲבָל עֲשָׂרָה בְנֵי אָדָם מִסְתַּפְּגִין בַּאֲלוּנְטִית אַחַת פְּנֵיהֶם יְדֵיהֶם וְרַגְלֵיהֶם, וּמְבִיאִין אוֹתָהּ בְּיָדָן: \n",
+    "סָכִין וּמְמַשְׁמְשִׁין בִּבְנֵי מֵעַיִם, אֲבָל לֹא מִתְעַמְּלִין וְלֹא מִתְגָּרְדִין. אֵין יוֹרְדִין לְקוֹרְדִּימָה, וְאֵין עוֹשִׂין אַפִּקְטְוִזִין, וְאֵין מְעַצְּבִין אֶת הַקָּטָן, וְאֵין מַחֲזִירִין אֶת הַשֶּׁבֶר. מִי שֶׁנִּפְרְקָה יָדוֹ וְרַגְלוֹ, לֹא יִטְרְפֵם בְּצוֹנֵן, אֲבָל רוֹחֵץ הוּא כְדַרְכּוֹ, וְאִם נִתְרַפָּא נִתְרַפָּא: \n"
+  ],
+  "english": [
+    "From <b>a barrel</b> of wine or oil <b>that broke</b> on Shabbat, <b>one may rescue from it food</b> sufficient for <b>three meals, and</b> one may also <b>say to others: Come and rescue</b> food <b>for yourselves.</b> This applies <b>provided that one does not soak up</b> the wine or oil with a sponge or rag, due to the prohibition of squeezing. <b>One may not squeeze fruits</b> on Shabbat in order <b>to extract liquids from them. And if</b> liquids <b>seeped out on their own, it is prohibited</b> to use them on Shabbat. <b>Rabbi Yehuda says: If</b> the fruits were designated <b>for eating,</b> the liquid <b>that seeps from them</b> on Shabbat <b>is permitted.</b> There is no concern lest one purposely squeeze liquids from fruit that is designated for eating. <b>And if</b> the fruits were originally designated <b>for liquids,</b> the liquids <b>that seep from them</b> on Shabbat <b>are prohibited.</b> In the case of <b>honeycombs that one crushed on Shabbat eve, and</b> honey and wax <b>seeped</b> from them <b>on their own</b> on Shabbat, <b>they are prohibited, and Rabbi Eliezer permits</b> using them.",
+    "<b>Any</b> salted food item <b>that was</b> already <b>placed in hot water,</b> i.e., cooked, <b>before Shabbat, one may soak it in hot water</b> even <b>on Shabbat. And anything that was not placed in hot water before Shabbat, one may rinse it in hot water on Shabbat</b> but may not soak it, <b>with the exception of old salted</b> fish <b>and small salted fish and</b> the <b><i>kolyas ha’ispanin</i></b> fish, <b>for which rinsing</b> with hot water <b>itself is completion of the prohibited labor</b> of cooking.",
+    "<b>A person may break a barrel</b> on Shabbat in order <b>to eat dried figs from it, provided he does not intend to make a vessel. And one may not perforate the plug of a barrel</b> to extract wine from it; rather, one must remove the plug entirely to avoid creating a new opening for the barrel. This is <b>the statement of Rabbi Yehuda. And the Rabbis permit</b> puncturing the plug, but they too restrict this leniency and say that <b>one may not perforate</b> the plug of the barrel <b>on its side. And if it was</b> already <b>perforated, one may not apply wax to it</b> to seal the hole, <b>because</b> in doing so <b>he spreads</b> the wax evenly on the barrel and thereby violates the prohibited labor of smoothing. <b>Rabbi Yehuda said: An incident</b> of that kind <b>came before Rabban Yoḥanan ben Zakkai in</b> the city of <b>Arav, and he said: I am concerned for him,</b> because he may be liable <b>to</b> bring <b>a sin-offering</b> as a result of this.",
+    "<b>One may place a</b> cooked <b>dish into an</b> empty <b>pit</b> on Shabbat <b>so that it will be protected</b> from the heat, <b>and</b> similarly, one may place <b>good</b> potable <b>water</b> into a vessel and place the vessel <b>into bad,</b> non-potable water <b>so that</b> the potable water <b>will cool off. And</b> one may also place <b>cold water</b> out <b>in the sun so that</b> it <b>will be heated.</b> They also taught: <b>Someone whose garments fell into water</b> while walking <b>on the road may</b> replace them and continue to <b>walk</b> wearing <b>them and need not be concerned</b> about violating the prohibitions against wringing or laundering. When he <b>reaches the outer courtyard</b> of a place where he can leave his clothes, <b>he spreads them in the sun</b> to dry, <b>but not opposite the masses,</b> as they will suspect him of laundering on Shabbat.",
+    "<b>One who bathes</b> on Shabbat <b>in</b> a ritual bath formed by <b>cave water or in the water of Tiberias and dried himself even with ten towels may not carry them in his hand,</b> lest he forget that it is Shabbat and wring the water from them. <b>However, ten people may</b> use <b>one towel</b> to <b>dry their faces, hands, and feet, and may carry them in their hands.</b> Even though in this case the towel would be quite wet, it is permitted to handle the towel because there are several people present, and they will remind each other that it is prohibited to wring a towel on Shabbat. ",
+    "Apropos the waters of Tiberias, the mishna discusses the <i>halakhot</i> of bathing and medicine on Shabbat. <b>One may smear oil</b> on his body <b>and</b> gently <b>rub</b> his body with his hand; <b>however, one may not exert himself</b> with vigorous massage or by means of exercise in order to benefit from the therapeutic effects of sweating; <b>and one may not scrape</b> the oil off with a scraper. Additionally, <b>one may not go into a swampy river [<i>kurdima</i>],</b> on Shabbat. <b>And one may not make a drug to induce vomiting, nor may one align a young</b> infant’s bones to straighten them, <b>nor may one reset a break</b> in a bone. <b>One whose hand or foot was dislocated may not move them about</b> vigorously <b>in cold</b> water, which is the standard method of treatment; <b>however, one may wash</b> the limb <b>in the typical manner, and if one is cured</b> through this washing, <b>he is cured.</b>"
+  ],
+  "bartenura": [
+    [
+      "<b>מַצִּילִין מְזוֹן שָׁלֹשׁ סְעֻדוֹת.</b> וַאֲפִלּוּ בְּכֵלִים הַרְבֵּה, דְּאִלּוּ בִּכְלִי אֶחָד אָמְרוּ בְּפֶרֶק כָּל כִּתְבֵי דְּכַמָּה דְּבָעֵי מַצִּיל:",
+      "<b>לָכֶם.</b> כָּל אֶחָד מְזוֹן שָׁלֹשׁ סְעוּדוֹת:",
+      "<b>וּבִלְבַד שֶׁלֹּא יִסְפֹּג.</b> שֶׁלֹּא יָשִׂים סְפוֹג לִשְׁאֹב הַיַּיִן וְלַחְזֹר וּלְהַטִּיף, וְאַף עַל פִּי שֶׁיֵּשׁ לַסְּפוֹג בֵּית אֲחִיזָה, דְּלֵיכָּא חֲשַׁשׁ סְחִיטָה, שֶׁלֹּא יַעֲשֶׂה כְּדֶרֶךְ שֶׁהוּא עוֹשֶׂה בַּחֹל. וַאֲפִלּוּ לִקַּח בְּיָדוֹ שֶׁמֶן וּדְבַשׁ שֶׁהֵן עָבִים וְנִדְבָּקִים וּלְקַנֵּחַ יָדוֹ בִּשְׂפַת הַכְּלִי אָסוּר, שֶׁלֹּא יַעֲשֶׂה כְּמַעֲשֵׂה חֹל:",
+      "<b>אֵין סוֹחֲטִין אֶת הַפֵּרוֹת.</b> דַּהֲוָה לֵיהּ מְפָרֵק תּוֹלָדָה דְּדָשׁ:",
+      "<b>אֲסוּרִין.</b> גְּזֵרָה שֶׁמָּא יִסְחֹט לְכַתְּחִלָּה:",
+      "<b>רַבִּי יְהוּדָה אוֹמֵר אִם לָאֳכָלִין.</b> הָיוּ אוֹתָן פֵּרוֹת מְכֻנָּסִים, הַיּוֹצֵא מֵהֶן מֻתָּר, דְּלֹא נִיחָא לֵיהּ בְּמַה שֶּׁזָּבוּ וְלֵיכָּא לְמִגְזַר בְּהוּ שֶׁמָּא יִסְחֹט:",
+      "<b>וְאִם לְמַשְׁקִין.</b> הָיוּ מְכֻנָּסִין, דְּנִיחָא לֵיהּ בְּמַאי דְּנָפַק מִנַּיְהוּ, הַיּוֹצֵא מֵהֶן אָסוּר, גְּזֵרָה שֶׁמָּא יִסְחֹט. וּבְזֵיתִים וַעֲנָבִים מוֹדֶה רַבִּי יְהוּדָה לַחֲכָמִים דְּאַף עַל גַּב דְּכִנְּסָן לָאֳכָלִים הַיּוֹצֵא מֵהֶן אָסוּר, כֵּיוָן דְּדַרְכָּן לִסְחִיטָה קָיְמֵי, כִּי אָתוּ לִידֵי מַשְׁקֶה יָהֵיב דַּעְתֵּיהּ בְּהָכִי. וּבִשְׁאָר מִינֵי פֵּרוֹת מוֹדִים חֲכָמִים לְרַבִּי יְהוּדָה, כֵּיוָן דְּלָאו דַּרְכָּן לִסְחִיטָה. לֹא נֶחְלְקוּ אֶלָּא בְּתוּתִים וְרִמּוֹנִים, דְּרַבִּי יְהוּדָה מְדַמֶּה לְהוּ לִשְׁאָר פֵּרוֹת וַחֲכָמִים מְדַמּוּ לְהוּ לְזֵיתִים וַעֲנָבִים. וַהֲלָכָה כְּרַבִּי יְהוּדָה<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"א\"></i>:",
+      "<b>חַלּוֹת דְּבַשׁ.</b> כְּשֶׁהֵן מְרֻסָּקִים זָב הַדְּבַשׁ מֵעַצְמוֹ מִתּוֹךְ הַשַּׁעֲוָה וְאֵין דֶּרֶךְ לְסָחְטוֹ, הִלְכָּךְ רַבִּי אֱלִיעֶזֶר מַתִּיר, וַחֲכָמִים אוֹסְרִים, גָּזְרוּ אַטּוּ שֶׁאֵין מְרֻסָּקִין<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"ב\"></i>. וַהֲלָכָה כְּרַבִּי אֱלִיעֶזֶר:"
+    ],
+    [
+      "<b>כֹּל שֶׁבָּא בְּחַמִּין.</b> שֶׁנִּתְבַּשֵּׁל:",
+      "<b>מְדִיחִין.</b> דַּהֲדָחָתוֹ אֵינָהּ בִּשּׁוּלוֹ. אֲבָל לֹא שׁוֹרִין:",
+      "<b>חוּץ מִן הַמָּלִיחַ הַיָּשָׁן.</b> דַּג מָלִיחַ שֶׁעָבְרָה עָלָיו שָׁנָה מִשֶּׁנִּמְלַח:",
+      "<b>וְקוּלְיָס הָאִסְפָּנִין.</b> דָּג שֶׁקְּלִפָּתוֹ דַּקָּה, וַהֲדָחָתוֹ בְּחַמִּין הוּא גְּמַר בִּשּׁוּלוֹ:"
+    ],
+    [
+      "<b>שׁוֹבֵר אָדָם אֶת הֶחָבִית.</b> מִפְּנֵי שֶׁהוּא מְקַלְקֵל<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"ג\"></i>:",
+      "<b>וּבִלְבַד שֶׁלֹּא יִתְכַּוֵּן לַעֲשׂוֹת כְּלִי.</b> לַעֲשׂוֹת לָהּ פֶּה נָאֶה:",
+      "<b>אֵין נוֹקְבִים מְגוּפָה.</b> הַדְּבוּקָה בְּפִי חָבִית, אֶלָּא נוֹטֵל אֶת כֻּלָּהּ, דְּכִי נָקִיב לַהּ מְתַקֵּן פִּתְחָא הוּא:",
+      "<b>רַבִּי יוֹסֵי מַתִּיר.</b> דְּאֵין דֶּרֶךְ פֶּתַח חָבִית בְּכָךְ. וַהֲלָכָה כְּרַבִּי יוֹסֵי:",
+      "<b>וְלֹא יִקְּבֶנָּה מִצִּדָּהּ.</b> כְּלוֹמַר הָא דְּשָׁרֵי רַבִּי יוֹסֵי לִהְיוֹת נוֹקֵב אֶת הַמְּגוּפָה, לֹא שָׁרֵי אֶלָּא לְמַעְלָה בְּרֹאשׁ הַמְּגוּפָה, דְּלָאו אוֹרְחָא לְמֵעֲבַד פִּתְחָא הָתָם אֶלָּא נוֹטֵל כָּל הַמְּגוּפָה. אֲבָל מִצִּדָּהּ, זִימְנִין דְּעָבֵיד לֵיהּ לַנֶּקֶב בְּצַד הַמְּגוּפָה מִשּׁוּם פִּתְחָא וְאֵינוֹ רוֹצֶה לְפָתְחָהּ לְמַעְלָה, שֶׁלֹּא יִפְּלוּ צְרוֹרוֹת אוֹ עָפָר בַּיַּיִן:",
+      "<b>מְמָרֵחַ.</b> וְיֵשׁ כָּאן מִשּׁוּם מְמַחֵק:",
+      "<b>בַּעֲרָב.</b> שֵׁם מָקוֹם:",
+      "<b>חוֹשְׁשָׁנִי לוֹ מֵחַטָּאת.</b> אִם מֵרַח הַשַּׁעֲוָה<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"ד\"></i> לְדַבְּקָהּ בְּדָפְנֵי הַכְּלִי סְבִיב הַנֶּקֶב:"
+    ],
+    [
+      "<b>לְתוֹךְ הַבּוֹר.</b> שֶׁאֵין בּוֹ מַיִם:",
+      "<b>שֶׁיְּהֵא שָׁמוּר.</b> שֶׁלֹּא יַסְרִיחַ מֵחֲמַת הַחֹם. וְהָא קָא מַשְׁמַע לָן דְּלֹא חָיְשִׁינַן דִּלְמָא אָתֵי לְאַשְׁווֹיֵי גֻּמּוֹת שֶׁבְּקַרְקָעִית הַבּוֹר כְּדֵי שֶׁיְּהֵא שָׁוֶה לְהוֹשִׁיב שָׁם הַקְּדֵרָה:",
+      "<b>וְאֶת הַמַּיִם הַיָּפִים.</b> הָרְאוּיִים לִשְׁתִיָּה:",
+      "<b>בָּרָעִים.</b> בְּתוֹךְ מִקְוֵה מַיִם רָעִים שֶׁאֵינָן רְאוּיִן לִשְׁתִיָּה. וּמִלְּתָא דִּפְשִׁיטָא הִיא, וּמִשּׁוּם סֵיפָא נָקַט לַהּ, דִּתְנַן וְאֶת הַצּוֹנְנִים [בַּחַמָּה] בִּשְׁבִיל שֶׁיֵּחֲמוּ, מַהוּ דְּתֵימָא נִגְזֹר דִּלְמָא אָתֵי לְאַטְמוֹנֵי בָּרֶמֶץ, קָא מַשְׁמַע לָן:",
+      "<b>מִי שֶׁנָּשְׁרוּ כֵלָיו.</b> שֶׁנָּפְלוּ בַּמַּיִם בְּשַׁבָּת:",
+      "<b>מְהַלֵּךְ עִמָּהֶן וְאֵינוֹ חוֹשֵׁשׁ.</b> שֶׁמָּא יַחְשְׁדוּ אוֹתוֹ שֶׁכִּבְּסָן<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"ו\"></i>:",
+      "<b>הִגִּיעַ לֶחָצֵר הַחִיצוֹנָה.</b> הַסְּמוּכָה לִמְבוֹא הָעִיר, שֶׁהוּא מָקוֹם הַמִּשְׁתַּמֵּר:",
+      "<b>שׁוֹטְחָן בַּחַמָּה.</b> לְיַבְּשָׁן:",
+      "<b>אֲבָל לֹא כְנֶגֶד הָעָם.</b> שֶׁיַּחְשְׁדוּהוּ שֶׁכִּבְּסָן. וּמִשְׁנָה זוֹ דְּחוּיָה הִיא, שֶׁהֲלָכָה בְּיָדֵינוּ כָּל דָּבָר שֶׁאָסְרוּ חֲכָמִים מִפְּנֵי מַרְאִית הָעַיִן אֲפִלּוּ בְּחַדְרֵי חֲדָרִים אָסוּר, הִלְכָּךְ אָסוּר לְשָׁטְחָן אֲפִלּוּ שֶׁלֹּא כְּנֶגֶד הָעָם:"
+    ],
+    [
+      "<b>וְנִסְתַּפֵּג.</b> וְקִנֵּחַ<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"ח\"></i>:",
+      "<b>אֲפִלּוּ בְעֶשֶׂר אֲלוּנְטִיּוֹת.</b> סְדִינִים שֶׁמְּקַנְּחִים בָּהֶן, וְנִסְתַּפֵּג בָּהֶן זֶה אַחַר זֶה, אַף עַל גַּב דְּלֹא נְפִישֵׁי מַיָּא בְּכָל חַד וָחַד, אֲפִלּוּ הָכִי לֹא יְבִיאֵם בְּיָדוֹ לְתוֹךְ בֵּיתוֹ, אֲפִלּוּ עַל יְדֵי עֵרוּב, שֶׁאֵין כָּאן אִסּוּר הוֹצָאָה אֶלָּא גְּזֵרָה שֶׁמָּא יִשְׁכַּח וְיִסְחֲטֵם בְּבֹאוֹ:",
+      "<b>אֲבָל עֲשָׂרָה בְּנֵי אָדָם.</b> הוֹאִיל וּמְרֻבִּין הֵם מַדְכְּרִי אַהֲדָדֵי. וַאֲפִלּוּ חֲדָא אֲלוּנְטִית לַעֲשָׂרָה בְּנֵי אָדָם, דְּהַשְׁתָּא נְפִישֵׁי בָּהּ מַיָּא, אֲפִלּוּ הָכִי מְבִיאִין אוֹתָהּ בְּיָדָם וְלֹא גָּזְרִינַן שֶׁמָּא יִסְחֲטוּהָ הוֹאִיל וּמְרֻבִּים הֵן:",
+      "<b>פְּנֵיהֶם יְדֵיהֶם וְרַגְלֵיהֶם.</b> אוֹרְחָא דְּמִלְּתָא נָקַט, וְהוּא הַדִּין לְכָל גּוּפָן. וְאֵין הֲלָכָה כְּמִשְׁנָה זוֹ, אֶלָּא אֲפִלּוּ אֶחָד מֵבִיא בְּיָדוֹ אֲלוּנְטִית שֶׁנִּסְתַּפֵּג בָּהּ, וְלֹא חָיְשִׁינַן שֶׁמָּא יִסְחֹט:"
+    ],
+    [
+      "<b>סָכִין.</b> שֶׁמֶן בְּשַׁבָּת:",
+      "<b>וּמְמַשְׁמְשִׁין.</b> בַּיָּד עַל כָּל הַגּוּף לַהֲנָאָה:",
+      "<b>אֲבָל לֹא מִתְעַמְּלִין.</b> לְשַׁפְשֵׁף בְּכֹחַ<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"י\"></i>:",
+      "<b>וְלֹא מִתְגָּרְדִין.</b> בְּמִגְרֶדֶת, וְדוֹמֶה לוֹ (איוב ב) וַיִּקַּח לוֹ חֶרֶשׂ לְהִתְגָּרֵד בּוֹ, מִשּׁוּם דַּהֲוֵי כְּעֻבְדָּא דְּחֹל:",
+      "<b>אֵין יוֹרְדִין לְפוֹלִימָא<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"יא\"></i>.</b> בִּקְעָה מְלֵאָה מַיִם וְתַחְתֶּיהָ טִיט כְּמוֹ דֶּבֶק, וְיֵשׁ בָּהּ מְקוֹמוֹת שֶׁיִּטְבַּע הָרוֹחֵץ שָׁם בְּאוֹתוֹ טִיט וְיִדְבַּק בּוֹ, וְאֵינוֹ יָכֹל לַעֲלוֹת עַד שֶׁיִּתְקַבְּצוּ בְּנֵי אָדָם וְיַעֲלוּהוּ בְּקֹשִׁי גָּדוֹל וּבְדֹחַק. פֵּרוּשׁ אַחֵר, בִּקְעָה שֶׁטִּיט שֶׁלָּהּ מַחְלִיק וְהָרוֹחֵץ שָׁם נוֹפֵל וּבְגָדָיו נִשּׁוֹרִים בַּמַּיִם, וְאָתֵי לִידֵי סְחִיטָה:",
+      "<b>אַפִּקְטְוִזִין.</b> לְהָקִיא. וּפֵרוּשׁוֹ אַפִּיק טְוִי זָיֵן, כְּלוֹמַר לְהוֹצִיא הַמָּזוֹן מִמְּקוֹם בִּשּׁוּלוֹ שֶׁהִיא הָאִצְטוֹמְכָה. אַפִּיק, מוֹצִיא. טְוִי, מִתְבַּשֵּׁל, צְלִי אֵשׁ מְתַרְגְּמִינַן טְוִי נוּר. זָיֵן, מָזוֹן. וְדַוְקָא לִשְׁתּוֹת מַשְׁקֶה שֶׁמְּבִיאוֹ לְהָקִיא הוּא שֶׁאָסוּר בְּשַׁבָּת<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"יב\"></i>, אֲבָל לְהַכְנִיס אֶצְבָּעוֹ לְתוֹךְ פִּיו כְּדֵי לְהָקִיא מֻתָּר. וְהֵיכָא דְּאִית לֵיהּ צַעְרָא וְאִם יָקִיא יִתְרַפֵּא, מֻתָּר אֲפִלּוּ עַל יְדֵי מַשְׁקֶה:",
+      "<b>וְאֵין מְעַצְּבִין אֶת הַקָּטָן.</b> לְתַקְּנוֹ וּלְיַשֵּׁב עַצְמוֹתָיו וְחוּלְיוֹת שִׁדְרָתוֹ, מִשּׁוּם דְּמֵחֲזֵי כְּבוֹנֶה. וְלֹא אֲמָרָן אֶלָּא לְאַחַר זְמַן, אֲבָל בְּיוֹם לֵידָה שָׁרֵי. מְעַצְּבִין, לְשׁוֹן יָדֶיךָ עִצְּבוּנִי וַיַּעֲשׂוּנִי (שם י):",
+      "<b>וְאֵין מַחֲזִירִין אֶת הַשֶּׁבֶר.</b> עֶצֶם שֶׁנִּשְׁבַּר. וְאֵין הֲלָכָה כְּמִשְׁנָה זוֹ, אֶלָּא הֲלָכָה מַחֲזִירִין אֶת הַשֶּׁבֶר בְּשַׁבָּת:",
+      "<b>שֶׁנִּפְרְקָה יָדוֹ.</b> שֶׁיָּצָא הָעֶצֶם מִן הַפֶּרֶק שֶׁלּוֹ:",
+      "<b>לֹא יִטְרְפֵם.</b> לְשׁוֹן בֵּיצִים טְרוּפוֹת בַּקְּעָרָה, שֶׁמִּשְׁתַּטֵּף [בְּצוֹנֵן] עַל מְקוֹם הַשֶּׁבֶר, דְּמֵחֲזֵי דְּלִרְפוּאָה קָעָבֵיד:"
+    ]
+  ]
+}

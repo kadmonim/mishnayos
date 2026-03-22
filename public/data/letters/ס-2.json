@@ -1,0 +1,87 @@
+{
+  "letter": "ס",
+  "priority": 2,
+  "name": "סדר תעניות אלו",
+  "masechet": "Mishnah_Taanit",
+  "perek": 3,
+  "heRef": "סדר תעניות אלו",
+  "seder": "Moed",
+  "mishnayot": [
+    "סֵדֶר תַּעֲנִיּוֹת אֵלוּ הָאָמוּר, בִּרְבִיעָה רִאשׁוֹנָה. אֲבָל צְמָחִים שֶׁשָּׁנוּ, מַתְרִיעִין עֲלֵיהֶם מִיָּד. וְכֵן שֶׁפָּסְקוּ גְשָׁמִים בֵּין גֶּשֶׁם לְגֶשֶׁם אַרְבָּעִים יוֹם, מַתְרִיעִין עֲלֵיהֶם מִיָּד, מִפְּנֵי שֶׁהִיא מַכַּת בַּצֹּרֶת: \n",
+    "יָרְדוּ לַצְּמָחִין אֲבָל לֹא יָרְדוּ לָאִילָן, לָאִילָן וְלֹא לַצְּמָחִים, לָזֶה וְלָזֶה אֲבָל לֹא לַבּוֹרוֹת לַשִּׁיחִין וְלַמְּעָרוֹת, מַתְרִיעִין עֲלֵיהֶן מִיָּד: \n",
+    "וְכֵן עִיר שֶׁלֹּא יָרְדוּ עָלֶיהָ גְשָׁמִים, דִּכְתִיב (עמוס ד) וְהִמְטַרְתִּי עַל עִיר אֶחָת וְעַל עִיר אַחַת לֹא אַמְטִיר, חֶלְקָה אַחַת תִּמָּטֵר וְגוֹ', אוֹתָהּ הָעִיר מִתְעַנָּה וּמַתְרַעַת, וְכָל סְבִיבוֹתֶיהָ, מִתְעַנּוֹת וְלֹא מַתְרִיעוֹת. רַבִּי עֲקִיבָא אוֹמֵר, מַתְרִיעוֹת וְלֹא מִתְעַנּוֹת: \n",
+    "וְכֵן עִיר שֶׁיֶּשׁ בָּהּ דֶּבֶר אוֹ מַפֹּלֶת, אוֹתָהּ הָעִיר מִתְעַנָּה וּמַתְרַעַת, וְכָל סְבִיבוֹתֶיהָ מִתְעַנּוֹת וְלֹא מַתְרִיעוֹת. רַבִּי עֲקִיבָא אוֹמֵר, מַתְרִיעוֹת וְלֹא מִתְעַנּוֹת. אֵיזֶהוּ דֶבֶר, עִיר הַמּוֹצִיאָה חֲמֵשׁ מֵאוֹת רַגְלִי, וְיָצְאוּ מִמֶּנָּה שְׁלשָׁה מֵתִים בִּשְׁלשָׁה יָמִים זֶה אַחַר זֶה, הֲרֵי זֶה דֶבֶר. פָּחוֹת מִכָּאן, אֵין זֶה דֶבֶר: \n",
+    "עַל אֵלּוּ מַתְרִיעִין בְּכָל מָקוֹם, עַל הַשִּׁדָּפוֹן וְעַל הַיֵּרָקוֹן, עַל הָאַרְבֶּה וְעַל הֶחָסִיל, וְעַל הַחַיָּה רָעָה וְעַל הַחֶרֶב, מַתְרִיעִין עָלֶיהָ, מִפְּנֵי שֶׁהִיא מַכָּה מְהַלֶּכֶת: \n",
+    "מַעֲשֶׂה שֶׁיָּרְדוּ זְקֵנִים מִירוּשָׁלַיִם לְעָרֵיהֶם, וְגָזְרוּ תַעֲנִית עַל שֶׁנִּרְאָה כִמְלֹא פִי תַנּוּר שִׁדָּפוֹן בְּאַשְׁקְלוֹן. וְעוֹד גָּזְרוּ תַעֲנִית עַל שֶׁאָכְלוּ זְאֵבִים שְׁנֵי תִינוֹקוֹת בְּעֵבֶר הַיַּרְדֵּן. רַבִּי יוֹסֵי אוֹמֵר, לֹא עַל שֶׁאָכְלוּ, אֶלָּא עַל שֶׁנִּרְאָה: \n",
+    "עַל אֵלּוּ מַתְרִיעִין בְּשַׁבָּת, עַל עִיר שֶׁהִקִּיפוּהָ גוֹיִם אוֹ נָהָר, וְעַל הַסְּפִינָה הַמִּטָּרֶפֶת בַּיָּם. רַבִּי יוֹסֵי אוֹמֵר, לְעֶזְרָה וְלֹא לִצְעָקָה. שִׁמְעוֹן הַתִּמְנִי אוֹמֵר, אַף עַל הַדֶּבֶר, וְלֹא הוֹדוּ לוֹ חֲכָמִים: \n",
+    "עַל כָּל צָרָה שֶׁלֹּא תָבֹא עַל הַצִּבּוּר, מַתְרִיעִין עֲלֵיהֶן, חוּץ מֵרוֹב גְּשָׁמִים. מַעֲשֶׂה שֶׁאָמְרוּ לוֹ לְחוֹנִי הַמְעַגֵּל, הִתְפַּלֵּל שֶׁיֵּרְדוּ גְשָׁמִים. אָמַר לָהֶם, צְאוּ וְהַכְנִיסוּ תַנּוּרֵי פְסָחִים, בִּשְׁבִיל שֶׁלֹּא יִמּוֹקוּ. הִתְפַּלֵּל, וְלֹא יָרְדוּ גְשָׁמִים. מֶה עָשָׂה, עָג עוּגָה וְעָמַד בְּתוֹכָהּ, וְאָמַר לְפָנָיו, רִבּוֹנוֹ שֶׁל עוֹלָם, בָּנֶיךָ שָׂמוּ פְנֵיהֶם עָלַי, שֶׁאֲנִי כְבֶן בַּיִת לְפָנֶיךָ. נִשְׁבָּע אֲנִי בְשִׁמְךָ הַגָּדוֹל שֶׁאֵינִי זָז מִכָּאן, עַד שֶׁתְּרַחֵם עַל בָּנֶיךָ. הִתְחִילוּ גְּשָׁמִים מְנַטְּפִין. אָמַר, לֹא כָךְ שָׁאַלְתִּי, אֶלָּא גִּשְׁמֵי בוֹרוֹת שִׁיחִין וּמְעָרוֹת. הִתְחִילוּ לֵירֵד בְּזָעַף. אָמַר, לֹא כָךְ שָׁאַלְתִּי, אֶלָּא גִּשְׁמֵי רָצוֹן, בְּרָכָה וּנְדָבָה. יָרְדוּ כְתִקְנָן, עַד שֶׁיָּצְאוּ יִשְׂרָאֵל מִירוּשָׁלַיִם לְהַר הַבַּיִת מִפְּנֵי הַגְּשָׁמִים. בָּאוּ וְאָמְרוּ לוֹ, כְּשֵׁם שֶׁהִתְפַּלַלְתָּ עֲלֵיהֶם שֶׁיֵּרְדוּ כָּךְ הִתְפַּלֵּל שֶׁיֵּלְכוּ לָהֶן. אָמַר לָהֶן, צְאוּ וּרְאוּ אִם נִמְחֵת אֶבֶן הַטּוֹעִים. שָׁלַח לוֹ שִׁמְעוֹן בֶּן שָׁטָח, אִלְמָלֵא חוֹנִי אַתָּה, גּוֹזְרַנִי עָלֶיךָ נִדּוּי. אֲבָל מָה אֶעֱשֶׂה לְּךָ, שֶׁאַתָּה מִתְחַטֵּא לִפְנֵי הַמָּקוֹם וְעוֹשֶׂה לְךָ רְצוֹנְךָ כְּבֵן שֶׁהוּא מִתְחַטֵּא עַל אָבִיו וְעוֹשֶׂה לוֹ רְצוֹנוֹ. וְעָלֶיךָ הַכָּתוּב אוֹמֵר (משלי כג), יִשְׂמַח אָבִיךָ וְאִמֶּךָ וְתָגֵל יוֹלַדְתֶּךָ: \n",
+    "הָיוּ מִתְעַנִּין וְיָרְדוּ לָהֶם גְּשָׁמִים קֹדֶם הָנֵץ הַחַמָּה, לֹא יַשְׁלִימוּ. לְאַחַר הָנֵץ הַחַמָּה, יַשְׁלִימוּ. רַבִּי אֱלִיעֶזֶר אוֹמֵר, קֹדֶם חֲצוֹת לֹא יַשְׁלִימוּ, לְאַחַר חֲצוֹת יַשְׁלִימוּ. מַעֲשֶׂה שֶׁגָּזְרוּ תַעֲנִית בְּלוֹד, וְיָרְדוּ לָהֶם גְּשָׁמִים קֹדֶם חֲצוֹת. אָמַר לָהֶם רַבִּי טַרְפוֹן, צְאוּ וְאִכְלוּ וּשְׁתוּ וַעֲשׂוּ יוֹם טוֹב. וְיָצְאוּ וְאָכְלוּ וְשָׁתוּ וְעָשׂוּ יוֹם טוֹב, וּבָאוּ בֵּין הָעַרְבַּיִם וְקָרְאוּ הַלֵּל הַגָּדוֹל: \n"
+  ],
+  "english": [
+    "<b>The order of these fasts</b> of increasing severity, as explained in Chapter One, <b>is stated</b> only <b>in</b> a case when <b>the first rainfall</b> has not materialized. <b>However,</b> if there is <b>vegetation that</b> grew and its appearance <b>changed</b> due to disease, the court does not wait at all; <b>they cry out about it immediately. And likewise, if rain ceased</b> for a period of <b>forty days</b> between <b>one rainfall and another, they cry out about it because it is a plague of drought.</b>",
+    "If sufficient rain <b>fell for the vegetation but not</b> enough <b>fell for the trees;</b> or if it was enough <b>for the trees but not for the vegetation;</b> or if sufficient rain fell <b>for both this and that,</b> i.e., vegetation and trees, <b>but not</b> enough <b>to</b> fill the <b>cisterns, ditches, and caves</b> with water to last the summer, <b>they cry out about it immediately.</b>",
+    "And likewise, if there is a particular <b>city upon which it did not rain,</b> while the surrounding area did receive rain, this is considered a divine curse, <b>as it is written: “And I caused it to rain upon one city, but caused it not to rain upon another city; one piece was rained upon,</b> and the portion upon which it did not rain withered” (Amos 4:7). In a case of this kind, <b>that city fasts and cries out</b> by blowing the <i>shofar</i>, <b>and all of its surrounding areas</b> join them in their <b>fast, but they do not cry out. Rabbi Akiva</b> disagrees and <b>says: They cry out but they do not fast.</b>",
+    "The mishna continues: <b>And likewise,</b> if a <b>city is</b> afflicted <b>by pestilence or collapsing buildings, that city fasts and cries out, and all of its surrounding areas fast but they do not cry out. Rabbi Akiva says: They cry out but they do not fast.</b> The mishna inquires: <b>What is</b> considered a plague of <b>pestilence?</b> When is a series of deaths treated as a plague? The mishna answers: If <b>a city that sends out five hundred infantrymen,</b> i.e., it has a population of five hundred able-bodied men, <b>and three dead are taken out of it on three consecutive days, this</b> is a plague of <b>pestilence,</b> which requires fasting and crying out. If the death rate is <b>lower than that, this is not pestilence.</b>",
+    "<b>For the following</b> calamities <b>they cry out in every place: For blight; for mildew; for locusts; for caterpillars,</b> a type of locust that comes in large swarms and descends upon a certain place; <b>for dangerous beasts</b> that have entered a town; <b>and for the sword,</b> i.e., legions of an invading army. The reason that <b>they cry out about these</b> misfortunes in every place is <b>because</b> these are <b>calamities that spread.</b>",
+    "<b>An incident</b> occurred in <b>which Elders descended from Jerusalem to their cities</b> throughout Eretz Yisrael <b>and decreed a fast</b> throughout the land <b>because there was seen in</b> the city of <b>Ashkelon</b> a small amount of <b>blight,</b> enough <b>to fill the mouth of an oven.</b> This fast was observed throughout Eretz Yisrael, as blight spreads quickly. <b>And furthermore, they decreed a fast because wolves had eaten two children in Transjordan. Rabbi Yosei says:</b> This fast was decreed <b>not because they ate</b> the children, <b>but because</b> these wolves <b>were</b> merely <b>seen</b> in an inhabited area.",
+    "<b>For the following</b> calamities <b>they cry out</b> even <b>on Shabbat: For a city that is surrounded by gentile</b> troops, <b>or</b> for a place in danger of being flooded by <b>a river</b> that has swelled its banks, <b>or for a ship tossed about at sea. Rabbi Yosei said:</b> One may cry out on Shabbat <b>to</b> summon <b>help, but</b> it may <b>not</b> be sounded <b>for crying out</b> to God. <b>Shimon the Timnite says:</b> One may cry out on Shabbat <b>even for pestilence, but the Rabbis did not agree with him.</b>",
+    "The mishna adds: In general, they cry out <b>on</b> account of any <b>trouble that should not befall the community,</b> a euphemism for trouble that may befall the community, <b>except for an overabundance of rain.</b> Although too much rain may be disastrous, one does not cry out over it, because rain is a sign of a blessing. The mishna relates: <b>An incident</b> occurred in <b>which</b> the people said <b>to Ḥoni HaMe’aggel: Pray that rain should fall. He said to them: Go out and bring in</b> the clay <b>ovens</b> used to roast the Paschal lambs, <b>so that they will not dissolve</b> in the water, as torrential rains are certain to fall. <b>He prayed, and no rain fell</b> at all. <b>What did he do? He drew a circle</b> on the ground <b>and stood inside it and said before</b> God: <b>Master of the Universe, Your children have turned their faces toward me, as I am like a member of Your household.</b> Therefore, <b>I take an oath by Your great name that I will not move from here until You have mercy upon Your children</b> and answer their prayers for rain. <b>Rain began to trickle</b> down, but only in small droplets. <b>He said: I did not ask for this, but</b> for <b>rain to</b> fill the <b>cisterns, ditches, and caves</b> with enough water to last the entire year. Rain <b>began to fall furiously. He said: I did not ask for this</b> damaging rain either, <b>but</b> for <b>rain of benevolence, blessing, and generosity.</b> Subsequently, the rains <b>fell in their standard manner</b> but continued unabated, filling the city with water <b>until all of the Jews exited</b> the residential areas of <b>Jerusalem</b> and went <b>to the Temple Mount due to the rain. They came and said to him: Just as you prayed over</b> the rains <b>that they should fall, so too, pray that they should stop. He said to them: Go out and see if the Claimants’ Stone,</b> a large stone located in the city, upon which proclamations would be posted with regard to lost and found articles, <b>has been washed away.</b> In other words, if the water has not obliterated the Claimants’ Stone, it is not yet appropriate to pray for the rain to cease. <b>Shimon ben Shetaḥ,</b> the <i>Nasi</i> of the Sanhedrin at the time, <b>relayed to</b> Ḥoni HaMe’aggel: <b>Were you not Ḥoni, I would have decreed that you be ostracized, but what can I do to you? You nag [<i>mitḥatei</i>] God and He does your bidding, like a son who nags his father and</b> his father <b>does his bidding</b> without reprimand. After all, rain fell as you requested. <b>About you, the verse states: “Let your father and your mother be glad, and let her who bore you rejoice”</b> (Proverbs 23:25). ",
+    "The mishna teaches another <i>halakha</i> with regard to fast days: If <b>they were fasting</b> for rain, <b>and rain fell for them before sunrise,</b> they need <b>not complete</b> their fast until the evening. However, if it fell <b>after sunrise, they</b> must <b>complete</b> their fast. <b>Rabbi Eliezer says:</b> If rain fell <b>before midday,</b> they need <b>not complete</b> their fast; but if it rains <b>after midday, they</b> must <b>complete</b> their fast. The mishna relates: <b>An incident</b> occurred in <b>which</b> the court <b>decreed a fast in Lod</b> due to a lack of rain, <b>and rain fell for them before midday. Rabbi Tarfon said to</b> the people: <b>Go out, and eat, and drink, and treat</b> this day as <b>a Festival. And they went out, and ate, and drank, and treated</b> the day as <b>a Festival, and</b> in the <b>afternoon they came</b> to the synagogue <b>and recited the great <i>hallel</i>,</b> to thank God for answering their prayers."
+  ],
+  "bartenura": [
+    [
+      "<b>סֵדֶר תַּעֲנִיּוֹת הָאֵלּוּ.</b> הָאֲמוּרִין בַּפְּרָקִין דִּלְעֵיל, אֵינוֹ אֶלָּא בִּרְבִיעָה רִאשׁוֹנָה, אִם עָבְרוּ שְׁלֹשָׁה זְמַנִּין שֶׁל רְבִיעָה שֶׁל יוֹרֶה, שֶׁהֵם שְׁלִישִׁי בְּמַרְחֶשְׁוָן וּשְׁבִיעִי וְשִׁבְעָה עָשָׂר, וְלֹא יָרְדוּ גְשָׁמִים, אָז הָיוּ מִתְעַנִּין יְחִידִים, וְאַחַר כָּךְ מִתְעַנִּין הַצִּבּוּר שְׁלֹשׁ עֶשְׂרֵה תַּעֲנִיּוֹת עַל הַסֵּדֶר שֶׁאָמַר:",
+      "<b>אֲבָל.</b> יָרְדוּ גְשָׁמִים בְּעִתָּן וְצָמְחוּ הַזְּרָעִים וְנִשְׁתַּנּוּ, כְּמוֹ תַּחַת חִטָּה יָצָא חוֹחַ, תַּחַת שְׂעוֹרָה בָּאְשָׁה, אוֹ שִׁנּוּי אַחֵר:",
+      "<b>מַתְרִיעִין עֲלֵיהֶם מִיָּד.</b> בְּתַעֲנִיּוֹת רִאשׁוֹנוֹת. שֶׁכָּל חֹמֶר הָאָמוּר בַּתַּעֲנִיּוֹת הָאַחֲרוֹנוֹת נוֹהֲגִין מִיָּד בָּרִאשׁוֹנוֹת:",
+      "<b>בֵּין גֶּשֶׁם לְגֶשֶׁם.</b> בֵּין רְבִיעָה רִאשׁוֹנָה לִשְׁנִיָּה:",
+      "<b>מַכַּת בַּצֹּרֶת.</b> סִימַן בַּצֹּרֶת הוּא:"
+    ],
+    [
+      "<b>יָרְדוּ לַצְּמָחִים וְלֹא לָאִילָן.</b> כְּגוֹן שֶׁיָּרְדוּ בְּנַחַת, שֶׁזֶּה יָפֶה לַצְּמָחִים וְלָעֲשָׂבִים וְאֵינוֹ מוֹעִיל לָאִילָנוֹת:",
+      "<b>לָאִילָן וְלֹא לַצְּמָחִים.</b> שֶׁיָּרְדוּ בְּכֹחַ:",
+      "<b>לַבּוֹרוֹת שִׁיחִין וּמְעָרוֹת.</b> שֶׁמַּכְנִיסִין בָּהֶן מַיִם לִשְׁתּוֹת:"
+    ],
+    [
+      "<b>וְכָל סְבִיבוֹתֶיהָ מִתְעַנּוֹת.</b> שֶׁאוֹתָהּ הָעִיר שֶׁלֹּא יָרְדוּ בָהּ גְּשָׁמִים תֵּלֵךְ לִקְנוֹת תְּבוּאָה בָּעִיר שֶׁיָּרְדוּ בָהּ וְיִהְיֶה רָעָב:"
+    ],
+    [
+      "<b>מַפֹּלֶת.</b> שֶׁחוֹמוֹתֶיהָ הַבְּרִיאוֹת נוֹפְלוֹת. אֲבָל רְעוּעוֹת אֵין זוֹ מַפֹּלֶת:"
+    ],
+    [
+      "<b>בְּכָל מָקוֹם.</b> וַאֲפִלּוּ הֶעָרִים הָרְחוֹקוֹת מִמֶּנָּה הַרְבֵּה<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"יב\"></i>, כְּדִמְפָרֵשׁ טַעֲמָא בְּסֵיפָא מִפְּנֵי שֶׁהִיא מַכָּה מְהַלֶּכֶת:",
+      "<b>שִׁדָּפוֹן.</b> רוּחַ שֶׁמַּפְסִיד אֶת הַתְּבוּאָה וּמִתְרוֹקֶנֶת מִן הַזֶּרַע:",
+      "<b>יֵרָקוֹן.</b> תְּבוּאָה שֶׁהִכְסִיפוּ פָנֶיהָ. וְיֵשׁ מְפָרְשִׁים יֵרָקוֹן חֹלִי שֶׁהוֹפֵךְ פְּנֵי אָדָם כְּמַרְאֵה יֶרֶק הַשָּׂדֶה:",
+      "<b>וְעַל חַיָּה רָעָה.</b> שֶׁנִּרְאֵית בַּיּוֹם בַּיִּשּׁוּב:",
+      "<b>וְעַל הַחֶרֶב.</b> חֵילוֹת הָעוֹבְרוֹת מִמָּקוֹם לְמָקוֹם, וְאַף עַל פִּי שֶׁאֵינָם בָּאִים לְהִלָּחֵם עִם אוֹתָהּ הָעִיר:"
+    ],
+    [
+      "<b>לְעָרֵיהֶן.</b> לְאֶרֶץ יִשְׂרָאֵל:",
+      "<b>כִּמְלֹא פִי תַנּוּר.</b> שֶׁלָּקְתָה בְּשִׁדָּפוֹן כָּל כָּךְ תְּבוּאָה שֶׁהָיָה רָאוּי לַעֲשׂוֹת מִמֶּנָּה פַּת לְמַלֹּאת [פִּי] הַתַּנּוּר<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"יד\"></i>:",
+      "<b>בְּאַשְׁקְלוֹן.</b> בְּאֶרֶץ פְּלִשְׁתִּים:",
+      "<b>וְעַל שֶׁאָכְלוּ זְאֵבִים.</b> דְּהִיא חַיָּה רָעָה וּמַכָּה מְהַלֶּכֶת הִיא:",
+      "<b>עַל שֶׁנִּרְאָה.</b> בָּאוּ בָעִיר:"
+    ],
+    [
+      "<b>הַמִּטָּרֶפֶת.</b> מִתְחַבֶּטֶת וּמִשְׁתַּבֶּרֶת, כְּמוֹ בֵּיצָה הַטְּרוּפָה בִּקְעָרָה:",
+      "<b>לְעֶזְרָה.</b> לְקַבֵּץ אֶת הָעָם שֶׁיָּבֹאוּ לַעֲזֹר וּלְהוֹשִׁיעַ. וַהֲלָכָה שֶׁאֵין תּוֹקְעִים עֲלֵיהֶם בַּשּׁוֹפָר אוֹ בַחֲצוֹצְרוֹת בַּשַּׁבָּת אֶלָּא אִם כֵּן הֻצְרְכוּ לִתְקֹעַ לְקַבֵּץ אֶת הָעָם, אֲבָל מִתְעַנִּים<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"יז\"></i> וְזוֹעֲקִים וּמִתְחַנְּנִים עֲלֵיהֶם בַּשַּׁבָּת:",
+      "<b>שִׁמְעוֹן הַתִּמְנִי.</b> מִתִּמְנָת הָיָה:",
+      "<b>אַף עַל הַדֶּבֶר.</b> מַתְרִיעִין בְּשַׁבָּת:",
+      "<b>וְלֹא הוֹדוּ לוֹ חֲכָמִים.</b> לְהַתְרִיעַ עַל הַדֶּבֶר בְּשַׁבָּת. אֲבָל בְּחֹל מַתְרִיעִין<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"יט\"></i>:"
+    ],
+    [
+      "<b>חוּץ מֵרוֹב גְּשָׁמִים.</b> לֹא שֶׁיָּרְדוּ הַרְבֵּה כָּל כָּךְ שֶׁמְּקַלְקְלִין אֶת הַתְּבוּאָה, אֶלָּא שֶׁכְּבָר יָרְדוּ הַרְבֵּה שֶׁאֵין צְרִיכִין לָהֶן עוֹד וְהֵן לְטֹרַח עַל בְּנֵי אָדָם:",
+      "<b>תַּנּוּרֵי פְסָחִים.</b> שֶׁל חֶרֶס הֵם וּמִטַּלְטְלִין מִמָּקוֹם לְמָקוֹם:",
+      "<b>שֶׁלֹּא יִמּוֹקוּ.</b> בַּגְּשָׁמִים:",
+      "<b>עָג עוּגָה.</b> רָשַׁם בַּקַּרְקַע רֹשֶׁם עָגֹל כְּעֵין עוּגָה<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"כה\"></i>:",
+      "<b>גִּשְׁמֵי בוֹרוֹת.</b> גְּשָׁמִים בְּשֶׁפַע לְמַלֹּאת בּוֹרוֹת:",
+      "<b>אִם נִמְחֵת.</b> אִם כֻּלָּהּ מְכֻסָּה בְּמַיִם:",
+      "<b>אֶבֶן טוֹעִים.</b> אֶבֶן הָיְתָה בִּירוּשָׁלַיִם שֶׁכָּל מִי שֶׁמּוֹצֵא מְצִיאָה הָיָה עוֹמֵד עָלֶיהָ וּמַכְרִיז מְצִיאָה מָצָאתִי, וּבָאִין בְּעָלֶיהָ וְנוֹתְנִין סִימָנֶיהָ וְנוֹטְלִין אוֹתָהּ. וְאוֹתָהּ אֶבֶן נִקְרֵאת אֶבֶן טוֹעִים. וּמָצָאתִי כָּתוּב שֶׁהָיְתָה גְבוֹהָה מְאֹד וְלֹא הָיָה אֶפְשָׁר שֶׁתִּתְכַּסֶּה בִגְשָׁמִים אֶלָּא אִם כֵּן בָּא מַבּוּל לָעוֹלָם:",
+      "<b>נִדּוּי.</b> שֶׁמְּנַדִּין עַל כְּבוֹד הָרַב<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"כט\"></i>:",
+      "<b>מִתְחַטֵּא.</b> מִתְגַּעְגֵּעַ<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"ל\"></i>:"
+    ],
+    [
+      "<b>רַבִּי אֱלִיעֶזֶר אוֹמֵר קֹדֶם חֲצוֹת לֹא יַשְׁלִימוּ.</b> וַהֲלָכָה כְּרַבִּי אֱלִיעֶזֶר:",
+      "<b>צְאוּ אִכְלוּ וּשְׁתוּ.</b> וְלֹא אָמַר לָהֶן קִרְאוּ הַלֵּל הַגָּדוֹל תְּחִלָּה, שֶׁאֵין קוֹרִין הַלֵּל הַגָּדוֹל אֶלָּא בְּכֶרֶס מְלֵאָה וְנֶפֶשׁ שְׂבֵעָה:"
+    ]
+  ]
+}

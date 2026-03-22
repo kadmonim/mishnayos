@@ -1,0 +1,90 @@
+{
+  "letter": "ה",
+  "priority": 4,
+  "name": "הבונה",
+  "masechet": "Mishnah_Shabbat",
+  "perek": 12,
+  "heRef": "הבונה",
+  "seder": "Moed",
+  "mishnayot": [
+    "הַבּוֹנֶה, כַּמָּה יִבְנֶה וִיהֵא חַיָּב, הַבּוֹנֶה כָּל שֶׁהוּא, וְהַמְסַתֵּת, וְהַמַּכֶּה בַפַּטִּישׁ וּבְמַעֲצָד, הַקּוֹדֵחַ כָּל שֶׁהוּא, חַיָּב. זֶה הַכְּלָל, כָּל הָעוֹשֶׂה מְלָאכָה וּמְלַאכְתּוֹ מִתְקַיֶּמֶת בְּשַׁבָּת, חַיָּב. רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל אוֹמֵר, אַף הַמַּכֶּה בְקֻרְנָס עַל הַסַּדָּן בִּשְׁעַת מְלָאכָה, חַיָּב, מִפְּנֵי שֶׁהוּא כִמְתַקֵּן מְלָאכָה: \n",
+    "הַחוֹרֵשׁ כָּל שֶׁהוּא, הַמְנַכֵּשׁ וְהַמְקַרְסֵם וְהַמְזָרֵד כָּל שֶׁהוּא, חַיָּב. הַמְלַקֵּט עֵצִים, אִם לְתַקֵּן, כָּל שֶׁהֵן, אִם לְהֶסֵּק, כְּדֵי לְבַשֵּׁל בֵּיצָה קַלָּה. הַמְלַקֵּט עֲשָׂבִים, אִם לְתַקֵּן, כָּל שֶׁהוּא, אִם לִבְהֵמָה, כִּמְלֹא פִי הַגְּדִי: \n",
+    "הַכּוֹתֵב שְׁתֵּי אוֹתִיּוֹת, בֵּין בִּימִינוֹ בֵּין בִּשְׂמֹאלוֹ, בֵּין מִשֵּׁם אֶחָד בֵּין מִשְּׁנֵי שֵׁמוֹת, בֵּין מִשְּׁנֵי סַמְמָנִיּוֹת, בְּכָל לָשׁוֹן, חַיָּב. אָמַר רַבִּי יוֹסֵי, לֹא חִיְּבוּ שְׁתֵּי אוֹתִיּוֹת אֶלָּא מִשּׁוּם רֹשֶׁם, שֶׁכָּךְ הָיוּ כוֹתְבִין עַל קַרְשֵׁי הַמִּשְׁכָּן, לֵידַע אֵיזוֹ בֶן זוּגוֹ. אָמַר רַבִּי, מָצִינוּ שֵׁם קָטָן מִשֵּׁם גָּדוֹל, שֵׁם מִשִּׁמְעוֹן וּשְׁמוּאֵל, נֹחַ מִנָּחוֹר, דָּן מִדָּנִיֵּאל, גָּד מִגַּדִּיאֵל: \n",
+    "הַכּוֹתֵב שְׁתֵּי אוֹתִיּוֹת בְּהֶעְלֵם אֶחָד, חַיָּב. כָּתַב בִּדְיוֹ, בְּסַם, בְּסִקְרָא, בְּקוֹמוֹס וּבְקַנְקַנְתּוֹם, וּבְכָל דָּבָר שֶׁהוּא רוֹשֵׁם, עַל שְׁנֵי כָתְלֵי זָוִיּוֹת וְעַל שְׁנֵי לוּחֵי פִנְקָס, וְהֵן נֶהְגִּין זֶה עִם זֶה, חַיָּב. הַכּוֹתֵב עַל בְּשָׂרוֹ, חַיָּב. הַמְסָרֵט עַל בְּשָׂרוֹ, רַבִּי אֱלִיעֶזֶר מְחַיֵּב חַטָּאת, וְרַבִּי יְהוֹשֻׁעַ פּוֹטֵר: \n",
+    "כָּתַב בְּמַשְׁקִין, בְּמֵי פֵרוֹת, בַּאֲבַק דְּרָכִים, בַּאֲבַק הַסּוֹפְרִים, וּבְכָל דָּבָר שֶׁאֵינוֹ מִתְקַיֵּם, פָּטוּר. לְאַחַר יָדוֹ, בְּרַגְלוֹ, בְּפִיו וּבְמַרְפְּקוֹ, כָּתַב אוֹת אַחַת סָמוּךְ לִכְתָב, וּכְתָב עַל גַּבֵּי כְתָב, נִתְכַּוֵּן לִכְתֹּב חֵי\"ת וְכָתַב שְׁנֵי זַיְ\"נִין, אֶחָד בָּאָרֶץ וְאֶחָד בַּקּוֹרָה, כָּתַב עַל שְׁנֵי כָתְלֵי הַבַּיִת, עַל שְׁנֵי דַפֵּי פִנְקָס וְאֵין נֶהְגִּין זֶה עִם זֶה, פָּטוּר. כָּתַב אוֹת אַחַת נוֹטָרִיקוֹן, רַבִּי יְהוֹשֻׁעַ בֶּן בְּתֵירָא מְחַיֵּב, וַחֲכָמִים פּוֹטְרִין: \n",
+    "הַכּוֹתֵב שְׁתֵּי אוֹתִיּוֹת בִּשְׁנֵי הֶעְלֵמוֹת, אַחַת שַׁחֲרִית וְאַחַת בֵּין הָעַרְבַּיִם, רַבָּן גַּמְלִיאֵל מְחַיֵּב, וַחֲכָמִים פּוֹטְרִין: \n"
+  ],
+  "english": [
+    "With regard to <b>one who builds</b> on Shabbat, thereby violating a prohibition in a primary category of prohibited labor, <b>how much</b> must <b>he build</b> to <b>be liable</b> to bring a sin-offering? The Sages said: <b>One who builds</b> is liable for building <b>any amount. And one who chisels, or strikes with a hammer or with an adze,</b> or <b>one who drills</b> a hole <b>of any size</b> on Shabbat, <b>is liable. This is the principle: Anyone who performs a</b> prohibited <b>labor and his labor endures on Shabbat is liable. And so too, Rabban Shimon ben Gamliel says: Even one who strikes an anvil with a sledgehammer during his labor</b> has performed a constructive act and <b>is liable, because he is as one who improves the labor</b> that he is performing.",
+    "<b>One who plows</b> is liable for plowing <b>any amount</b> of land on Shabbat. <b>One who weeds</b> and removes grass on Shabbat, <b>and one who removes dry branches and who prunes any amount is liable.</b> With regard to <b>one who gathers wood, if</b> he did so <b>to enhance</b> the tree or the land, he is liable for <b>any amount; if</b> he did so <b>for fuel,</b> he is liable for collecting a measure <b>equivalent</b> to that which is used <b>to cook an easily</b> cooked <b>egg.</b> With regard to <b>one who gathers grass, if</b> he did so <b>to enhance</b> the plants or the land, he is liable for <b>any amount; if</b> he did so to feed <b>an animal,</b> he is liable for collecting a measure <b>equivalent to a goat’s mouthful.</b>",
+    "<b>One who writes two letters</b> on Shabbat, <b>whether</b> he did so <b>with his right</b> hand <b>or his left, whether</b> they were <b>the same letter or two</b> different <b>letters, whether</b> he did so <b>using two</b> different types of <b>ink, in any language, he is liable. Rabbi Yosei said: One is deemed liable</b> for writing <b>two letters only due to marking, as they</b> would <b>write</b> symbols <b>on</b> adjacent <b>beams of the Tabernacle to know which</b> beam was another beam’s <b>counterpart. Rabbi Yehuda said: We found</b> that one is liable for writing even if he did not complete what he was writing, so that he wrote <b>a small name</b> that constituted part <b>of a longer name,</b> e.g., <b>Shem [<i>shin mem</i>] from</b> the name <b>Shimon</b> or <b>from Shmuel; Noaḥ [<i>nun ḥet</i>] from Naḥor; Dan [<i>dalet nun</i>] from Daniel; Gad [<i>gimmel dalet</i>] from Gaddiel.</b> In all of these cases, the first two letters of the longer name constitute the shorter name.",
+    "<b>One who writes two letters</b> on Shabbat <b>during one lapse of awareness is liable.</b> The following substances used as ink are explained in the Gemara. One is liable if <b>he wrote with <i>deyo</i>, with <i>sam</i>, with <i>sikra</i>, with gum [<i>komos</i>], or with copper sulfate [<i>kankantom</i>] or with any substance that makes a mark.</b> If one wrote <b>on two walls</b> of a house that form <b>a corner, or on two parts of a writing tablet, and</b> the two items <b>are read together, he is liable. One who writes on his flesh</b> on Shabbat <b>is liable.</b> If <b>one</b> unwittingly <b>scratches</b> letters <b>on his flesh</b> on Shabbat,<b>Rabbi Eliezer deems</b> him <b>liable</b> to bring <b>a sin-offering and Rabbi Yehoshua deems</b> him <b>exempt.</b>",
+    "If <b>one wrote with liquids</b> or <b>with fruit juice,</b> or if one drew letters <b>with road dust, with scribes’ dust</b> that they use to dry the ink, <b>or with any substance</b> with <b>which</b> the writing <b>does not endure, he is exempt.</b> Similarly, if one wrote by holding the pen on <b>the back of his hand, with his foot, with his mouth,</b> or <b>with his elbow;</b> if <b>one wrote</b> only <b>a single letter,</b> even if it was <b>adjacent to</b> other preexisting <b>writing;</b> or if <b>one wrote over</b> other <b>writing;</b> if <b>one meant to write</b> the letter <b><i>ḥet</i></b> and instead <b>wrote</b> the two halves of the <i>ḥet</i> as <b>two</b> instances of the letter <b><i>zayin</i>;</b> if one wrote <b>one</b> letter <b>on the ground and one on a rafter;</b> if <b>one wrote</b> one letter <b>on two walls of a house,</b> or <b>on two parts of a writing tablet that are not read together, he is exempt.</b> If <b>one wrote one letter</b> as <b>an abbreviation</b> representing an entire word, <b>Rabbi Yehoshua ben Beteira deems</b> him <b>liable</b> to bring a sin-offering, <b>and the Rabbis deem</b> him <b>exempt.</b>",
+    "With regard to <b>one who writes two letters</b> on Shabbat <b>in two</b> separate <b>lapses of awareness</b> separated by a period of awareness that the day was Shabbat, writing <b>one</b> letter in <b>the morning and one</b> letter <b>in the afternoon, Rabban Gamliel deems</b> him <b>liable</b> to bring a sin-offering like someone who has unintentionally performed a full-fledged prohibited labor, <b>and the Rabbis deem</b> him <b>exempt.</b>"
+  ],
+  "bartenura": [
+    [
+      "<b>הַבּוֹנֶה.</b> שֶׁאָמְרוּ בַּאֲבוֹת מְלָאכוֹת:",
+      "<b>כַּמָּה יִבְנֶה וְיִהְיֶה חַיָּב.</b> כָּל שֶׁהוּא:",
+      "<b>מְסַתֵּת.</b> מְרַבֵּעַ אֶת הָאֶבֶן אוֹ מַחְלִיקָהּ וּמְתַקְּנָהּ, הַכֹּל לְפִי מִנְהַג הַמָּקוֹם. וְהִיא תּוֹלָדָה דְּמַכֶּה בַּפַּטִּישׁ<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"ג\"></i>:",
+      "<b>וְהַמַּכֶּה בַפַּטִּישׁ.</b> הִיא גְּמַר מְלָאכָה שֶׁל חוֹצְבֵי אֶבֶן<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"ד\"></i>, לְאַחַר שֶׁחָצַב הָאֶבֶן מִן הָהָר סָבִיב וְהִבְדִּילָהּ מַכֶּה עָלֶיהָ בַּפַּטִּישׁ מַכָּה גְּדוֹלָה וְהִיא מִתְפָּרֶקֶת וְנוֹפֶלֶת. וְכָל הַגּוֹמֵר מְלָאכָה בְּשַׁבָּת תּוֹלָדָה דְּמַכֶּה בַּפַּטִּישׁ הִיא:",
+      "<b>מַעֲצָד.</b> קוֹפִיץ קָטָן:",
+      "<b>וְהַקּוֹדֵחַ.</b> הַנּוֹקֵב:",
+      "<b>כָּל שֶׁהוּא.</b> אַכֻּלְּהוּ קָאֵי, אַמְסַתֵּת וְאַמַּכֶּה בַּפַּטִּישׁ וּבַמַּעֲצָד, וְהַקּוֹדֵחַ:",
+      "<b>וּמְלַאכְתּוֹ מִתְקַיֶּמֶת.</b> שֶׁאֵין צָרִיךְ לְהוֹסִיף עָלֶיהָ<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"ו\"></i>:",
+      "<b>קֻרְנָס.</b> מרטי\"ל:",
+      "<b>סַדָּן.</b> אנקודינ\"א בְּלַעַ\"ז:",
+      "<b>מִפְּנֵי שֶׁהוּא כִמְתַקֵּן מְלָאכָה.</b> אַף עַל פִּי שֶׁאֵינוֹ מַכֶּה עַל הַמְּלָאכָה אֶלָּא עַל הַסַּדָּן, מְתַקֵּן הוּא, שֶׁכֵּן מְרַדְּדֵי טַסֵּי מִשְׁכָּן הָיוּ עוֹשִׂין, מַכִּין עַל הַטַּס שָׁלֹשׁ הַכָּאוֹת וְעַל הַסַּדָּן הַכָּאָה אַחַת, לְהַחְלִיק הַקֻּרְנָס שֶׁלֹּא יְבַקֵּעַ הַטַּס שֶׁהוּא דַּק<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"ח\"></i>. וְאֵין הֲלָכָה כְּרַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל:"
+    ],
+    [
+      "<b>הַמְנַכֵּשׁ.</b> תּוֹלֵשׁ עֲשָׂבִים רָעִים מִתּוֹךְ טוֹבִים. פֵּרוּשׁ אַחֵר חוֹפֵר סְבִיב עִקְּרֵי הַצְּמָחִים, וְהִיא מְלָאכָה מֵעֵין חֲרִישָׁה:",
+      "<b>מְקַרְסֵם.</b> קוֹצֵץ עֲנָפִים יְבֵשִׁים מִן הָאִילָן לְתַקְּנוֹ:",
+      "<b>מְזַרֵד.</b> זְרָדִים לַחִים חֲדָשִׁים שֶׁל שָׁנָה זוֹ, וּפְעָמִים שֶׁהֵן מְרֻבִּים וּמִתְגַּדְּלִים וּמַכְחִישִׁים כֹּחַ הָאִילָן, וְקוֹצְצִין אוֹתָן מִמֶּנּוּ<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"יא\"></i>:",
+      "<b>אִם לְתַקֵּן.</b> אֶת הָאִילָן<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"יב\"></i> אוֹ אֶת הַקַּרְקַע, וּקְצָצוֹ מִן הַמְּחֻבָּר:",
+      "<b>בֵּיצָה קַלָּה.</b> כִּגְרוֹגֶרֶת מִבֵּיצַת תַּרְנְגֹלֶת, שֶׁהִיא קַלָּה לְהִתְבַּשֵּׁל יוֹתֵר מִשְּׁאָר בֵּיצִים:"
+    ],
+    [
+      "<b>בֵּין בִּימִינוֹ בֵּין בִּשְׂמֹאלוֹ.</b> בְּאָדָם שֶׁהוּא שׁוֹלֵט בִּשְׁתֵּי יָדָיו, דְּאִלּוּ בִּשְׁאָר כָּל אָדָם כְּתִיבַת שְׂמֹאל אֵינָהּ כְּתִיבָה:",
+      "<b>בֵּין מִשֵּׁם אֶחָד.</b> שְׁתֵּיהֶן אַלְפִין:",
+      "<b>מִשְּׁנֵי שֵׁמוֹת.</b> אָלֶף בֵּית:",
+      "<b>מִשְּׁנֵי סַמְמָנִיּוֹת.</b> אֶחָד בִּדְיוֹ וְאֶחָד בְּסִיקְרָא. וְאִית סְפָרִים דְּגָרְסֵי מִשְּׁנֵי סַמָּנִיּוֹת, כְּלוֹמַר מִשְּׁנֵי סִימָנִים, כְּגוֹן שֶׁכּוֹתְבִים א'‏ לְסִימָן אֶחָד וּב'‏ לְסִימָן שְׁנַיִם<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"יג\"></i>:",
+      "<b>בְּכָל לָשׁוֹן.</b> וּכְתָב שֶׁל כָּל אֻמָּה וְאֻמָּה:",
+      "<b>מִשּׁוּם רֹשֶׁם.</b> סִימָן שֶׁהָיוּ עוֹשִׂין בְּקַרְשֵׁי הַמִּשְׁכָּן, מִפְּנֵי שֶׁמְּפָרְקִים אוֹתָן, וְלִכְשֶׁיְּקִימוּהוּ לֹא יַחְלִיפוּ סֵדֶר הַקְּרָשִׁים. וְאָתָא רַבִּי יוֹסֵי לְמֵימַר דַּאֲפִלּוּ לֹא כָּתַב אֶלָּא שֶׁרָשַׁם שְׁנֵי רְשִׁימוֹת בְּעָלְמָא לְסִימָן, חַיָּב. וְאֵין הֲלָכָה כְּרַבִּי יוֹסֵי:",
+      "<b>מָצִינוּ שֵׁם קָטָן.</b> כְּלוֹמַר אַף עַל פִּי שֶׁלֹּא נִגְמַר מְלַאכְתּוֹ, שֶׁנִּתְכַּוֵּן לִכְתֹּב תֵּבָה גְּדוֹלָה וְכָתַב מִקְצָתָהּ, הוֹאִיל וְאוֹתוֹ מִקְצָת הַוְיָא תֵּבָה וּמִתְקַיֶּמֶת בְּמָקוֹם אַחֵר חַיָּב, וְכֵן הֲלָכָה:"
+    ],
+    [
+      "<b>בְּסַם.</b> אורפימנ\"ט בְּלַעַ\"ז:",
+      "<b>בְּסִקְרָא.</b> מִין אֶבֶן שֶׁצּוֹבֵעַ אָדוֹם:",
+      "<b>בְּקוֹמוֹס.</b> מִין עָפָר וְצִבְעוֹ שָׁחֹר. פֵּרוּשׁ אַחֵר שְׂרַף אִילָן, גומ\"א בְּלַעַ\"ז:",
+      "<b>בְּקַנְקַנְתּוֹם.</b> זא\"ג בַּעֲרָבִי, וּבְלַעַ\"ז ודריאו\"לי:",
+      "<b>וּבְכָל דָּבָר שֶׁהוּא רֹשֶׁם.</b> לַאֲתוֹיֵי מַיִם שֶׁשָּׁרוּ בָּהֶם עֲפָצִים, גאלי\"ש בְּלַעַ\"ז, שֶׁהוּא רֹשֶׁם שֶׁרִשּׁוּמוֹ מִתְקַיֵּם:",
+      "<b>עַל שְׁנֵי כָתְלֵי זָוִיּוֹת.</b> אַחַת בַּמִּזְרָח וְאַחַת בַּצָּפוֹן, סְמוּכוֹת זוֹ לְזוֹ בַּמִּקְצוֹעַ:",
+      "<b>עַל שְׁנֵי לוּחֵי פִנְקָס.</b> סֵפֶר שֶׁהַחֶנְוָנִי כּוֹתֵב בּוֹ חֶשְׁבּוֹנוֹתָיו. וְאַף עַל גַּב דְּלָאו עַל לוּחַ אֶחָד הֵם, אִם נֶהֱגִין וְנִקְרָאִין זֶה עִם זֶה, כְּגוֹן שֶׁכּוֹתְבִין עַל שְׁנֵי שִׂפְתֵי הַלּוּחִין הַסְּמוּכִין זֶה לָזֶה, חַיָּב:",
+      "<b>הַכּוֹתֵב עַל בְּשָׂרוֹ.</b> בִּדְיוֹ:",
+      "<b>וְהַמְסָרֵט עַל בְּשָׂרוֹ.</b> בְּבַרְזֶל עוֹשֶׂה צוּרַת אוֹתִיּוֹת בִּבְשָׂרוֹ:",
+      "<b>רַבִּי יְהוֹשֻׁעַ פּוֹטֵר.</b> וַאֲפִלּוּ הוֹצִיא דָּם, לְפִי שֶׁאֵין דֶּרֶךְ כְּתִיבָה בְּכָךְ<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"טו\"></i>. וַהֲלָכָה כְּרַבִּי יְהוֹשֻׁעַ:"
+    ],
+    [
+      "<b>בְּמַשְׁקִין.</b> שֶׁמַּשְׁחִירִין, כְּמוֹ מֵי תּוּתִים וְכַיּוֹצֵא בָּהֶן:",
+      "<b>בְּמֵי פֵרוֹת.</b> שֶׁל כָּל שְׁאָר פֵּרוֹת:",
+      "<b>בַּאֲבַק דְּרָכִים.</b> כְּגוֹן שֶׁסָּרַט בְּאֶצְבָּעוֹ צוּרַת אוֹתִיּוֹת עַל הַחֹל וְהָאָבָק שֶׁבַּדְּרָכִים:",
+      "<b>בַּאֲבַק סוֹפְרִים.</b> עַפְרוּרִית שֶׁל קֶסֶת הַסּוֹפֵר:",
+      "<b>לְאַחַר יָדוֹ.</b> עַל גַּב יָדוֹ, שֶׁאָחַז הַקֻּלְמוֹס בְּאֶצְבְּעוֹתָיו וְהָפַךְ יָדוֹ וְכָתַב:",
+      "<b>וּבְמַרְפְּקוֹ.</b> הַפֶּרֶק הָאֶמְצָעִי שֶׁבַּזְּרֹעַ:",
+      "<b>אוֹת אַחַת סָמוּךְ לִכְתָב.</b> אֵצֶל אוֹת כְּתוּבָה זִוֵּג לָהּ אַחַת וְהִשְׁלִימָהּ לִשְׁתַּיִם:",
+      "<b>כְּתָב עַל גַּבֵּי כְּתָב.</b> הֶעֱבִיר קֻלְמוֹס עַל אוֹתִיּוֹת הַכְּתוּבִים כְּבָר וְחִדְּשָׁם:",
+      "<b>וְכָתַב שְׁנֵי זַיְנִין.</b> שֶׁלֹּא נִרְאֶה הַגַּג שֶׁל חי\"ת אֶלָּא שְׁנֵי הָרַגְלַיִם נִרְאֶה כְּאִלּוּ הֵם שֵׁנִי זַיְינִי\"ן:",
+      "<b>עַל שְׁנֵי כָתְלֵי הַבַּיִת.</b> שֶׁאֵינָן בַּמִּקְצוֹעַ:",
+      "<b>עַל שְׁנֵי דַּפֵּי פִנְקָס.</b> שֶׁעֲשׂוּיִין עַמּוּדִים עַמּוּדִים, כָּתַב אוֹת אַחַת בְּעַמּוּד זֶה וְאוֹת אַחַת בְּעַמּוּד זֶה, וְאֵינוֹ יָכֹל לְקָרְבָן אֶלָּא אִם כֵּן יַחְתֹּךְ מַה שֶּׁמַּפְסִיק בֵּינֵיהֶן. וְתָנָא בָּרֵישָׁא כָּתְלֵי הַבַּיִת הַמְּרֻחָקִים זֶה מִזֶּה וַהֲדַר תָּנֵי דַּפֵּי פִּנְקָס, וְלֹא זוֹ אַף זוֹ קָתָנֵי:",
+      "<b>אוֹת אַחַת עַל שֵׁם נוֹטָרִיקוֹן.</b> שֶׁעוֹשֶׂה סִימָן נְקֻדָּה עָלֶיהָ וּמְבִינִים מֵאוֹתָהּ הָאוֹת תֵּבָה שְׁלֵמָה, כְּגוֹן קוֹ\"ף קָרְבָּן, מֵ\"ם מַעֲשֵׂר, תָּ\"ו תְּרוּמָה<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"יז\"></i>:",
+      "<b>רַבִּי יְהוֹשֻׁעַ בֶּן בְּתֵירָא אוֹמֵר חַיָּב.</b> כֵּיוָן שֶׁהַכֹּל מְבִינִים מֵאוֹתָהּ הָאוֹת תֵּבָה שְׁלֵמָה, כְּאִלּוּ כָּתַב אוֹתִיּוֹת שֶׁל כָּל הַתֵּבָה:",
+      "<b>וַחֲכָמִים פּוֹטְרִין.</b> שֶׁהֲרֵי לֹא כָּתַב שְׁתֵּי אוֹתִיּוֹת. וַהֲלָכָה כַּחֲכָמִים:"
+    ],
+    [
+      "<b>בִּשְׁתֵּי הֶעְלֵמוֹת.</b> לְאַחַר שֶׁכָּתַב אוֹת אַחַת בְּשׁוֹגֵג נוֹדַע לוֹ שֶׁעָבַר, וְחָזַר וְנֶעֱלַם מִמֶּנּוּ וְשָׁגַג וְכָתַב אוֹת שְׁנִיָּה בְּצִדָּהּ:",
+      "<b>אַחַת בְּשַׁחֲרִית וְאַחַת בֵּין הָעַרְבַּיִם.</b> כֵּיוָן דַּהֲוֵי לֵיהּ שְׁהוּת בֵּינְתַיִם כְּדֵי לֵידַע הֲוָה לֵיהּ כִּשְׁתֵּי הַעֲלָמוֹת<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"יח\"></i>:",
+      "<b>רַבָּן גַּמְלִיאֵל מְחַיֵּב.</b> דְּסָבַר אֵין יְדִיעָה לַחֲצִי שִׁעוּר לְחַלֵּק שֶׁלֹּא יִצְטָרֵף עִמּוֹ הַחֵצִי הָאַחֵר<i data-commentator=\"IkkarTosfotYomTov\" data-label=\"יט\"></i>:",
+      "<b>וַחֲכָמִים פּוֹטְרִין.</b> דְּסָבְרֵי הַיְדִיעָה שֶׁבֵּין שְׁנֵי חֲצָאֵי שִׁעוּר מְחַלֶּקֶת בֵּינֵיהֶם, וְלֹא נַעֲשָׂה כְּאִלּוּ הָיוּ שְׁנֵי חֲצָאֵי שִׁעוּר בְּהֶעְלֵם אֶחָד. וַהֲלָכָה כַּחֲכָמִים:"
+    ]
+  ]
+}
