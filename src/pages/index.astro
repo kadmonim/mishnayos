@@ -526,7 +526,7 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 
 			async function loadLetterData(letter: string, priority: number) {
 				const baseLetter = FINAL_MAP[letter] || letter;
-				const res = await fetch(`/data/letters/${baseLetter}-${priority}.json`);
+				const res = await fetch(`/data/letters/${encodeURIComponent(baseLetter)}-${priority}.json`);
 				if (!res.ok) return null;
 				return res.json();
 			}
