@@ -463,6 +463,7 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 		</div>
 
 		<footer class="dedication-footer" id="dedication">לע"נ ר' מרדכי בן יהושע זעליג ע"ה ולע"נ מרת דוואשא בת ר' מנחם מענדל ע"ה</footer>
+		<div class="attribution" id="attribution" style="display:none; text-align:center; color:#999; font-size:0.75rem; margin-top:0.5rem;">English translation: William Davidson Edition, Koren Publishers. CC-BY-NC. Via Sefaria.</div>
 
 		<script define:vars={{ name, letters, personName, pageId }}>
 			// Edit functionality
@@ -582,11 +583,12 @@ const prefersEnglish = /^en/i.test(lang) && !/he/i.test(lang.split(',')[0]);
 					html.setAttribute('lang', 'en');
 					document.getElementById('mainTitle').textContent = 'Mishnah for Yahrtzeit';
 	
+					document.getElementById('attribution').style.display = '';
 					engToggle.textContent = 'עב';
 				} else {
 					html.setAttribute('lang', 'he');
 					document.getElementById('mainTitle').textContent = 'לימוד משניות לפי אותיות השם';
-	
+					document.getElementById('attribution').style.display = 'none';
 					engToggle.textContent = 'EN';
 				}
 			}
